@@ -1,0 +1,1897 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(6, 6, 28);
+    font-family: 'Quick';
+    list-style-type: none;
+    text-decoration: none;
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: 'Quick';
+    src: url('Quicksand-Bold.otf');
+}
+
+.itens {
+    animation: opacity 5s ease-in-out;
+}
+
+.itens h4 {
+    margin-left: 10rem;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: -15px;
+}
+
+
+.itens img {
+    width: 20px;
+    margin-left: 55rem;
+    margin-top: -10px;
+}
+
+.itens2 {
+    margin-top: -20rem;
+    margin-left: 11rem;
+    margin-top: -9rem;
+    animation: opacity 5s ease-in-out;
+}
+
+.itens2 .um img {
+    width: 30px;
+}
+
+.itens2 .dois img {
+    width: 30px;
+}
+
+.itens3 {
+    margin-left: 54rem;
+    margin-top: -5rem;
+    animation: opacity 5s ease-in-out;
+}
+
+.itens3 .um img {
+    width: 30px;
+}
+
+
+.section-one {
+    color: white;
+    margin-top: 2rem;
+}
+
+.section-one p {
+    text-align: center;
+    animation: opacity 2s linear;
+}
+
+.section-one h1 {
+    text-align: center;
+    transform: translateX(0rem);
+    animation: opacity 2s linear;
+    color: rgb(0, 199, 234);
+}
+
+
+.section-two {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    height: 90px;
+    animation: opacity 5s ease-in-out;
+}
+
+.section-two .pum {
+    margin: 30px;
+    border: solid;
+    text-align: center;
+    border-radius: 10px;
+    width: 120px;
+    color: white;
+    border: 1px solid white;
+    padding: 5px;
+}
+
+.section-two a {
+    text-decoration: none;
+    color: rgb(0, 199, 234);
+}
+
+.section-two .pdois {
+    text-decoration: none;
+    text-align: center;
+    margin: 30px;
+    border-radius: 10px;
+    width: 100px;
+    background-color: rgb(0, 199, 234);
+    border: 1px solid  rgb(0, 199, 234);
+    color: white;
+    padding: 5px;
+}
+
+.section-three .content {
+    margin-left: 28rem;
+}
+
+.section-three .content img  {
+    width: 200px;
+    border-radius: 100px;
+    box-shadow: 1px 1px 10px 1px rgb(0, 199, 234);
+    transform: translateY(0);
+    animation: rotate1 1s linear ;
+    opacity: 1;
+}
+
+@keyframes rotate2 {
+    from {transform: translateY(-20rem); opacity: 0;}
+    to{}
+}
+
+@keyframes opacity {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes rotate1 {
+    from {transform: translateY(5rem); opacity: 0;}
+    to{ opacity: 1;}
+}
+
+.section-four {
+    margin-top: 20rem;
+}
+
+.section-four img {
+    width: 300px;
+    margin-left: 8rem;
+    border-radius: 30px;
+    margin-top: 50px;
+}
+
+.section-four h1 {
+    color: rgb(0, 199, 234);
+    margin-left: 25rem;
+    margin-bottom: 20px;
+}
+
+
+.section-four .experiencia img {
+    width: 20px;
+    margin-left: 35rem;
+    margin-top: -120px;
+    position: absolute;
+
+
+}
+
+.section-four .experiencia h1 {
+    font-size: 10px;
+    margin-left: 538px;
+    margin-top: -128px;   
+    position: absolute;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 70px;
+    height: 70px;
+    padding-top: 30px;
+    padding-left: 5px;
+}
+
+.section-four .experiencia p {
+    color: white;
+    margin-left: 555px;
+    margin-top: -78px;
+    position: absolute;
+    font-size: 10px;
+}
+
+
+
+.section-four .projetos img {
+    width: 20px;
+    margin-left: 42rem;
+    margin-top: -120px;
+    position: absolute;
+
+
+}
+
+.section-four .projetos h1 {
+    font-size: 10px;
+    margin-left: 647px;
+    margin-top: -128px;   
+    position: absolute;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 70px;
+    height: 70px;
+    padding-top: 30px;
+    padding-left: 14px;
+}
+
+.section-four .projetos p {
+    color: white;
+    margin-left: 675px;
+    margin-top: -78px;
+    position: absolute;
+    font-size: 10px;
+}
+
+
+
+.section-four .suporte img {
+    width: 20px;
+    margin-left: 780px;
+    margin-top: -120px;
+    position: absolute;
+
+
+}
+
+.section-four .suporte h1 {
+    font-size: 10px;
+    margin-left: 755px;
+    margin-top: -128px;   
+    position: absolute;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 70px;
+    height: 70px;
+    padding-top: 30px;
+    padding-left: 14px;
+}
+
+.section-four .suporte p {
+    color: white;
+    margin-left: 762px;
+    margin-top: -78px;
+    position: absolute;
+    font-size: 10px;
+}
+
+.p {
+    position: absolute;
+    width: 250px;
+    margin-top: -15px;
+    color: white;
+    font-size: 10px;
+    margin-left: 34rem;
+}
+.p .btn a {
+    color: white;
+    text-decoration: none;
+}
+
+.p .btn {
+    margin-top: 40px;
+    font-size: 15px;
+    width: 100px;
+    padding-left: 5px;
+    border-radius: 10px;
+    height: 30px;
+    padding-top: 5px;
+    background-color: rgb(0, 199, 234);
+}
+
+.section-five h1 {
+    margin-top: 20rem;
+    color:rgb(0, 199, 234);
+    margin-left: 28rem;
+
+}
+
+.section-five .into1 img {
+    width: 300px;
+    margin-top: 5rem;
+    border-radius: 50px;
+    margin-left: 10rem;
+    
+}
+
+.section-six h1 {
+    color: rgb(0, 199, 234);
+    margin-left: 26rem;
+    margin-top: 20rem;
+}
+
+
+
+
+
+
+
+@media(min-width: 300px) {
+    .itens h4 {
+        margin-left: 20px;
+        font-size: 20px;
+    }
+
+    .itens img {
+        margin-left: 20rem;
+        width: 35px;
+    }
+
+    .section-one {
+        font-size: 20px;
+        margin-left: -2px;
+        margin-top: 5rem;
+    }
+
+    .section-two .pum {
+        font-size: 18px;
+        width: 200px;
+        height: 50px;
+        padding-top: 12px;
+    }
+
+    .section-two .pdois {
+        font-size: 18px;
+        width: 200px;
+        height: 50px;
+        padding-top: 12px;
+    }
+
+    .section-three .content img {
+        margin-left: -22rem;
+        margin-top: 40px;
+        position: absolute;
+    }
+
+    .itens2 {
+        display: flex;
+        margin-top: -20rem;
+        margin-left: 16rem;
+        position: absolute;
+    }
+
+    .itens3 .um img {
+        margin-left: -640px;
+        width: 30px;
+        margin-top: -240px;
+        position: absolute;
+    }
+
+    .section-four {
+        margin-top: 800px;
+    }
+    .section-four h1 {
+        margin-left: 90px;
+        font-size: 40px;
+
+    }
+
+    .section-four img {
+        margin-left: 50px;
+        margin-top: 300px;
+        width: 800px;
+        z-index: 0;
+        position: absolute;
+    }
+
+    .section-four .experiencia .um {
+        margin-left: -33rem;
+        margin-top: 400px;
+    }
+
+    .section-four .projetos .dois {
+        margin-left: -504px;
+        margin-top: -100px;
+    }
+
+    .section-four .suporte .tres {
+        margin-left: -30rem;
+        margin-top: -150px;
+    }
+
+
+
+
+
+
+
+
+
+
+    .section-four .experiencia .um img {
+        padding-top: -25px;
+        position: absolute;
+        width: 50px;
+    }
+
+    .section-four .experiencia .um h1{
+        width: 100px;
+        height: 110px;
+
+        font-size: 15px;
+        padding-top: 60px;
+        padding-left: 8px;
+    } 
+
+    .section-four .experiencia .um p {
+        padding-top: 30px;
+        font-size: 13px;
+        padding-left: 9px;
+    }
+
+
+
+
+
+
+
+    
+
+    .section-four .projetos .dois img {
+        padding-top: -25px;
+        position: absolute;
+        width: 50px;
+    }
+
+    .section-four .projetos .dois h1{
+        width: 100px;
+        height: 110px;
+
+        font-size: 20px;
+        padding-top: 50px;
+        padding-left: 20px;
+    } 
+
+    .section-four .projetos .dois p {
+        padding-top: 30px;
+        font-size: 18px;
+        padding-left: 8px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    .section-four .suporte .tres img {
+        padding-top: -25px;
+        position: absolute;
+        width: 50px;
+    }
+
+    .section-four .suporte .tres h1 {
+        width: 100px;
+        height: 110px;
+
+        font-size: 20px;
+        padding-top: 50px;
+        padding-left: 10px;
+    } 
+
+    .section-four .suporte .tres p {
+        padding-top: 30px;
+        font-size: 13px;
+        padding-left: 8px;
+    }
+
+
+
+
+
+
+
+
+    
+    .p p {
+        margin-left: -530px;
+        font-size: 18px;
+        width: 300px;
+        margin-top: 50px;
+        z-index: 1;
+    }
+
+    .p .btn {
+        margin-left: -530px;
+        width: 150px;
+        height: 50px;
+        position: absolute;
+    }
+
+    .p .btn a {
+        font-size: 20px;
+        position: absolute;
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+
+    .section-five  {
+        margin-top: 20rem;
+        margin-left: -21rem;
+        font-size: 22px;
+        position: absolute;
+    }
+    .section-five .into1 img {
+        margin-left: 380px;
+    }
+
+    .section-six {
+        margin-top: 80rem;
+        position: absolute;
+    }
+}
+
+
+
+
+
+
+@media(min-width: 600px) {
+    .itens h4 {
+        margin-left: 10px;
+        font-size: 20px;
+    }
+
+    .itens img {
+        margin-left: 34rem;
+        width: 35px;
+    }
+
+    .section-one {
+        font-size: 30px;
+        margin-left: -20px;
+        margin-top: 10rem;
+    }
+
+    .section-two .pum {
+        font-size: 25px;
+        width: 200px;
+        height: 50px;
+    }
+
+    .section-two .pdois {
+        font-size: 25px;
+        width: 200px;
+        height: 50px;
+    }
+
+    .section-three .content img {
+        margin-left: -16rem;
+        margin-top: 40px;
+        position: absolute;
+    }
+
+    .itens2 {
+        display: flex;
+        margin-top: -28rem;
+        margin-left: 30rem;
+        position: absolute;
+    }
+
+    .itens3 .um img {
+        margin-left: -415px;
+        width: 30px;
+        margin-top: -370px;
+        position: absolute;
+    }
+
+    .section-four {
+        margin-top: 800px;
+    }
+    .section-four h1 {
+        margin-left: 155px;
+        font-size: 50px;
+
+    }
+
+    .section-four img {
+        margin-left: 250px;
+        margin-top: 180px;
+        width: 800px;
+        position: absolute;
+    }
+
+    .section-four .experiencia .um {
+        margin-left: -33rem;
+        margin-top: 400px;
+    }
+
+    .section-four .projetos .dois {
+        margin-left: -33rem;
+        margin-top: -100px;
+    }
+
+    .section-four .suporte .tres {
+        margin-left: -32rem;
+        margin-top: -150px;
+    }
+
+
+
+
+
+
+
+
+
+
+    .section-four .experiencia .um img {
+        padding-top: -25px;
+        position: absolute;
+        width: 50px;
+    }
+
+    .section-four .experiencia .um h1{
+        width: 100px;
+        height: 110px;
+
+        font-size: 15px;
+        padding-top: 60px;
+        padding-left: 8px;
+    } 
+
+    .section-four .experiencia .um p {
+        padding-top: 30px;
+        font-size: 13px;
+        padding-left: 9px;
+    }
+
+
+
+
+
+
+
+    
+
+    .section-four .projetos .dois img {
+        padding-top: -25px;
+        position: absolute;
+        width: 50px;
+    }
+
+    .section-four .projetos .dois h1{
+        width: 100px;
+        height: 110px;
+
+        font-size: 20px;
+        padding-top: 50px;
+        padding-left: 10px;
+    } 
+
+    .section-four .projetos .dois p {
+        padding-top: 30px;
+        font-size: 13px;
+        padding-left: 8px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    .section-four .suporte .tres img {
+        padding-top: -25px;
+        position: absolute;
+        width: 50px;
+    }
+
+    .section-four .suporte .tres h1 {
+        width: 100px;
+        height: 110px;
+
+        font-size: 20px;
+        padding-top: 50px;
+        padding-left: 10px;
+    } 
+
+    .section-four .suporte .tres p {
+        padding-top: 30px;
+        font-size: 13px;
+        padding-left: 8px;
+    }
+
+
+
+
+
+
+
+
+    
+    .p p {
+        margin-left: -530px;
+        font-size: 18px;
+        width: 300px;
+        margin-top: 50px;
+    }
+
+    .p .btn {
+        margin-left: -530px;
+        width: 150px;
+        height: 50px;
+        position: absolute;
+    }
+
+    .p .btn a {
+        font-size: 20px;
+        position: absolute;
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+
+    .section-five  {
+        margin-top: 20rem;
+        margin-left: -14rem;
+        font-size: 20px;
+        position: absolute;
+    }
+    .section-five .into1 img {
+        margin-left: 250px;
+    }
+
+    .section-six {
+        margin-top: 80rem;
+        position: absolute;
+    }
+}
+
+
+
+
+@media(min-width: 768px) {
+    .itens h4 {
+        margin-left: 20px;
+        font-size: 20px;
+    }
+
+    .itens img {
+        margin-left: 42rem;
+        width: 35px;
+    }
+
+    .section-one {
+        font-size: 30px;
+        margin-left: -20px;
+        margin-top: 10rem;
+    }
+
+    .section-two .pum {
+        font-size: 25px;
+        width: 200px;
+        height: 50px;
+    }
+
+    .section-two .pdois {
+        font-size: 25px;
+        width: 200px;
+        height: 50px;
+    }
+
+    .section-three .content img {
+        margin-left: -11rem;
+        margin-top: 40px;
+        position: absolute;
+    }
+
+    .itens2 {
+        display: flex;
+        margin-top: -28rem;
+        margin-left: 37rem;
+        position: absolute;
+    }
+
+    .itens3 .um img {
+        margin-left: -301px;
+        width: 30px;
+        margin-top: -370px;
+        position: absolute;
+    }
+
+    .section-four {
+        margin-top: 800px;
+    }
+    .section-four h1 {
+        margin-left: 250px;
+        font-size: 50px;
+
+    }
+
+    .section-four img {
+        margin-left: 300px;
+        margin-top: 180px;
+        width: 800px;
+        position: absolute;
+    }
+
+    .section-four .experiencia .um {
+        margin-left: -32rem;
+        margin-top: 400px;
+    }
+
+    .section-four .projetos .dois {
+        margin-left: -32rem;
+        margin-top: -100px;
+    }
+
+    .section-four .suporte .tres {
+        margin-left: -32rem;
+        margin-top: -150px;
+    }
+
+
+
+
+
+
+
+
+
+
+    .section-four .experiencia .um img {
+        padding-top: -25px;
+        position: absolute;
+        width: 50px;
+    }
+
+    .section-four .experiencia .um h1{
+        width: 100px;
+        height: 110px;
+
+        font-size: 15px;
+        padding-top: 60px;
+        padding-left: 8px;
+    } 
+
+    .section-four .experiencia .um p {
+        padding-top: 30px;
+        font-size: 13px;
+        padding-left: 9px;
+    }
+
+
+
+
+
+
+
+    
+
+    .section-four .projetos .dois img {
+        padding-top: -25px;
+        position: absolute;
+        width: 50px;
+    }
+
+    .section-four .projetos .dois h1{
+        width: 100px;
+        height: 110px;
+
+        font-size: 20px;
+        padding-top: 50px;
+        padding-left: 10px;
+    } 
+
+    .section-four .projetos .dois p {
+        padding-top: 30px;
+        font-size: 13px;
+        padding-left: 8px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    .section-four .suporte .tres img {
+        padding-top: -25px;
+        position: absolute;
+        width: 50px;
+    }
+
+    .section-four .suporte .tres h1 {
+        width: 100px;
+        height: 110px;
+
+        font-size: 20px;
+        padding-top: 50px;
+        padding-left: 10px;
+    } 
+
+    .section-four .suporte .tres p {
+        padding-top: 30px;
+        font-size: 13px;
+        padding-left: 8px;
+    }
+
+
+
+
+
+
+
+
+    
+    .p p {
+        margin-left: -520px;
+        font-size: 18px;
+        width: 300px;
+        margin-top: 50px;
+    }
+
+    .p .btn {
+        margin-left: -520px;
+        width: 150px;
+        height: 50px;
+        position: absolute;
+    }
+
+    .p .btn a {
+        font-size: 20px;
+        position: absolute;
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+
+    .section-five  {
+        margin-top: 20rem;
+        margin-left: -10rem;
+        font-size: 25px;
+        position: absolute;
+    }
+    .section-five .into1 img {
+        margin-left: 250px;
+    }
+
+    .section-six {
+        margin-top: 80rem;
+        position: absolute;
+    }
+}
+
+
+
+
+
+@media(min-width: 992px) {
+    .itens h4 {
+        margin-left: 80px;
+        font-size: 20px;
+    }
+
+    .itens img {
+        margin-left: 55rem;
+        width: 35px;
+    }
+
+    .section-one {
+        font-size: 30px;
+        margin-left: -30px;
+        margin-top: 10rem;
+    }
+
+    .section-two .pum {
+        font-size: 25px;
+        width: 200px;
+        height: 50px;
+    }
+
+    .section-two .pdois {
+        font-size: 25px;
+        width: 200px;
+        height: 50px;
+    }
+
+    .section-three .content img {
+        margin-left: -4rem;
+        margin-top: 40px;
+        position: absolute;
+    }
+
+    .itens2 {
+        display: flex;
+        margin-top: -28rem;
+        margin-left: 50rem;
+        position: absolute;
+    }
+
+    .itens3 .um img {
+        margin-left: -92px;
+        width: 30px;
+        margin-top: -370px;
+        position: absolute;
+    }
+
+    .section-four {
+        margin-top: 800px;
+    }
+    .section-four h1 {
+        margin-left: 355px;
+        font-size: 50px;
+
+    }
+
+    .section-four img {
+        margin-left: 450px;
+        margin-top: 180px;
+        width: 800px;
+        position: absolute;
+    }
+
+    .section-four .experiencia .um {
+        margin-left: -30rem;
+        margin-top: 400px;
+    }
+
+    .section-four .projetos .dois {
+        margin-left: -27rem;
+        margin-top: -100px;
+    }
+
+    .section-four .suporte .tres {
+        margin-left: -24rem;
+        margin-top: -150px;
+    }
+
+
+
+
+
+
+
+
+
+
+    .section-four .experiencia .um img {
+        padding-top: -25px;
+        position: absolute;
+        width: 50px;
+    }
+
+    .section-four .experiencia .um h1{
+        width: 100px;
+        height: 110px;
+
+        font-size: 15px;
+        padding-top: 60px;
+        padding-left: 8px;
+    } 
+
+    .section-four .experiencia .um p {
+        padding-top: 30px;
+        font-size: 13px;
+        padding-left: 9px;
+    }
+
+
+
+
+
+
+
+    
+
+    .section-four .projetos .dois img {
+        padding-top: -25px;
+        position: absolute;
+        width: 50px;
+    }
+
+    .section-four .projetos .dois h1{
+        width: 100px;
+        height: 110px;
+
+        font-size: 20px;
+        padding-top: 50px;
+        padding-left: 10px;
+    } 
+
+    .section-four .projetos .dois p {
+        padding-top: 30px;
+        font-size: 13px;
+        padding-left: 15px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    .section-four .suporte .tres img {
+        padding-top: -25px;
+        position: absolute;
+        width: 50px;
+    }
+
+    .section-four .suporte .tres h1 {
+        width: 100px;
+        height: 110px;
+
+        font-size: 20px;
+        padding-top: 50px;
+        padding-left: 10px;
+    } 
+
+    .section-four .suporte .tres p {
+        padding-top: 30px;
+        font-size: 13px;
+        padding-left: 8px;
+    }
+
+
+
+
+
+
+
+
+    
+    .p p {
+        margin-left: -490px;
+        font-size: 18px;
+        width: 380px;
+        margin-top: 50px;
+    }
+
+    .p .btn {
+        margin-left: -490px;
+        width: 150px;
+        height: 50px;
+        position: absolute;
+    }
+
+    .p .btn a {
+        font-size: 20px;
+        position: absolute;
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+
+    .section-five  {
+        margin-top: 20rem;
+        margin-left: -5rem;
+        font-size: 25px;
+        position: absolute;
+    }
+    .section-five .into1 img {
+        margin-left: 200px;
+    }
+
+    .section-six {
+        margin-top: 80rem;
+        position: absolute;
+    }
+}
+
+
+
+
+
+@media(min-width: 1200px) {
+    .itens h4 {
+        margin-left: 80px;
+        font-size: 30px;
+    }
+
+    .itens img {
+        margin-left: 68rem;
+        width: 40px;
+    }
+
+    .section-one {
+        font-size: 40px;
+        margin-left: 15px;
+        margin-top: 7rem;
+
+    }
+
+    .section-two .pum {
+        font-size: 25px;
+        width: 200px;
+        height: 50px;
+        padding-top: 10px;
+    }
+
+    .section-two .pdois {
+        font-size: 25px;
+        width: 200px;
+        height: 50px;
+        padding-top: 10px;
+    }
+
+    .section-three .content img {
+        margin-left: -1rem;
+        margin-top: 40px;
+        position: absolute;
+        width: 300px;
+        border-radius: 150px;
+    }
+
+    .itens2 {
+        display: flex;
+        margin-top: -28rem;
+        margin-left: 64rem;
+        position: absolute;
+    }
+
+    .itens2 .um img {
+        width: 40px;
+        margin-left: -10px;
+    }
+
+    
+    .itens2 .dois img {
+        width: 40px;
+        margin-left: -5px;
+    }
+
+    .itens3 .um img {
+        margin-left: 115px;
+        width: 40px;
+        margin-top: -370px;
+        position: absolute;
+    }
+
+    .section-four {
+        margin-top: 800px;
+    }
+    .section-four h1 {
+        margin-left: 420px;
+        font-size: 50px;
+
+    }
+
+    .section-four img {
+        margin-left: 450px;
+        margin-top: 180px;
+        width: 800px;
+        position: absolute;
+    }
+
+    .section-four .experiencia .um {
+        margin-left: -30rem;
+        margin-top: 400px;
+    }
+
+    .section-four .projetos .dois {
+        margin-left: -28rem;
+        margin-top: -100px;
+    }
+
+    .section-four .suporte .tres {
+        margin-left: -26rem;
+        margin-top: -150px;
+    }
+
+
+
+
+
+
+
+
+
+
+    .section-four .experiencia .um img {
+        padding-top: -20px;
+        position: absolute;
+        width: 55px;
+        padding-left: 5px;
+    }
+
+    .section-four .experiencia .um h1{
+        width: 100px;
+        height: 110px;
+
+        font-size: 16px;
+        padding-top: 55px;
+        padding-left: 5px;
+    } 
+
+    .section-four .experiencia .um p {
+        padding-top: 30px;
+        font-size: 13px;
+        padding-left: 9px;
+    }
+
+
+
+
+
+
+
+    
+
+    .section-four .projetos .dois img {
+        padding-top: -25px;
+        position: absolute;
+        width: 50px;
+    }
+
+    .section-four .projetos .dois h1{
+        width: 100px;
+        height: 110px;
+
+        font-size: 20px;
+        padding-top: 55px;
+        padding-left: 10px;
+    } 
+
+    .section-four .projetos .dois p {
+        padding-top: 30px;
+        font-size: 13px;
+        padding-left: 15px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    .section-four .suporte .tres img {
+        padding-top: -25px;
+        position: absolute;
+        width: 50px;
+    }
+
+    .section-four .suporte .tres h1 {
+        width: 100px;
+        height: 110px;
+
+        font-size: 19px;
+        padding-top: 55px;
+        padding-left: 10px;
+    } 
+
+    .section-four .suporte .tres p {
+        padding-top: 30px;
+        font-size: 13px;
+        padding-left: 8px;
+    }
+
+
+
+
+
+
+
+
+    
+    .p p {
+        margin-left: -490px;
+        font-size: 18px;
+        width: 380px;
+        margin-top: 50px;
+    }
+
+    .p .btn {
+        margin-left: -490px;
+        width: 150px;
+        height: 50px;
+        position: absolute;
+    }
+
+    .p .btn a {
+        font-size: 20px;
+        position: absolute;
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+
+    .section-five  {
+        margin-top: 20rem;
+        margin-left: -1rem;
+        font-size: 25px;
+        position: absolute;
+    }
+    .section-five .into1 img {
+        margin-left: 200px;
+    }
+
+    .section-six {
+        margin-top: 80rem;
+        position: absolute;
+    }
+}
+
+
+
+
+
+@media(min-width: 1280px) {
+    .itens h4 {
+        margin-left: 80px;
+        font-size: 30px;
+    }
+
+    .itens img {
+        margin-left: 68rem;
+        width: 40px;
+        position: absolute;
+    }
+
+    .section-one {
+        font-size: 40px;
+        margin-left: 15px;
+        margin-top: 9rem;
+
+    }
+
+    .section-two .pum {
+        font-size: 25px;
+        width: 200px;
+        height: 50px;
+        padding-top: 10px;
+    }
+
+    .section-two .pdois {
+        font-size: 25px;
+        width: 200px;
+        height: 50px;
+        padding-top: 10px;
+    }
+
+    .section-three .content img {
+        margin-left: 3rem;
+        margin-top: 40px;
+        position: absolute;
+        width: 300px;
+        border-radius: 150px;
+    }
+
+    .itens2 {
+        display: flex;
+        margin-top: -28rem;
+        margin-left: 64rem;
+        position: absolute;
+    }
+
+    .itens2 .um img {
+        width: 40px;
+        margin-left: -10px;
+    }
+
+    
+    .itens2 .dois img {
+        width: 40px;
+        margin-left: -5px;
+    }
+
+    .itens3 .um img {
+        margin-left: 115px;
+        width: 40px;
+        margin-top: -370px;
+        position: absolute;
+    }
+
+    .section-four {
+        margin-top: 800px;
+    }
+    .section-four h1 {
+        margin-left: 480px;
+        font-size: 50px;
+
+    }
+
+    .section-four img {
+        margin-left: 450px;
+        margin-top: 180px;
+        width: 800px;
+        position: absolute;
+    }
+
+    .section-four .experiencia .um {
+        margin-left: -30rem;
+        margin-top: 400px;
+    }
+
+    .section-four .projetos .dois {
+        margin-left: -28rem;
+        margin-top: -100px;
+    }
+
+    .section-four .suporte .tres {
+        margin-left: -26rem;
+        margin-top: -150px;
+    }
+
+
+
+
+
+
+
+
+
+
+    .section-four .experiencia .um img {
+        padding-top: -20px;
+        position: absolute;
+        width: 55px;
+        padding-left: 5px;
+    }
+
+    .section-four .experiencia .um h1{
+        width: 100px;
+        height: 110px;
+
+        font-size: 16px;
+        padding-top: 55px;
+        padding-left: 5px;
+    } 
+
+    .section-four .experiencia .um p {
+        padding-top: 30px;
+        font-size: 13px;
+        padding-left: 9px;
+    }
+
+
+
+
+
+
+
+    
+
+    .section-four .projetos .dois img {
+        padding-top: -25px;
+        position: absolute;
+        width: 50px;
+    }
+
+    .section-four .projetos .dois h1{
+        width: 100px;
+        height: 110px;
+
+        font-size: 20px;
+        padding-top: 55px;
+        padding-left: 10px;
+    } 
+
+    .section-four .projetos .dois p {
+        padding-top: 30px;
+        font-size: 13px;
+        padding-left: 15px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    .section-four .suporte .tres img {
+        padding-top: -25px;
+        position: absolute;
+        width: 50px;
+    }
+
+    .section-four .suporte .tres h1 {
+        width: 100px;
+        height: 110px;
+
+        font-size: 19px;
+        padding-top: 55px;
+        padding-left: 10px;
+    } 
+
+    .section-four .suporte .tres p {
+        padding-top: 30px;
+        font-size: 13px;
+        padding-left: 8px;
+    }
+
+
+
+
+
+
+
+
+    
+    .p p {
+        margin-left: -490px;
+        font-size: 18px;
+        width: 380px;
+        margin-top: 50px;
+    }
+
+    .p .btn {
+        margin-left: -490px;
+        width: 150px;
+        height: 50px;
+        position: absolute;
+    }
+
+    .p .btn a {
+        font-size: 20px;
+        position: absolute;
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+
+    .section-five  {
+        margin-top: 20rem;
+        margin-left: 5rem;
+        font-size: 25px;
+        position: absolute;
+    }
+    .section-five .into1 img {
+        margin-left: 200px;
+    }
+
+    .section-six {
+        margin-top: 80rem;
+        position: absolute;
+    }
+}
+
+
+@media(min-width: 1492px) {
+    .itens h4 {
+        margin-left: 300px;
+        font-size: 30px;
+    }
+
+    .itens img {
+        margin-left: 80rem;
+        width: 40px;
+        position: absolute;
+    }
+
+    .section-one {
+        font-size: 40px;
+        margin-left: 15px;
+        margin-top: 9rem;
+
+    }
+
+    .section-two .pum {
+        font-size: 25px;
+        width: 200px;
+        height: 50px;
+        padding-top: 10px;
+    }
+
+    .section-two .pdois {
+        font-size: 25px;
+        width: 200px;
+        height: 50px;
+        padding-top: 10px;
+    }
+
+    .section-three .content img {
+        margin-left: 16rem;
+        margin-top: 40px;
+        position: absolute;
+        width: 300px;
+        border-radius: 150px;
+    }
+
+    .itens2 {
+        display: flex;
+        margin-top: -28rem;
+        margin-left: 85rem;
+        position: absolute;
+    }
+
+    .itens2 .um img {
+        width: 40px;
+        margin-left: -10px;
+    }
+
+    
+    .itens2 .dois img {
+        width: 40px;
+        margin-left: -5px;
+    }
+
+    .itens3 .um img {
+        margin-left: 450px;
+        width: 40px;
+        margin-top: -368px;
+        position: absolute;
+    }
+
+    .section-four {
+        margin-top: 800px;
+    }
+    .section-four h1 {
+        margin-left: 700px;
+        font-size: 50px;
+
+    }
+
+    .section-four img {
+        margin-left: 800px;
+        margin-top: 180px;
+        width: 800px;
+        position: absolute;
+    }
+
+    .section-four .experiencia .um {
+        margin-left: -20rem;
+        margin-top: 400px;
+    }
+
+    .section-four .projetos .dois {
+        margin-left: -15rem;
+        margin-top: -100px;
+    }
+
+    .section-four .suporte .tres {
+        margin-left: -10rem;
+        margin-top: -150px;
+    }
+
+
+
+
+
+
+
+
+
+
+    .section-four .experiencia .um img {
+        padding-top: -20px;
+        position: absolute;
+        width: 55px;
+        padding-left: 5px;
+    }
+
+    .section-four .experiencia .um h1{
+        width: 100px;
+        height: 110px;
+
+        font-size: 16px;
+        padding-top: 55px;
+        padding-left: 5px;
+    } 
+
+    .section-four .experiencia .um p {
+        padding-top: 30px;
+        font-size: 13px;
+        padding-left: 9px;
+    }
+
+
+
+
+
+
+
+    
+
+    .section-four .projetos .dois img {
+        padding-top: -25px;
+        position: absolute;
+        width: 50px;
+    }
+
+    .section-four .projetos .dois h1{
+        width: 100px;
+        height: 110px;
+
+        font-size: 20px;
+        padding-top: 55px;
+        padding-left: 25px;
+    } 
+
+    .section-four .projetos .dois p {
+        padding-top: 30px;
+        font-size: 8px;
+        padding-left: -3rem;
+        margin-left: 40rem;
+        position: absolute;
+        width: 120px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    .section-four .suporte .tres img {
+        padding-top: -25px;
+        position: absolute;
+        width: 50px;
+    }
+
+    .section-four .suporte .tres h1 {
+        width: 100px;
+        height: 110px;
+
+        font-size: 19px;
+        padding-top: 55px;
+        padding-left: 10px;
+    } 
+
+    .section-four .suporte .tres p {
+        padding-top: 30px;
+        font-size: 13px;
+        padding-left: 8px;
+    }
+
+
+
+
+
+
+
+
+    
+    .p p {
+        margin-left: -330px;
+        font-size: 18px;
+        width: 380px;
+        margin-top: 50px;
+    }
+
+    .p .btn {
+        margin-left: -330px;
+        width: 150px;
+        height: 50px;
+        position: absolute;
+    }
+
+    .p .btn a {
+        font-size: 20px;
+        position: absolute;
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+
+    .section-five  {
+        margin-top: 20rem;
+        margin-left: 18rem;
+        font-size: 25px;
+        position: absolute;
+    }
+    .section-five .into1 img {
+        margin-left: 160px;
+    }
+
+}
