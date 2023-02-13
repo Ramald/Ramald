@@ -9,6 +9,7 @@ html {
     background-image: url(imgs/fundopizza.png);
     background-position-x: -40rem;
     background-size: 140rem;
+    overflow-x: hidden;
 }
 
 @font-face {
