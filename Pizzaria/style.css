@@ -1928,12 +1928,12 @@ input {
 
 }
 
-@media(min-width: 1680px) {
+@media(min-width: 1536px) {
 
     html {background-position-x: -10rem;}
 
     .pedido {
-        margin-left: 90rem;
+        margin-left: 81rem;
     }
 
     .nav img {
@@ -1946,8 +1946,8 @@ input {
     .mobile {
         color: white;
         position: fixed;
-        margin-left: 95rem;
-        margin-top: 15px;
+        margin-left: 90rem;
+        margin-top: 28px;
         z-index: 4;
         margin-bottom: 0;
     }
@@ -1955,6 +1955,7 @@ input {
     .mobile img {
         width: 80px;
         margin-bottom: 0;
+        margin-left: -1rem;
     }
 
     .navigation {
@@ -1970,19 +1971,19 @@ input {
     #img1 img {
         width: 15rem;
         margin-top: 6rem;
-        margin-left: -5rem;
+        margin-left: -8rem;
         position: absolute;
     }
 
     #img2 img {
         width: 15rem;
         margin-top: 6rem;
-        margin-left:  69rem;
+        margin-left:  63rem;
         position: absolute;
     }
 
     #sobre {
-        margin-left: 3rem;
+        margin-left: -1rem;
         width: 98rem;
         height: 60rem;
         margin-top: 20rem;
@@ -2012,7 +2013,7 @@ input {
 
 
     .exp  .box2 {
-        margin-left: -4rem;
+        margin-left: -7rem;
         margin-top: -4rem;
         position: absolute;
         
@@ -2023,7 +2024,7 @@ input {
     }
 
     .exp  .box3 {
-        margin-left: 1rem;
+        margin-left: -5rem;
         margin-top: -4rem;
         position: absolute;
         
@@ -2034,7 +2035,7 @@ input {
     }
 
     .exp  .box5 {
-        margin-left: 6rem;
+        margin-left: 1rem;
         margin-top: -4rem;
         position: absolute;
         
@@ -2045,7 +2046,7 @@ input {
     }
 
     .exp  .box6 {
-        margin-left: 9rem;
+        margin-left: 3rem;
         margin-top: -4rem;
         position: absolute;
         
@@ -2068,7 +2069,7 @@ input {
 
 
     .exp .sabor-mussarela {
-        margin-left: 4rem;
+        margin-left: 1rem;
         margin-top: 15rem;
         width: 20rem;
         position: absolute;
@@ -2085,7 +2086,7 @@ input {
 
 
     .exp .sabor-calabresa {
-        margin-left: 30rem;
+        margin-left: 24rem;
         margin-top: 15rem;
         width: 20rem;
         position: absolute;
@@ -2102,7 +2103,7 @@ input {
     }
 
     .exp .sabor-brownie {
-        margin-left: 55rem;
+        margin-left: 50rem;
         margin-top: 15rem;
         width: 20rem;
         position: absolute;
@@ -2119,7 +2120,7 @@ input {
     }
 
     .exp .sabor-frango {
-        margin-left: 79rem;
+        margin-left: 73rem;
         margin-top: 15rem;
         width: 20rem;
         position: absolute;
