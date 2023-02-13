@@ -19,7 +19,6 @@
             <a href="#home">Home</a>
             <a href="#sobre">Sobre</a>
             <a href="#projetos">Projetos</a>
-            <a href="#contato">Contato</a>
             <div class="img">
                <a href="https://www.linkedin.com/in/matheus-ramaldes"><img src="imgs/linkedin.png" alt=""></a> 
                 <a href="https://github.com/Ramald"><img src="imgs/github.png" alt=""></a> 
@@ -27,7 +26,7 @@
         </div>
     </div>
 
-    <div class="navbar">
+    <div class="navbar" id="home">
         <div class="box1"><img onclick="clickM();"  src="imgs/menu.png" alt="" onmouseenter="this.src='imgs/menuBlack.png'"   onmouseout="this.src='imgs/menu.png'" ></div>
         <div class="box2"><h1>PORTIFÓLIO</h1></div>
         <div class="box3"></div>
@@ -43,8 +42,8 @@
             <p class="p2">Desenvolvedor front-end</p>
 
             <div class="boxes">
-                <a id="a1" href="">Download CV</a>
-                <a id="a2" href="">Sobre mim</a>
+                <a id="a1" href="MATHEUS_RAMALDES_CV.pdf" download>Download CV</a>
+                <a id="a2" href="#sobre">Sobre mim</a>
             </div>
         </div>
         <div class="right"><img src="imgs/ramaldes.png" alt=""></div>
@@ -53,7 +52,7 @@
 
 
 
-    <div class="sobre">
+    <div class="sobre" id="sobre">
         <h1>Sobre mim</h1>
         <p>Desenvolvedor front-end apaixonado por programação, cursando Análise e Desenvolvimento de Sistemas pela faculdade Anhanguera.</p>
         <div class="box1"><img src="imgs/language-html5.png" alt=""></div>
@@ -63,7 +62,7 @@
 
 
 
-    <div class="projetos">
+    <div class="projetos" id="projetos">
         <h1>Projetos</h1>
         <div class="box1">
            <a href="Hamburgueria/index.html"><img src="imgs/hamburgueria.png" alt=""></a>
@@ -73,10 +72,6 @@
         </div>
     </div>
 
-<div class="contato">
-    <div class="box1">
-    </div>
-</div>
 <script>
 
 function clickM() {
