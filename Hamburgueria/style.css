@@ -11,6 +11,7 @@ html {
     background-position-x: -45rem;
     background-position-y: -20rem;
     opacity: 1;
+    overflow-x: hidden;
 }
 
 @font-face {
