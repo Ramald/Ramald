@@ -11,6 +11,20 @@ html, body {
 }
 
 
+@keyframes effect1 {
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+
+@keyframes effect2 {
+    from {width: 0;}
+    to {width: 30rem;}
+}
+
+@keyframes effect3 {
+    from{margin-left: -100rem;}
+    to{margin-left: -30rem;}
+}
 
 @media screen and (min-width: 300px) {
 
@@ -1811,6 +1825,268 @@ html, body {
 }
 
 
+/* @media screen and (min-width: 1024px) {
+
+    .navbar {
+        box-shadow: 1px 1px 10px 1px aqua;
+        height: 5rem;
+    }
+
+    .navbar .box2 {
+        color: aqua;
+        margin-left: 23.5rem;
+        margin-top: -5.5rem;
+        font-size: 15pt;
+    }
+    .navbar .box1 img:hover {
+        background-color: aqua;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+
+    .navbar .box1 img {
+        width: 4rem;
+        margin-left: 15px;
+        margin-top: 10px;
+    }
+    .menu .menu-itens a {
+        text-decoration: none;
+        color: aqua;
+        font-size: 40px;
+        text-align: center;
+        margin-top: 2rem;
+        transition: 1s;
+    }
+    .menu .menu-itens a:hover {
+        font-size: 50px;
+        transition: 1s;
+    }
+    .menu .menu-itens img {
+        width: 60px;
+        margin-top: 4rem;
+        margin-left: 4rem;
+        border-radius: 40px;
+        transition: 1s;
+    }
+
+    .menu .menu-itens img:hover {
+        transform: translateY(-10px);
+        transition: 1s;
+    }
+
+
+    .menu .menu-itens {
+        background-color: rgba(2, 0, 19, 0.948);
+        margin-top: 5.5rem;
+        box-shadow: 1px 1px 10px 1px aqua;
+        border-radius: 20px;
+        margin-left: -20px;
+        position: absolute;
+        width: 20rem;
+        z-index: 1;
+        display: none;
+    }
+
+    .s1 {
+        position: absolute;
+        margin-left: 23rem;
+    }
+
+    .s1 .left {
+        margin-top: 19rem;
+        margin-left: 0.2rem;
+    }
+
+    .s1 .left .p1 {
+        color: white;
+        margin-top: 5rem;
+        width: 15rem;
+        margin-left: 1rem;
+        font-size: 30pt;
+        position: absolute;
+        
+    }
+
+    .s1 .left h1 {
+        position: absolute;
+        color: aqua;
+        width: 40rem;
+        margin-top: 7rem;
+        margin-left: -10rem;
+        font-size: 50pt;
+    }
+
+    
+    .s1 .left .p2 {
+        position: absolute;
+        color: white;
+        width: 20rem;
+        margin-top: 12rem;
+        margin-left: -1.5rem;
+        font-size: 18pt;
+    }
+
+    .s1 .right{
+        margin-top:-20rem;
+        margin-left: 4rem;
+    }
+
+    .s1 .right img {
+        width: 20rem;
+        border-radius: 40px;
+        box-shadow: 1px 1px 10px 1px aqua;
+        position: absolute;
+        margin-top: 3rem;
+        margin-left: -5.5rem;
+    }
+
+
+    .s1 .boxes #a1 {
+        margin-top: 20rem;
+        position: absolute;
+        margin-left: -10rem;
+        font-size: 20px;
+        width: 13rem;
+        height: 2.5rem;
+        padding-top: -10px;
+        padding-left: 70px;
+        border-radius: 20px;
+        color: black;
+        border: 1px solid white;
+        transition: 1s;
+        color: aqua;
+    }
+
+    .s1 .boxes #a2 {
+        margin-top: 15.2rem;
+        position: absolute;
+        margin-left: 10rem;
+        font-size: 25px;
+        width: 10rem;
+        height: 2.5rem;
+        padding-top: 10px;
+        padding-left: 20px;
+        border-radius: 20px;
+        color: black;
+        background-color: aqua;
+        transition: 1s;
+    }
+
+    .s1 .boxes a {
+        text-decoration: none;
+        display: flex;
+        margin-left: 6rem;
+    }
+
+    .s1 .boxes a:hover {transform: translateY(-10px); transition: 1s;}
+
+    .sobre {
+        margin-top: 70rem;
+        text-align: center;
+    }
+
+    .sobre h1 {
+        color: aqua;
+        font-size: 40px;
+        margin-left: -1rem;
+    }
+
+    .sobre p {
+        color: white;
+        font-size: 20px;
+        text-align: center;
+        width: 30rem;
+        margin-left: 16rem;
+
+    }
+    .sobre .box1:hover, .box2:hover, .box3:hover {
+        transform: translateY(-10px);
+        transition: 1s;
+        cursor: pointer;
+    }
+    .sobre .box1 img {
+        width: 10rem;
+    }
+
+    .sobre .box1 {
+        background-color: black;
+        transition: 1s;
+        width: 10rem;
+       
+        border-radius: 20px 20px 0px 0px;
+        border-bottom: 2px solid aqua;
+        position: absolute;
+        margin-top: 10rem;
+        margin-left: 10rem;
+
+    }
+
+    .sobre .box2 img {
+        width: 10rem;
+    }
+
+    .sobre .box2 {
+        background-color: black;
+        transition: 1s;
+        width: 10rem;
+        border-radius: 20px 20px 0px 0px;
+        border-bottom: 2px solid aqua;
+        margin-top: 10rem;
+        margin-left: 45.5rem;
+    }
+
+    .sobre .box3 img {
+        width: 10rem;
+    }
+
+    .sobre .box3 {
+        background-color: black;
+        transition: 1s;
+        width: 10rem;
+        margin-left: 5px;
+        border-radius: 20px 20px 0px 0px;
+        border-bottom: 2px solid aqua;
+        margin-top: -8.9rem;
+        margin-left: 26.5rem;
+    }
+
+    .projetos {
+        margin-top: 32rem;
+    margin-bottom: 10rem;
+    }
+
+    .projetos h1 {
+        color: aqua;
+        text-align: center;
+        font-size: 40px;
+        margin-bottom: 8rem;
+    }
+
+    .projetos .box1 img {
+        width: 20rem;
+        border-radius: 20%;
+        transition: 1s;
+        margin-left: 15rem;
+
+    }
+
+    .projetos .box1 img:hover {
+        transform: translateY(-10px);
+        transition: 1s;
+    }
+
+    
+    .projetos .box2 img {
+        width: 20rem;
+        border-radius: 20%;
+        margin-left: 45rem;
+        margin-top: -9rem;
+        transition: 1s;
+        position: absolute;
+    }
+   
+} */
+
 @media screen and (min-width: 1280px) {
 
     .navbar {
@@ -2335,5 +2611,286 @@ html, body {
         transition: 1s;
         position: absolute;
     }
+   
+}
+
+
+@media screen and (min-width: 1920px) {
+
+    .navbar {
+        box-shadow: 1px 1px 10px 1px aqua;
+        height: 5rem;
+    }
+
+    .navbar .box2 {
+        color: aqua;
+        margin-left: 50rem;
+        margin-top: -5.5rem;
+        font-size: 15pt;
+        transition: 1s;
+    }
+    .navbar .box1 img:hover {
+        background-color: aqua;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+
+    .navbar .box1 img {
+        width: 4rem;
+        margin-left: 15px;
+        margin-top: 10px;
+    }
+    .menu .menu-itens a {
+        text-decoration: none;
+        color: aqua;
+        font-size: 40px;
+        text-align: center;
+        margin-top: 2rem;
+        transition: 1s;
+    }
+    .menu .menu-itens a:hover {
+        font-size: 50px;
+        transition: 1s;
+    }
+    .menu .menu-itens img {
+        width: 60px;
+        margin-top: 1s0rem;
+        margin-left: 4rem;
+        border-radius: 40px;
+        transition: 1s;
+    }
+
+    .menu .menu-itens img:hover {
+        transform: translateY(-10px);
+        transition: 1s;
+    }
+
+
+    .menu .menu-itens {
+        background-color: rgba(2, 0, 19, 0.948);
+        margin-top: 6rem;
+        box-shadow: 1px 1px 10px 1px aqua;
+        border-radius: 20px;
+        margin-left: -20px;
+        position: absolute;
+        width: 20rem;
+        z-index: 1;
+        display: none;
+    }
+
+    .s1 {
+        position: absolute;
+        margin-left: 38rem;
+    }
+
+    .s1 .left {
+        margin-top: 19rem;
+        margin-left: 0.2rem;
+    }
+
+    .s1 .left .p1 {
+        color: white;
+        margin-top: -5rem;
+        width: 25rem;
+        margin-left: -30rem;
+        font-size: 45pt;
+        position: absolute;
+        
+    }
+
+    .s1 .left h1 {
+        position: absolute;
+        color: aqua;
+        width: 55rem;
+        margin-top: -2rem;
+        margin-left: -30.1rem;
+        font-size: 70pt;
+    }
+
+    
+    .s1 .left .p2 {
+        position: absolute;
+        color: white;
+        width: 30rem;
+        margin-top: 4rem;
+        margin-left: -1.5rem;
+        font-size: 25pt;
+    }
+
+    .s1 .right{
+        margin-top:-28rem;
+        margin-left: 2.5rem;
+    }
+
+    .s1 .right img {
+        width: 30rem;
+        border-radius: 40px;
+        box-shadow: 1px 1px 10px 1px aqua;
+        position: absolute;
+        margin-top: 15rem;
+        margin-left: 40rem;
+    }
+
+
+    .s1 .boxes #a1 {
+        margin-top: 10rem;
+        position: absolute;
+        margin-left: -28rem;
+        font-size: 35px;
+        width: 17rem;
+        height: 4rem;
+        padding-top: -10px;
+        padding-left: 30px;
+        border-radius: 20px;
+        color: black;
+        border: 1px solid white;
+        transition: 1s;
+        color: aqua;
+    }
+
+    .s1 .boxes #a2 {
+        margin-top: 10rem;
+        position: absolute;
+        margin-left: 2rem;
+        font-size: 35px;
+        width: 15rem;
+        height: 4rem;
+        padding-top: 15px;
+        padding-left: 60px;
+        border-radius: 20px;
+        color: black;
+        background-color: aqua;
+        transition: 1s;
+    }
+
+    .s1 .boxes a {
+        text-decoration: none;
+        display: flex;
+        margin-left: 6rem;
+    }
+
+    .s1 .boxes a:hover {transform: translateY(-10px); transition: 1s;}
+
+    .sobre {
+        margin-top: 70rem;
+        text-align: center;
+        margin-left: 10rem;
+        padding-top: 20rem;
+    }
+
+    .sobre h1 {
+        color: aqua;
+        font-size:70px;
+        margin-left: -65rem;
+    }
+
+    .sobre p {
+        color: white;
+        font-size: 30px;
+        text-align: center;
+        width: 35rem;
+        margin-left: 4.5rem;
+
+    }
+    .sobre .box1:hover, .box2:hover, .box3:hover {
+        transform: translateY(-10px);
+        transition: 1s;
+        cursor: pointer;
+    }
+    .sobre .box1 img {
+        width: 10rem;
+    }
+
+    .sobre .box1 {
+        background-color: black;
+        transition: 1s;
+        width: 10rem;
+       
+        border-radius: 20px 20px 0px 0px;
+        border-bottom: 2px solid aqua;
+        position: absolute;
+        margin-top: -14rem;
+        margin-left: 50rem;
+
+    }
+
+    .sobre .box2 img {
+        width: 10rem;
+    }
+
+    .sobre .box2 {
+        background-color: black;
+        transition: 1s;
+        width: 10rem;
+        border-radius: 20px 20px 0px 0px;
+        border-bottom: 2px solid aqua;
+        margin-top: -14rem;
+        margin-left: 70rem;
+    }
+
+    .sobre .box3 img {
+        width: 10rem;
+    }
+
+    .sobre .box3 {
+        background-color: black;
+        transition: 1s;
+        width: 10rem;
+        margin-left: 5px;
+        border-radius: 20px 20px 0px 0px;
+        border-bottom: 2px solid aqua;
+        margin-top: -10rem;
+        margin-left: 90rem;
+    }
+
+    .projetos {
+    margin-top: 32rem;
+    margin-bottom: 10rem;
+    }
+
+    .projetos h1 {
+        color: aqua;
+        text-align: center;
+        font-size: 70px;
+        margin-bottom: 8rem;
+    }
+
+    .projetos .box1 img {
+        width: 25rem;
+        border-radius: 20%;
+        transition: 1s;
+        margin-left: 25rem;
+
+    }
+
+    .projetos .box1 img:hover {
+        transform: translateY(-10px);
+        transition: 1s;
+    }
+
+    
+    .projetos .box2 img {
+        width: 25rem;
+        border-radius: 20%;
+        margin-left: 70rem;
+        margin-top: -11.5rem;
+        transition: 1s;
+        position: absolute;
+    }
+
+
+
+    * {
+        animation: effect1 1s linear ;
+    }
+    
+    .s1 .right img {
+        animation: effect2 1s linear ;
+    }
+    
+    .s1 .left h1 {
+        animation: effect3 2s linear ;
+    }
+    
    
 }
