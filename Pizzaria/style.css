@@ -2752,3 +2752,219 @@ input {
 
 
 
+@media(min-width: 1920px) {
+
+    html {background-position-x: -10rem;}
+
+    .pedido {
+        margin-left: 105.5rem;
+        margin-top: 55rem;
+    }
+
+    .nav img {
+        margin-left: 20rem;
+    }
+    .nav-itens {
+        opacity: 0;
+    }
+
+    .mobile {
+        color: white;
+        position: fixed;
+        margin-left: 110rem;
+        margin-top: 28px;
+        z-index: 4;
+        margin-bottom: 0;
+    }
+
+    .mobile img {
+        width: 80px;
+        margin-bottom: 0;
+        margin-left: -1rem;
+    }
+
+    .navigation {
+        display: none;
+    }
+
+    .container .content {
+        width: 60rem;
+        height: 35rem;
+        margin-top: -5rem;
+    }
+
+    #img1 img {
+        width: 20rem;
+        margin-top: 4rem;
+        margin-left: -8rem;
+        position: absolute;
+    }
+
+    #img2 img {
+        width: 20rem;
+        margin-top: 4rem;
+        margin-left:  82rem;
+        position: absolute;
+    }
+
+    #sobre {
+        margin-left: 10rem;
+        width: 98rem;
+        height: 60rem;
+        margin-top: 20rem;
+    }
+
+    #sobre h1 {
+        margin-left: 40rem;
+        font-size: 3rem;
+    }
+
+    #sobre p {
+        margin-left: 30rem;
+        font-size: 13pt;
+        width: 40rem;
+        margin-top: 30px;
+    }
+
+    #sobre img {
+        margin-left: -32rem;
+        margin-top: 38rem;
+        width: 20rem;
+    }
+
+    .exp {
+        height: 48rem;
+        padding-left: 13rem;
+    }
+
+
+    .exp  .box2 {
+        margin-left: -8rem;
+        margin-top: -4rem;
+        position: absolute;
+        
+    }
+
+    .exp .box2 img {
+        width: 20rem;
+    }
+
+    .exp  .box3 {
+        margin-left: -5rem;
+        margin-top: -4rem;
+        position: absolute;
+        
+    }
+
+    .exp .box3 img {
+        width: 20rem;
+    }
+
+    .exp  .box5 {
+        margin-left: 1rem;
+        margin-top: -4rem;
+        position: absolute;
+        
+    }
+
+    .exp .box5 img {
+        width: 20rem;
+    }
+
+    .exp  .box6 {
+        margin-left: 3rem;
+        margin-top: -4rem;
+        position: absolute;
+        
+    }
+
+    .exp .box6 img {
+        width: 20rem;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .exp .sabor-mussarela {
+        margin-left: 1rem;
+        margin-top: 15rem;
+        width: 20rem;
+        position: absolute;
+    }
+
+    .exp .sabor-mussarela h1 {
+        font-size: 22pt;
+        margin-left: -1rem;
+    }
+
+    .exp .sabor-mussarela p {
+        margin-top: 10px;
+    }
+
+
+    .exp .sabor-calabresa {
+        margin-left: 24rem;
+        margin-top: 15rem;
+        width: 20rem;
+        position: absolute;
+    }
+
+    .exp .sabor-calabresa h1 {
+        font-size: 22pt;
+        margin-left: -1rem;
+    }
+
+    .exp .sabor-calabresa p {
+        margin-top: 10px;
+        font-size: 8pt;
+    }
+
+    .exp .sabor-brownie {
+        margin-left: 50rem;
+        margin-top: 15rem;
+        width: 20rem;
+        position: absolute;
+    }
+
+    .exp .sabor-brownie h1 {
+        font-size: 22pt;
+        margin-left: -1rem;
+    }
+
+    .exp .sabor-brownie p {
+        margin-top: 28px;
+        font-size: 10pt;
+    }
+
+    .exp .sabor-frango {
+        margin-left: 73rem;
+        margin-top: 15rem;
+        width: 20rem;
+        position: absolute;
+    }
+
+    .exp .sabor-frango h1 {
+        font-size: 22pt;
+        margin-left: -1rem;
+    }
+
+    .exp .sabor-frango p {
+        font-size: 9pt;
+        margin-top: 8px;
+    }
+
+
+}
+
+
+
+
