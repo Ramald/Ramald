@@ -17,6 +17,8 @@ html {
 
 body {
     overflow: hidden;
+    overflow-y: hidden;
+    overflow-x: hidden;
     background-image: url('imgs/watercolour_night_sky_background_2607.jpg');
     background-size: 100rem;
 }
@@ -485,7 +487,7 @@ body {
 }
 
 
-@media(max-width: 1551px) {
+@media(max-width: 1550px) {
     .container {
         margin-left: 10rem;
     }
@@ -498,7 +500,7 @@ body {
     }
 }
 
-@media(max-width: 1441px) {
+@media(max-width: 1440px) {
     .container {
         margin-left: 10rem;
     }
@@ -511,7 +513,7 @@ body {
     }
 }
 
-@media(max-width: 1367px) {
+@media(max-width: 1366px) {
     .container {
         margin-left: 6rem;
     }
@@ -524,7 +526,7 @@ body {
     }
 }
 
-@media(max-width: 1281px) {
+@media(max-width: 1280px) {
     .container {
         margin-left: 6rem;
     }
@@ -550,7 +552,7 @@ body {
     }
 }
 
-@media(max-width: 1025px) {
+@media(max-width: 1024px) {
     .container {
         margin-left: 1rem;
     }
@@ -563,7 +565,7 @@ body {
     }
 }
 
-@media(max-width: 921px) {
+@media(max-width: 920px) {
     .container {
         margin-left: 10rem;
 
@@ -590,7 +592,7 @@ body {
 
 }
 
-@media(max-width: 801px) {
+@media(max-width: 800px) {
     .container {
         margin-left: 6.5rem;
         width: 50rem;
@@ -617,7 +619,7 @@ body {
 
 }
 
-@media(max-width: 769px) {
+@media(max-width: 768px) {
     .container {
         margin-left: 5.5rem;
         width: 50rem;
@@ -644,7 +646,7 @@ body {
 
 }
 
-@media(max-width: 601px) {
+@media(max-width: 600px) {
     .container {
         margin-left: 5.5rem;
         width: 50rem;
@@ -726,7 +728,7 @@ body {
 
 }
 
-@media(max-width: 501px) {
+@media(max-width: 500px) {
     .container {
         margin-left: 4.5rem;
         width: 50rem;
@@ -808,7 +810,7 @@ body {
 
 }
 
-@media(max-width: 401px) {
+@media(max-width: 400px) {
     .container {
         margin-left: 4.2rem;
         width: 50rem;
@@ -901,7 +903,114 @@ body {
 
 }
 
-@media(max-width: 301px) {
+@media(max-width: 360px) {
+    .container {
+        margin-left: 6rem;
+        width: 50rem;
+    }
+
+    .container h1 {
+        font-size: 15pt;
+        margin-left: -3.5rem;
+    }
+
+    .container h2 {
+        font-size: 25pt;
+        margin-left: -4rem;
+    }
+
+    .container h3 {
+        font-size: 15pt;
+        margin-left: -0.5rem;
+    }
+
+    .container .img img {
+        display: none;
+    }
+
+    .container .box1 {
+        margin-left: -17rem;
+        margin-top: 7rem;
+    }
+
+    .container .box1 a {
+        width: 10rem;
+        font-size: 15pt;
+        padding-top: 13px;
+    }
+
+    .container .box2 {
+        margin-left: -4.5rem;
+    }
+
+    .sobre {
+        width: 20rem;
+    }
+
+    .sobre h1 {
+        font-size: 25pt;
+        margin-left: 4.5rem;
+    }
+
+    .sobre p {
+        width: 20rem;
+        font-size: 15pt;
+    }
+
+    .sobre .itens {
+        margin-left: -1.5rem;
+        font-size: 30pt;
+    }
+
+    .sobre .itens h1 {
+        margin-left: 3.5rem;
+    }
+
+    .sobre .img1 {
+        width: 10rem;
+        margin-top: 8rem;
+        margin-left: 10rem;
+        display: none;
+    }
+
+    .projects {
+        width: 20rem;
+        height: 30rem;
+        margin-top: 5rem;
+    }
+
+    .projects .box1 img {
+        width: 10rem;
+        margin-left: 5rem;
+        margin-top: 18rem;
+    }
+    .projects .box2 img {
+        width: 10rem;
+        margin-top: 12rem;
+        margin-left: 5rem;
+    }
+    .projects .box3 img {
+        width: 10rem;
+        margin-top: 24rem;
+        margin-left: 5rem;
+    }
+    .projects .box4 img {
+        width: 10rem;
+        margin-left: 5rem;
+        margin-top: 6rem;
+    }
+
+    .navbar {
+        margin-top: 34rem;
+    }
+
+    .navbar:hover {
+        margin-top: 34rem;
+    }
+
+}
+
+@media(max-width: 300px) {
     .container {
         margin-left: 4.2rem;
         width: 50rem;
