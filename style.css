@@ -170,7 +170,7 @@ body {
     transform: translate(-50%);
     position: fixed;
     transition: 1s;
-    box-shadow: 1px 1px 10px 1px black;
+    box-shadow: 1px 1px 10px 1px rgb(0, 145, 255);
     z-index: 1;
 }
 
@@ -454,9 +454,9 @@ body {
 
 
 
-@media(max-width: 1660px) {
+@media(max-width: 1920px) {
     body {
-        background-size: 110rem;
+        background-size: 120rem;
     }
     .container {
         margin-top: 1rem;
@@ -919,7 +919,7 @@ body {
         overflow: hidden;
     }
     .container {
-        margin-left: 6rem;
+        margin-left: 7rem;
         width: 50rem;
     }
 
