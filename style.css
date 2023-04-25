@@ -729,6 +729,9 @@ body {
 }
 
 @media(max-width: 500px) {
+    body {
+        overflow: hidden;
+    }
     .container {
         margin-left: 4.5rem;
         width: 50rem;
@@ -811,6 +814,10 @@ body {
 }
 
 @media(max-width: 414px) {
+    
+    body {
+        overflow: hidden;
+    }
     .container {
         margin-left: 5rem;
         width: 50rem;
@@ -903,7 +910,120 @@ body {
 
 }
 
+@media(max-width: 393px) {
+    body {
+        overflow: hidden;
+    }
+    .container {
+        margin-left: 6rem;
+        width: 50rem;
+    }
+
+    .container h1 {
+        font-size: 15pt;
+        margin-left: -3.5rem;
+    }
+
+    .container h2 {
+        font-size: 25pt;
+        margin-left: -4rem;
+    }
+
+    .container h3 {
+        font-size: 15pt;
+        margin-left: -0.5rem;
+    }
+
+    .container .img img {
+        display: none;
+    }
+
+    .container .box1 {
+        margin-left: -17rem;
+        margin-top: 7rem;
+    }
+
+    .container .box1 a {
+        width: 10rem;
+        font-size: 15pt;
+        padding-top: 13px;
+    }
+
+    .container .box2 {
+        margin-left: -4.5rem;
+    }
+
+    .sobre {
+        width: 20rem;
+    }
+
+    .sobre h1 {
+        font-size: 25pt;
+        margin-left: 4.5rem;
+    }
+
+    .sobre p {
+        width: 20rem;
+        font-size: 15pt;
+    }
+
+    .sobre .itens {
+        margin-left: -1.5rem;
+        font-size: 30pt;
+    }
+
+    .sobre .itens h1 {
+        margin-left: 3.5rem;
+    }
+
+    .sobre .img1 {
+        width: 10rem;
+        margin-top: 8rem;
+        margin-left: 10rem;
+        display: none;
+    }
+
+    .projects {
+        width: 20rem;
+        height: 30rem;
+        margin-top: 5rem;
+    }
+
+    .projects .box1 img {
+        width: 10rem;
+        margin-left: 5rem;
+        margin-top: 18rem;
+    }
+    .projects .box2 img {
+        width: 10rem;
+        margin-top: 12rem;
+        margin-left: 5rem;
+    }
+    .projects .box3 img {
+        width: 10rem;
+        margin-top: 24rem;
+        margin-left: 5rem;
+    }
+    .projects .box4 img {
+        width: 10rem;
+        margin-left: 5rem;
+        margin-top: 6rem;
+    }
+
+    .navbar {
+        margin-top: 34rem;
+    }
+
+    .navbar:hover {
+        margin-top: 34rem;
+    }
+
+}
+
 @media(max-width: 375px) {
+    body {
+        overflow: hidden;
+    }
     .container {
         margin-left: 6rem;
         width: 50rem;
@@ -1011,6 +1131,9 @@ body {
 }
 
 @media(max-width: 300px) {
+    body {
+        overflow: hidden;
+    }
     .container {
         margin-left: 4.2rem;
         width: 50rem;
