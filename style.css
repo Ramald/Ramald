@@ -23,8 +23,6 @@ body {
     overflow-x: hidden;
     background-image: url('imgs/watercolour_night_sky_background_2607.jpg');
     background-size: 100rem;
-    background-repeat: no-repeat;
-    scale: 1.0;
 }
 
 .container {
