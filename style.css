@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'ral';
-
+    
 }
 
 @font-face {
@@ -14,9 +14,6 @@
 
 body, html {
     overflow: hidden;
-    overflow-y: hidden;
-    overflow-x: hidden;
-    background-image: url('imgs/watercolour_night_sky_background_2607.jpg');
 }
 
 .container {
@@ -82,8 +79,6 @@ body, html {
 }
 
 
-.container .box1 {
-}
 
 .container img {
     width: 50rem;
