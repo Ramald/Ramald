@@ -11,11 +11,8 @@
     src: url('Raleway-Italic-VariableFont_wght.ttf');
 }
 
-html {
 
-}
-
-body {
+body, html {
     width: 100vw;
     height: 100vh;
     overflow: hidden;
