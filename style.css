@@ -19,7 +19,6 @@ body, html {
     overflow-y: hidden;
     overflow-x: hidden;
     background-image: url('imgs/watercolour_night_sky_background_2607.jpg');
-    background-size: 100rem;
 }
 
 .container {
