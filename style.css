@@ -9,6 +9,8 @@ body {
     height: 100vh;
     background-color: beige;
     font-family: 'secrcode';
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 html {
