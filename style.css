@@ -1,0 +1,1422 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: beige;
+    font-family: 'secrcode';
+}
+
+html {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    font-family: 'secrcode';
+}
+
+@font-face {
+    font-family: 'secrcode';
+    src: url('Louis\ George\ Cafe\ Bold.ttf');
+}
+
+.main {
+    box-shadow: 1px 1px 20px -10px black;
+    border-radius: 10px;
+    background-color: white;
+    width: 70%;
+    height: 60rem;
+    margin-top: 5.5rem;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.main h1 {
+    position: absolute;
+    margin-left: 5rem;
+    margin-top: 1.8rem;
+    font-size: 40pt;
+}
+
+#topRigth {
+    margin-left: 80%;
+    margin-top: 40px;
+    display: flex;
+}
+
+#topRigth a {
+    color: black;
+    font-size: 23pt;
+    text-decoration: none;
+    margin: 10px;
+}
+
+#topRigth img {
+    width: 23px;
+}
+
+#topLeft {
+    position: absolute;
+    display: flex;
+    margin-left: 20%;
+    margin-top: 50px;
+}
+
+#topLeft img {
+    width: 25px;
+}
+#topLeft a {
+    color: black;
+    text-decoration: none;
+    font-size: 23pt;
+}
+
+#quiteLeft {
+    position: absolute;
+    margin-top: 20rem;
+}
+
+#quiteLeft img {
+    width: 3rem;
+    margin-left: 70px;
+    transition: 0.5s;
+}
+#quiteLeft img:hover {
+    transform: translateY(-10px);
+    transition: 0.5s;
+    cursor: pointer;
+    width: 5rem;
+    left: -5px;
+}
+
+.into .left {
+}
+
+.into {
+    position: absolute;
+    display: flex;
+    margin-left: 20%;
+    margin-top: 10rem;
+    width: 35rem;
+    height: 30rem;
+}
+
+.into h1 {
+    font-size: 80pt;
+}
+.into p {
+    margin-top: 9rem;
+    font-size: 30pt;
+    margin-left: 15rem;
+}
+
+
+.into .left a {
+    text-decoration: none;
+    color: black;
+    font-size: 15pt;
+    opacity: 0.5;
+    left: 20rem;
+    position: absolute;
+    transition: 0.5s;
+    margin-top: 10px;
+}
+
+.into .left a:hover {
+    transform: rotate(-10deg);
+    box-shadow: 1px 1px 10px 1px purple;
+    background-color: purple;
+    height: 3rem;
+    margin-left: -10px;
+    margin-top: -2px;
+    padding-top: 6px;
+    opacity: 1;
+    color: white;
+    border-radius: 10px;
+    font-size: 16pt;
+    transition: 0.5s;
+}
+
+
+.into .right img {
+    margin-left: 40%;
+    width: 25rem;
+    position: absolute;
+    animation: animate 3s ease-in-out infinite;
+    margin-top: 1rem;
+}
+
+
+
+@keyframes animate {
+    0%{transform: translateY(-10px);}
+    50%{transform: translateY(-20px);}
+    100%{transform: translateY(-10px);}
+}
+
+#imgMy {
+    width: 3rem;
+}
+
+#imgInfo {
+    width: 1.5rem;
+}
+
+#x {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+#imgMail {
+    width: 3rem;
+    margin-left: -20px;
+    margin-top: 38rem;
+    position: absolute;
+}
+
+.responsive a {
+    text-decoration: none;
+    color: black;
+    font-size: 20pt;
+}
+
+.responsive .itens-menu {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index: 1;
+    backdrop-filter: blur(10px);
+    text-align: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.responsive .itens-menu .func {
+    margin-top: 15rem;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+
+}
+.responsive {
+    display: none;
+}
+
+
+
+.responsive .itens-menu .func img {
+    padding-top: 20px;
+}
+
+.responsive .itens-menu .my {
+    margin-top: 35rem;
+    left: 50%;
+    transform: translate(-50%);
+    position: absolute;
+    display: flex;
+}
+.main .menu {
+    cursor: pointer;
+}
+
+.main .menu img {
+    transition: 0.5s;
+    opacity: 0.5;
+}
+
+.main .menu img:hover {
+    transition: 0.5s;
+    opacity: 1;
+    border-radius: 50%;
+    box-shadow: 1px 1px 10px 1px purple;
+}
+
+
+@media (min-width: 300px) {
+    .main {
+        width: 90%;
+        position: absolute;
+        height: 80%;
+        margin-top: 4.5rem;
+    }
+
+    .main .menu img {
+        width: 3rem;
+        left: 50%;
+        transform: translate(-50%);
+        position: absolute;
+        top: 20px;
+    }
+
+    #r {
+        display: none;
+    }
+    #topLeft, #topRigth, #quiteLeft{
+        display: none;
+    }
+
+    .main .into .left {
+        margin-left: -10rem;
+    }
+
+    .main .into .left h1 {
+        font-size: 45pt;
+        margin-left: 8rem;
+    }
+    .main .into .left p {
+        margin-left: 12rem;
+        font-size: 20pt;
+        margin-top: 6rem;
+    }
+
+    .main .into .left a {
+        margin-left: -16rem;
+        margin-top: -0.2rem;
+        font-size: 12pt;
+    }
+
+    .main .into .left {
+        margin-left: -10.5rem;
+    }
+    .main .right img {
+        margin-left: -12rem;
+        margin-top: 15rem;
+        width: 10rem;
+    }
+
+}
+
+
+@media (min-width: 359px) {
+    .main {
+        width: 90%;
+        height: 80%;
+        margin-top: 4.5rem;
+    }
+
+    .main .menu img {
+        width: 3rem;
+        left: 50%;
+        transform: translate(-50%);
+        position: absolute;
+        top: 20px;
+    }
+
+    #r {
+        display: none;
+    }
+    #topLeft, #topRigth, #quiteLeft{
+        display: none;
+    }
+
+  
+
+    .main .into .left h1 {
+        font-size: 45pt;
+        margin-left: 8rem;
+    }
+    .main .into .left p {
+        margin-left: 12rem;
+        font-size: 20pt;
+        margin-top: 6rem;
+    }
+
+    .main .into .left a {
+        margin-left: -14.5rem;
+        margin-top: -0.2rem;
+        font-size: 12pt;
+    }
+
+    .main .into .left {
+        margin-left: -9rem;
+        margin-top: -3rem;
+    }
+    .main .right img {
+        margin-left: -12rem;
+        margin-top: 11rem;
+        width: 10rem;
+    }
+
+}
+
+@media (min-width: 389px) {
+    .main {
+        width: 90%;
+        height: 80%;
+        margin-top: 4.5rem;
+    }
+
+    .main .menu img {
+        width: 3rem;
+        left: 50%;
+        transform: translate(-50%);
+        position: absolute;
+        top: 20px;
+    }
+
+    #r {
+        display: none;
+    }
+    #topLeft, #topRigth, #quiteLeft{
+        display: none;
+    }
+
+  
+
+    .main .into .left h1 {
+        font-size: 45pt;
+        margin-left: 8rem;
+    }
+    .main .into .left p {
+        margin-left: 12rem;
+        font-size: 20pt;
+        margin-top: 6rem;
+    }
+
+    .main .into .left a {
+        margin-left: -14.5rem;
+        margin-top: -0.2rem;
+        font-size: 12pt;
+    }
+
+    .main .into .left {
+        margin-left: -9rem;
+    }
+    .main .right img {
+        margin-left: -12rem;
+        margin-top: 15rem;
+        width: 10rem;
+    }
+
+}
+
+@media (min-width: 400px) {
+    .main {
+        width: 90%;
+        height: 80%;
+        margin-top: 4.5rem;
+    }
+
+    .main .menu img {
+        width: 3rem;
+        left: 55%;
+        transform: translate(-90%);
+        position: absolute;
+        top: 20px;
+    }
+
+    #r {
+        display: none;
+    }
+    #topLeft, #topRigth, #quiteLeft{
+        display: none;
+    }
+
+    .main .into .left {
+        margin-left: -10rem;
+    }
+
+    .main .into .left h1 {
+        font-size: 52pt;
+        margin-left: 10rem;
+        margin-left: 8.7rem;
+    }
+    .main .into .left p {
+        margin-left: 15rem;
+        font-size: 20pt;
+        margin-top: 6.5rem;
+    }
+
+    .main .into .left a {
+        margin-left: -13rem;
+        margin-top: 0.2rem;
+        font-size: 12pt;
+    }
+
+    .main .into .left {
+        margin-left: -10.5rem;
+    }
+    .main .right img {
+        margin-left: -12rem;
+        margin-top: 15rem;
+        width: 10rem;
+    }
+    .responsive .itens-menu .func a {
+        font-size: 23pt;
+    }
+
+}
+
+@media (min-width: 500px) {
+    .main {
+        width: 90%;
+        height: 80%;
+        margin-top: 4.5rem;
+    }
+
+    .main .menu img {
+        width: 3rem;
+        left: 55%;
+        transform: translate(-90%);
+        position: absolute;
+        top: 20px;
+    }
+
+    #r {
+        display: none;
+    }
+    #topLeft, #topRigth, #quiteLeft{
+        display: none;
+    }
+
+  
+    .main .into .left h1 {
+        font-size: 52pt;
+        margin-left: rem;
+    }
+    .main .into .left p {
+        margin-left: 15rem;
+        font-size: 20pt;
+        margin-top: 6.5rem;
+    }
+
+    .main .into .left a {
+        margin-left: -13rem;
+        margin-top: 0.2rem;
+        font-size: 12pt;
+    }
+
+    .main .into .left {
+        margin-left: -10.5rem;
+        margin-top: -4rem;
+    }
+    .main .right img {
+        margin-left: -15rem;
+        margin-top: 12rem;
+        width: 15rem;
+    }
+    .responsive .itens-menu .func a {
+        font-size: 23pt;
+    }
+
+}
+
+@media (min-width: 600px) {
+    .main {
+        width: 90%;
+        height: 80%;
+        margin-top: 4.5rem;
+    }
+
+    .main .menu img {
+        width: 3rem;
+        left: 55%;
+        transform: translate(-90%);
+        position: absolute;
+        top: 20px;
+    }
+
+    #r {
+        display: none;
+    }
+    #topLeft, #topRigth, #quiteLeft{
+        display: none;
+    }
+
+  
+    .main .into .left h1 {
+        font-size: 55pt;
+        margin-left: 12rem;
+    }
+    .main .into .left p {
+        margin-left: 18rem;
+        font-size: 22pt;
+        margin-top: 6.5rem;
+    }
+
+    .main .into .left a {
+        margin-left: -9.5rem;
+        margin-top: 0.2rem;
+        font-size: 13pt;
+    }
+
+    .main .into .left {
+        margin-left: -10.5rem;
+        margin-top: -4rem;
+    }
+    .main .right img {
+        margin-left: -15rem;
+        margin-top: 8rem;
+        width: 15rem;
+    }
+    .responsive .itens-menu .func a {
+        font-size: 23pt;
+    }
+
+}
+@media (min-width: 700px) {
+    .main {
+        width: 90%;
+        height: 80%;
+        margin-top: 4.5rem;
+    }
+
+    .main .menu img {
+        width: 3rem;
+        left: 55%;
+        transform: translate(-90%);
+        position: absolute;
+        top: 20px;
+    }
+
+    #r {
+        display: none;
+    }
+    #topLeft, #topRigth, #quiteLeft{
+        display: none;
+    }
+
+  
+    .main .into .left h1 {
+        font-size: 55pt;
+        margin-left: 12rem;
+    }
+    .main .into .left p {
+        margin-left: 18rem;
+        font-size: 22pt;
+        margin-top: 6.5rem;
+    }
+
+    .main .into .left a {
+        margin-left: -9.5rem;
+        margin-top: 0.2rem;
+        font-size: 13pt;
+    }
+
+    .main .into .left {
+        margin-left: -10.5rem;
+        margin-top: -4rem;
+    }
+    .main .right img {
+        margin-left: -18rem;
+        margin-top: 12rem;
+        width: 18rem;
+    }
+    .responsive .itens-menu .func a {
+        font-size: 23pt;
+    }
+
+}
+
+@media (min-width: 768px) {
+    .main {
+        width: 90%;
+        height: 80%;
+        margin-top: 4.5rem;
+    }
+
+    .main .menu img {
+        width: 3rem;
+        left: 55%;
+        transform: translate(-90%);
+        position: absolute;
+        top: 20px;
+    }
+
+    #r {
+        display: none;
+    }
+    #topLeft, #topRigth, #quiteLeft{
+        display: none;
+    }
+
+  
+    .main .into .left h1 {
+        font-size: 60pt;
+        margin-left: 11rem;
+    }
+    .main .into .left p {
+        margin-left: 19rem;
+        font-size: 22pt;
+        margin-top: 7rem;
+    }
+
+    .main .into .left a {
+        margin-left: -5rem;
+        margin-top: 0.2rem;
+        font-size: 13pt;
+    }
+
+    .main .into .left {
+        margin-left: -7rem;
+        margin-top: -4rem;
+    }
+    .main .right img {
+        margin-left: -18rem;
+        margin-top: 12rem;
+        width: 18rem;
+    }
+    .responsive .itens-menu .func a {
+        font-size: 23pt;
+    }
+
+}
+@media (min-width: 800px) {
+    .main {
+        width: 90%;
+        height: 80%;
+        margin-top: 4.5rem;
+    }
+
+    .main .menu img {
+        width: 3rem;
+        left: 55%;
+        transform: translate(-90%);
+        position: absolute;
+        top: 20px;
+    }
+
+    #r {
+        display: none;
+    }
+    #topLeft, #topRigth, #quiteLeft{
+        display: none;
+    }
+
+  
+    .main .into .left h1 {
+        font-size: 55pt;
+        margin-left: 5.5rem;
+        margin-top: 5rem;
+    }
+    .main .into .left p {
+        margin-left: 11.5rem;
+        font-size: 22pt;
+        margin-top: 10rem;
+    }
+
+    .main .into .left a {
+        margin-left: -16rem;
+        margin-top: 0.2rem;
+        font-size: 13pt;
+    }
+
+    .main .into .left {
+        margin-left: -11rem;
+        margin-top: -4rem;
+    }
+    .main .right img {
+        margin-left: 2rem;
+        margin-top: 10rem;
+        width: 18rem;
+    }
+    .responsive .itens-menu .func a {
+        font-size: 23pt;
+    }
+
+}
+
+@media (min-width: 850px) {
+    .main {
+        width: 90%;
+        height: 80%;
+        margin-top: 4.5rem;
+    }
+
+    .main .menu img {
+        width: 3rem;
+        left: 55%;
+        transform: translate(-90%);
+        position: absolute;
+        top: 20px;
+    }
+
+    #r {
+        display: none;
+    }
+    #topLeft, #topRigth, #quiteLeft{
+        display: none;
+    }
+
+  
+    .main .into .left h1 {
+        font-size: 55pt;
+        margin-left: 5.5rem;
+        margin-top: 5rem;
+    }
+    .main .into .left p {
+        margin-left: 11.5rem;
+        font-size: 22pt;
+        margin-top: 10rem;
+    }
+
+    .main .into .left a {
+        margin-left: -16rem;
+        margin-top: 0.2rem;
+        font-size: 13pt;
+    }
+
+    .main .into .left {
+        margin-left: -11rem;
+        margin-top: -4rem;
+    }
+    .main .right img {
+        margin-left: 2rem;
+        margin-top: 1rem;
+        width: 18rem;
+    }
+    .responsive .itens-menu .func a {
+        font-size: 23pt;
+    }
+
+}
+@media (min-width: 900px) {
+    .main {
+        width: 90%;
+        height: 80%;
+        margin-top: 4.5rem;
+    }
+
+    .main .menu img {
+        width: 3rem;
+        left: 55%;
+        transform: translate(-90%);
+        position: absolute;
+        top: 20px;
+    }
+
+    #r {
+        display: none;
+    }
+    #topLeft, #topRigth, #quiteLeft{
+        display: none;
+    }
+
+  
+    .main .into .left h1 {
+        font-size: 55pt;
+        margin-left: 5.5rem;
+        margin-top: 5rem;
+    }
+    .main .into .left p {
+        margin-left: 11.5rem;
+        font-size: 22pt;
+        margin-top: 10rem;
+    }
+
+    .main .into .left a {
+        margin-left: -16rem;
+        margin-top: 0.2rem;
+        font-size: 13pt;
+    }
+
+    .main .into .left {
+        margin-left: -11rem;
+        margin-top: -4rem;
+    }
+    .main .right img {
+        margin-left: 7rem;
+        margin-top: 1rem;
+        width: 18rem;
+    }
+    .responsive .itens-menu .func a {
+        font-size: 25pt;
+    }
+
+}
+
+@media (min-width: 1000px) {
+    .main {
+        width: 90%;
+        height: 80%;
+        margin-top: 4.5rem;
+    }
+
+    .main .menu img {
+        display: none;
+        width: 3rem;
+        left: 55%;
+        transform: translate(-90%);
+        position: absolute;
+        top: 20px;
+    }
+
+    #r {
+        display: block;
+        font-size: 30pt;
+        margin-top: 2.5rem;
+    }
+    #topLeft, #topRigth, #quiteLeft{
+        display: block;
+    }
+
+    #topLeft {
+        margin-left: 8rem;
+    }
+
+    #topRigth {
+        width: 20rem;
+        margin-left: 37rem;
+        display: flex;
+    }
+
+  
+    .main .into .left h1 {
+        font-size: 55pt;
+        margin-left: 5.5rem;
+        margin-top: 5rem;
+    }
+    .main .into .left p {
+        margin-left: 11.5rem;
+        font-size: 22pt;
+        margin-top: 10rem;
+    }
+
+    .main .into .left a {
+        margin-left: -10.1rem;
+        margin-top: 0.2rem;
+        font-size: 13pt;
+    }
+
+    .main .into .left {
+        margin-left: -5rem;
+        margin-top: -10rem;
+    }
+    .main .right img {
+        margin-left: 4rem;
+        margin-top: -5rem;
+        width: 18rem;
+    }
+
+    #quiteLeft {
+        margin-top: 6rem;
+        margin-left: -10px;
+    }
+    .responsive .itens-menu .func a {
+        font-size: 25pt;
+    }
+
+}
+
+@media (min-width: 1279px) {
+    .main {
+        width: 90%;
+        height: 80%;
+        margin-top: 4.5rem;
+    }
+
+    .main .menu img {
+        display: none;
+        width: 3rem;
+        left: 55%;
+        transform: translate(-90%);
+        position: absolute;
+        top: 20px;
+    }
+
+    #r {
+        display: block;
+        font-size: 30pt;
+        margin-top: 2.5rem;
+    }
+    #topLeft, #topRigth, #quiteLeft{
+        display: block;
+    }
+
+    #topLeft {
+        margin-left: 15rem;
+    }
+
+    #topRigth {
+        width: 20rem;
+        margin-left: 50rem;
+        display: flex;
+    }
+
+  
+    .main .into .left h1 {
+        font-size: 55pt;
+        margin-left: 5.5rem;
+        margin-top: 5rem;
+    }
+    .main .into .left p {
+        margin-left: 11.5rem;
+        font-size: 22pt;
+        margin-top: 10rem;
+    }
+
+    .main .into .left a {
+        margin-left: -6.5rem;
+        margin-top: 0.2rem;
+        font-size: 13pt;
+    }
+
+    .main .into .left {
+        margin-left: -1rem;
+        margin-top: -6rem;
+    }
+    .main .into .right img {
+        margin-left: 10rem;
+        margin-top: 1rem;
+        width: 20rem;
+    }
+
+    #quiteLeft {
+        margin-top: 10rem;
+        margin-left: -10px;
+    }
+    .responsive .itens-menu .func a {
+        font-size: 25pt;
+    }
+
+}
+
+@media (min-width: 1365px) {
+    .main {
+        width: 90%;
+        height: 80%;
+        margin-top: 4.5rem;
+    }
+
+    .main .menu img {
+        display: none;
+        width: 3rem;
+        left: 55%;
+        transform: translate(-90%);
+        position: absolute;
+        top: 20px;
+    }
+
+    #r {
+        display: block;
+        font-size: 34pt;
+        margin-top: 2.5rem;
+    }
+    #topLeft, #topRigth, #quiteLeft{
+        display: block;
+    }
+
+    #topLeft {
+        margin-left: 15rem;
+    }
+
+    #topRigth {
+        width: 20rem;
+        margin-left: 58rem;
+        display: flex;
+    }
+
+  
+    .main .into .left h1 {
+        font-size: 65pt;
+        margin-left: 5.5rem;
+        margin-top: 5rem;
+    }
+    .main .into .left p {
+        margin-left: 11.5rem;
+        font-size: 28pt;
+        margin-top: 11rem;
+    }
+
+    .main .into .left a {
+        margin-left: -5rem;
+        margin-top: 0.2rem;
+        font-size: 15pt;
+    }
+
+    .main .into .left {
+        margin-left: -1rem;
+        margin-top: -2rem;
+    }
+    .main .into .right img {
+        margin-left: 8rem;
+        margin-top: -5rem;
+        width: 22rem;
+    }
+
+    #quiteLeft {
+        margin-top: 15rem;
+        margin-left: -10px;
+    }
+    .responsive .itens-menu .func a {
+        font-size: 25pt;
+    }
+
+}
+
+@media (min-width: 1425px) {
+    .main {
+        width: 90%;
+        height: 80%;
+        margin-top: 4.5rem;
+    }
+
+    .main .menu img {
+        display: none;
+        width: 3rem;
+        left: 55%;
+        transform: translate(-90%);
+        position: absolute;
+        top: 20px;
+    }
+
+    #r {
+        display: block;
+        font-size: 34pt;
+        margin-top: 2.5rem;
+    }
+    #topLeft, #topRigth, #quiteLeft{
+        display: block;
+    }
+
+    #topLeft {
+        margin-left: 15rem;
+    }
+
+    #topRigth {
+        width: 20rem;
+        margin-left: 58rem;
+        display: flex;
+    }
+
+  
+    .main .into .left h1 {
+        font-size: 65pt;
+        margin-left: 5.5rem;
+        margin-top: 5rem;
+    }
+    .main .into .left p {
+        margin-left: 11.5rem;
+        font-size: 28pt;
+        margin-top: 11rem;
+    }
+
+    .main .into .left a {
+        margin-left: -5rem;
+        margin-top: 0.2rem;
+        font-size: 15pt;
+    }
+
+    .main .into .left {
+        margin-left: -1rem;
+        margin-top: -2rem;
+    }
+    .main .into .right img {
+        margin-left: 8rem;
+        margin-top: 4rem;
+        width: 22rem;
+    }
+
+    #quiteLeft {
+        margin-top: 15rem;
+        margin-left: -10px;
+    }
+    .responsive .itens-menu .func a {
+        font-size: 25pt;
+    }
+
+}
+
+@media (min-width: 1439px) {
+    .main {
+        width: 90%;
+        height: 80%;
+        margin-top: 4.5rem;
+    }
+
+    .main .menu img {
+        display: none;
+        width: 3rem;
+        left: 55%;
+        transform: translate(-90%);
+        position: absolute;
+        top: 20px;
+    }
+
+    #r {
+        display: block;
+        font-size: 34pt;
+        margin-top: 2.5rem;
+    }
+    #topLeft, #topRigth, #quiteLeft{
+        display: block;
+    }
+
+    #topLeft {
+        margin-left: 15rem;
+    }
+
+    #topRigth {
+        width: 20rem;
+        margin-left: 58rem;
+        display: flex;
+    }
+
+  
+    .main .into .left h1 {
+        font-size: 65pt;
+        margin-left: 5.5rem;
+        margin-top: 5rem;
+    }
+    .main .into .left p {
+        margin-left: 11.5rem;
+        font-size: 28pt;
+        margin-top: 11rem;
+    }
+
+    .main .into .left a {
+        margin-left: -5rem;
+        margin-top: 0.2rem;
+        font-size: 15pt;
+    }
+
+    .main .into .left {
+        margin-left: -1rem;
+        margin-top: -10rem;
+    }
+    .main .into .right img {
+        margin-left: 8rem;
+        margin-top: -5rem;
+        width: 22rem;
+    }
+
+    #quiteLeft {
+        margin-top: 15rem;
+        margin-left: -10px;
+    }
+    .responsive .itens-menu .func a {
+        font-size: 25pt;
+    }
+
+}
+
+@media (min-width: 1510px) {
+    .main {
+        width: 90%;
+        height: 80%;
+        margin-top: 4.5rem;
+    }
+
+    .main .menu img {
+        display: none;
+        width: 3rem;
+        left: 55%;
+        transform: translate(-90%);
+        position: absolute;
+        top: 20px;
+    }
+
+    #r {
+        display: block;
+        font-size: 34pt;
+        margin-top: 2.5rem;
+    }
+    #topLeft, #topRigth, #quiteLeft{
+        display: block;
+    }
+
+    #topLeft {
+        margin-left: 15rem;
+    }
+
+    #topRigth {
+        width: 20rem;
+        margin-left: 58rem;
+        display: flex;
+    }
+
+  
+    .main .into .left h1 {
+        font-size: 65pt;
+        margin-left: 5.5rem;
+        margin-top: 5rem;
+    }
+    .main .into .left p {
+        margin-left: 11.5rem;
+        font-size: 28pt;
+        margin-top: 11rem;
+    }
+
+    .main .into .left a {
+        margin-left: -5rem;
+        margin-top: 0.2rem;
+        font-size: 15pt;
+    }
+
+    .main .into .left {
+        margin-left: -1rem;
+        margin-top: -10rem;
+    }
+    .main .into .right img {
+        margin-left: 8rem;
+        margin-top: -5rem;
+        width: 22rem;
+    }
+
+    #quiteLeft {
+        margin-top: 15rem;
+        margin-left: -10px;
+    }
+    .responsive .itens-menu .func a {
+        font-size: 25pt;
+    }
+
+}
+
+@media (min-width: 1559px) {
+    .main {
+        width: 90%;
+        height: 80%;
+        margin-top: 4.5rem;
+    }
+
+    .main .menu img {
+        display: none;
+        width: 3rem;
+        left: 55%;
+        transform: translate(-90%);
+        position: absolute;
+        top: 20px;
+    }
+
+    #r {
+        display: block;
+        font-size: 34pt;
+        margin-top: 2.5rem;
+    }
+    #topLeft, #topRigth, #quiteLeft{
+        display: block;
+    }
+
+    #topLeft {
+        margin-left: 15rem;
+    }
+
+    #topRigth {
+        width: 20rem;
+        margin-left: 68rem;
+        display: flex;
+    }
+
+  
+    .main .into .left h1 {
+        font-size: 65pt;
+        margin-left: 5.5rem;
+        margin-top: 5rem;
+    }
+    .main .into .left p {
+        margin-left: 11.5rem;
+        font-size: 28pt;
+        margin-top: 11rem;
+    }
+
+    .main .into .left a {
+        margin-left: -8.5rem;
+        margin-top: 0.2rem;
+        font-size: 15pt;
+    }
+
+    .main .into .left {
+        margin-left: -5rem;
+        margin-top: -10rem;
+    }
+    .main .into .right img {
+        margin-left: 15rem;
+        margin-top: -4rem;
+        width: 22rem;
+    }
+
+    #quiteLeft {
+        margin-top: 8rem;
+        margin-left: -10px;
+    }
+    .responsive .itens-menu .func a {
+        font-size: 25pt;
+    }
+
+}
+
+
+@media (min-width: 1879px) {
+    .main {
+        width: 90%;
+        height: 80%;
+        margin-top: 4.5rem;
+    }
+
+    .main .menu img {
+        display: none;
+        width: 3rem;
+        left: 55%;
+        transform: translate(-90%);
+        position: absolute;
+        top: 20px;
+    }
+
+    #r {
+        display: block;
+        font-size: 40pt;
+        margin-top: 2.5rem;
+    }
+    #topLeft, #topRigth, #quiteLeft{
+        display: block;
+    }
+
+    #topLeft {
+        margin-left: 24rem;
+    }
+
+    #topRigth {
+        width: 20rem;
+        margin-left: 80rem;
+        display: flex;
+    }
+
+  
+    .main .into .left h1 {
+        font-size: 70pt;
+        margin-left: 5.5rem;
+        margin-top: 5rem;
+    }
+    .main .into .left p {
+        margin-left: 13rem;
+        font-size: 28pt;
+        margin-top: 11rem;
+    }
+
+    .main .into .left a {
+        margin-left: -3.4rem;
+        margin-top: 0.2rem;
+        font-size: 15pt;
+    }
+
+    .main .into .left {
+        margin-left: -1rem;
+        margin-top: -5rem;
+    }
+    .main .into .right img {
+        margin-left: 20rem;
+        margin-top: -1rem;
+        width: 25rem;
+    }
+
+    #quiteLeft {
+        margin-top: 15rem;
+        margin-left: -10px;
+    }
+    .responsive .itens-menu .func a {
+        font-size: 25pt;
+    }
+
+}
+
+
+
+

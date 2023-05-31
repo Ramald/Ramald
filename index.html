@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfólio - Matheus Ramaldes</title>
+</head>
+<body>
+
+  <div id="rsp" class="responsive">
+    <div class="itens-menu">
+    <h1 id="x" onclick="clickXMenu()">X</h1>
+        <div class="mail"> <a href="mailto:ramaldesmts@gmail.com"><img id="imgMail" src="imgs/email.png" alt=""></a></div>
+        <div class="func">     
+            <a href=""><img id="imgInfo" src="imgs/account (1).png" alt="">Sobre</a>
+            <a href=""><img id="imgInfo"  src="imgs/book.png" alt="">Projetos</a>
+        </div>
+        <div class="my">
+            <div><img  id="imgMy" src="imgs/github (3).png" alt=""></div>
+            <div><img  id="imgMy" src="imgs/linkedin (2).png" alt=""></div>
+        </div>
+    </div>
+  </div>
+
+    <div class="main">
+        <div class="menu"><img onclick="clickMenu()" src="imgs/menu.png" alt=""></div>
+        <h1 id="r">R</h1>
+        <div id="topLeft">
+            <a href="mailto:ramaldesmts@gmail.com"><img src="imgs/email.png" alt="">ramaldesmts@gmail.com</a>
+        </div>
+        <div id="topRigth">
+            <a href=""><img src="imgs/account (1).png" alt="">Sobre</a>
+            <a href=""><img src="imgs/book.png" alt="">Projetos</a>
+        </div>
+        <div id="quiteLeft">
+            <div><img  src="imgs/github (3).png" alt=""></div>
+            <div><img src="imgs/linkedin (2).png" alt=""></div>
+        </div>
+
+        <div class="into">
+            <div class="left">
+            <div><h1>Matheus</h1></div>
+            <div><p>Dev Front-end</p></div>
+            <div><a href=""><h2 id="h2">Contate-me</h2></a></div>
+            </div>
+            <div class="right">
+                <img src="imgs/notebook.png" alt="">
+            </div>
+        </div>
+    </div>
+
+ 
+</body>
+
+<script>
+    var m = document.getElementById('rsp')
+    var x = document.getElementById('x')
+
+    function clickMenu() {
+        if(m.style.display == 'none') {
+            m.style.display = 'block'
+        } else {
+            m.style.display = 'none'
+        }
+    }
+
+    function clickXMenu() {
+        if(m.style.display == 'none') {
+            m.style.display = 'block'
+        } else {
+            m.style.display = 'none'
+        }
+    }
+</script>
+</html>
