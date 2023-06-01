@@ -1,0 +1,283 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html, body {
+    display: grid;
+    height: 100%;
+    background-image: url('imgs/fundo-azul-do-gradiente-de-luxo-abstrato-liso-azul-escuro-com-vinheta-preta-studio-banner.jpg')
+}
+
+#time {
+    font-size: 7pt;
+    margin-left: 28px;
+    margin-top: 8px;
+    color: white;
+}
+#time2 {
+    color: white;
+    font-size: 40pt;
+    margin-left: 23%;
+    margin-top: 20%;
+    position: absolute;
+}
+
+#data {
+    color: white;
+    position: absolute;
+    margin-left: 63%;
+    margin-top: 43%;
+}
+#diaS {
+    position: absolute;
+    color: white;
+    margin-left: 19%;
+    margin-top: 43%;
+}
+
+.celular {
+    background-color: rgb(215, 205, 205);
+    border: 4px solid rgb(11, 11, 11);
+    background-image: url('imgs/descargar-fondo-de-pantalla-de-evento-de-iphone-8-para-iphone-ipad-scaled.jpg');
+    width: 260px;
+    height: 500px;
+    border-radius: 50px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: relative;
+    box-shadow: 1px 1px 10px -2px rgb(0, 0, 0);
+    z-index: 0;
+    background-position-x: -700rem;
+    position: absolute;
+    
+}
+
+.celular .itens {
+    margin-left: 30px;
+    margin-top: -10px;
+    
+}
+
+.celular .img1 img {
+    width: 10px;
+    margin-left: 10rem;
+    position: absolute;
+    
+}
+
+.celular .img2 img {
+    width: 10px;
+    margin-top: 0px;
+    margin-left: 11.5rem;
+    position: absolute;
+}
+
+.celular .img3 img {
+    width: 10px;
+    margin-left: 10.7rem;
+    position: absolute;
+}
+
+
+.celular .interior {
+    width: 250px;
+    height: 490px;
+    border-radius: 50px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: relative;
+    z-index: 0;
+    
+}
+
+.celular .audio {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-top: -500px;
+    margin-left: 60px;
+    background-color: black;
+    width: 130px;
+    height: 20px;
+    position: absolute;
+
+}
+
+.celular .audio .into {
+    z-index: 1;
+    border-radius: 50px;
+    margin-left: 100px;
+    margin-top: 4px;
+    background-color: rgb(29, 2, 166);
+    width: 8px;
+    height: 8px;
+    position: absolute;
+    opacity: 0.5;
+}
+
+.celular .audio .into2 {
+    z-index: 1;
+    border-radius: 20px;
+    margin-top: 5px;
+    margin-left: 20px;
+    background-color: rgb(49, 49, 49);
+    width: 70px;
+    height: 5px;
+    position: absolute;
+    opacity: 0.5;
+}
+
+.celular .left1 {
+    background: black;
+    position: relative;
+    z-index: 1;
+    width: 8px;
+    height: 20px;
+    margin-left: -8px;
+    margin-top: -25rem;
+
+}
+
+
+.celular .left2 {
+    background: black;
+    position: relative;
+    z-index: 1;
+    width: 8px;
+    height: 50px;
+    margin-top: 1rem;
+    margin-left: -8px;
+
+}
+
+.celular .left3 {
+    background: black;
+    position: relative;
+    z-index: 1;
+    width: 8px;
+    height: 50px;
+    margin-top: 1rem;
+    margin-left: -8px;
+
+}
+
+
+.celular .right {
+    background: black;
+    position: relative;
+    z-index: 1;
+    width: 8px;
+    height: 50px;
+    margin-top: -5rem;
+    margin-left: 15.8rem;
+}
+
+
+
+#redes .img1 img:hover {
+    transform: translateY(-10px);
+    transition: 1s;
+    cursor: pointer;
+}
+#redes .img2 img:hover {
+    transform: translateY(-10px);
+    transition: 1s;
+    cursor: pointer;
+}
+#redes .img3 img:hover {
+    transform: translateY(-10px);
+    transition: 1s;
+    cursor: pointer;
+}
+
+
+#redes {
+    width: 16rem;
+    position: absolute;
+    margin-left: -25rem;
+    margin-top: 10rem;
+
+}
+
+#redes .img1 img {
+    width: 3rem;
+    margin-top: 14rem;
+    margin-left: 28rem;
+    transition: 1s;
+}
+
+#redes .img2 img {
+    width: 3rem;
+    margin-top: -0.5rem;
+    margin-top: 14rem;
+    margin-left: 31.5rem;
+    transition: 1s;
+}
+
+
+#redes .img3 img {
+    width: 3rem;
+    margin-top: 14rem;
+    margin-left: 35rem;
+    transition: 1s;
+}
+
+#ramaldes img {
+    width: 130px;
+    margin-top: 60%;
+    margin-left: 24%;
+    border-radius: 50%;
+    box-shadow: 1px 1px 10px 1px white;
+    position: absolute;
+}
+
+#ramaldes img:hover {
+    transform: translateY(-10px);
+    transition: 1s;
+    cursor: pointer;
+}
+
+#ap {
+    position: absolute;
+    margin-top: 18%;
+    margin-left: 20%;
+}
+
+#ap h1 {
+    font-family: 'pacifico';
+    color: white;
+    font-size: 15pt;
+    position: absolute;
+    margin-top: -3%;
+}
+#ap h2 {
+    color: rgb(0, 0, 0);
+    font-size: 40pt;
+    font-family: 'pacifico';
+    animation: animate 2s alternate infinite ;
+}
+
+#ap h3 {
+    font-family: 'pacifico';
+    color: white;
+    margin-left: 57%;
+    margin-top: -5%;
+}
+
+@font-face {
+    font-family: 'pacifico';
+    src: url('Pacifico.ttf');
+}
+
+@keyframes animate {
+10%{text-shadow: 1px 1px 8px rgb(96, 141, 255);}
+30%{text-shadow: 1px 1px 10px rgb(96, 141, 255);}
+60%{text-shadow: 1px 1px 5px rgb(96, 141, 255);}
+80%{text-shadow: 1px 1px 10px rgb(96, 141, 255);}
+100%{text-shadow: 1px 1px 15px rgb(96, 141, 255);}
+}
+
