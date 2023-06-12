@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Home</title>
+</head>
+<body>
+
+    <img id="menu" onmouseenter="enterMenu()" src="imgs/microsoft-xbox-controller-menu.png" alt="">
+
+    <div id="respons" class="responsive">
+        <h1 onmouseenter="enterMenu()">X</h1>
+        <div  class="links">
+            <a href="">Início</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#projetos">Projetos</a>
+            <a href="#cnt">Contato</a>
+        </div>
+
+        <div class="redes">
+            <a href="https://github.com/Ramald"><img src="imgs/github (4).png" alt=""></a>
+          <a href="https://www.linkedin.com/in/matheus-ramaldes/"><img src="imgs/linkedin (3).png" alt=""></a>  
+        </div>
+    </div>
+
+    <nav>
+        <div class="right">
+            <a href="">Início</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#projetos">Projetos</a>
+            <a href="#cnt">Contato</a>
+        </div>
+        <div class="left" id="m">M</div>
+        
+    </nav>
+
+    <header>
+        <h1>Produtos digitais<font color="#8a2be2"> modernos</font>  e de alta <font color="#8a2be2">qualidade</font><font color="white"> !</font></h1>
+        <p>Olá, me chamo Matheus e sou um desenvolvedor Front-end =).<br>
+        Sinta-se avontade para explorar meu Portfólio!</p>
+        <a href="mailto:ramaldesmts@gmail.com"><div class="contato">
+            <img  src="imgs/email (1).png" alt=""> <span>Contato</span>
+        </div></a>
+
+        <a href="" download><div class="contato2">
+            <img  src="imgs/cv.png" alt=""> <span>Currículo</span>
+        </div></a>
+
+        <div class="right">
+           <div class="imgs"> 
+            <img id="pc" src="imgs/pc.png" alt="">
+            <img id="coffee" src="imgs/coffe.png" alt="">
+        </div>
+        </div>
+    </header>
+
+    <div id="sobre" class="sobre">
+        <div class="left"><img src="imgs/istockphoto-1296795051-612x612.png" alt=""></div>
+        <div class="right">
+            <p>Olá,<br> Me chamo <font color="#8a2be2"> Matheus Ramaldes</font> e sou um desenvolvedor front-end <font color="#8a2be2">Junior</font>.
+                <br>
+                Meu objetivo principal é criar experiências digitais atraentes, focadas na <font color="#8a2be2">usabilidade</font> e na <font color="#8a2be2">satisfação</font> do usuário. Através de um processo de desenvolvimento iterativo, estou constantemente aprendendo e aprimorando minhas habilidades para acompanhar as últimas tendências e melhores práticas.
+            </p>
+        </div>
+    </div>
+    </div>
+
+    <div class="habilidades" id="habilidades">
+        <h1>Habilidades</h1>
+        <img src="imgs/html5.png" alt=""> <span>HTML5</span>
+        <img src="imgs/css3.png" alt=""> <span>CSS3</span>
+        <img src="imgs/js.png" alt=""> <span>JAVASCRIPT</span>
+        <img src="imgs/responsive.png" alt=""> <span>RESPONSIVO</span>
+        <img src="imgs/uix.png" alt=""> <span>UIX</span>
+    </div>
+
+    <div id="projetos" class="projetos">
+        <h1>Projetos</h1>
+        <a href="projetosExt/Celular/index.html"><img src="imgs/celularr.png" alt=""></a>
+        <a href="projetosExt/RD/index.html"><img src="imgs/rdd.png" alt=""></a>
+       <a href="login_Cadastro/index.html"> <img src="imgs/lcc.png" alt=""></a> 
+    </div>
+
+    <div id="cnt">
+        <div class="whatsapp">
+           <a href="https://wa.me/11985257224"><img src="imgs/whatsapp (2).png" alt=""></a> 
+        </div>
+
+        <div class="github">
+            <a href="https://github.com/Ramald"><img src="imgs/github (4).png" alt=""></a> 
+         </div>
+
+         <div class="linkedinn">
+            <a href="https://www.linkedin.com/in/matheus-ramaldes/"><img src="imgs/linkedin (3).png" alt=""></a> 
+         </div>
+    </div>
+</body>
+
+<script>
+    function enterMenu() {
+        if(        document.getElementById('respons').style.display == 'block') {
+            document.getElementById('respons').style.display = 'none'
+        } else {
+            document.getElementById('respons').style.display = 'block'
+        }
+    }
+</script>
+</html>
