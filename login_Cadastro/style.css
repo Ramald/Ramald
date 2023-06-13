@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+html {
+    overflow-x: hidden;
+    
+}
+
 body {
     width: 100vw;
     height: 100vh;
@@ -11,7 +16,7 @@ body {
     background-color: aliceblue;
     font-family: 'face';
     background-image: url('imgs/paisagem-de-montanha-3d-com-ceu-roxo-por-do-sol.jpg');
-    background-size: 100%;
+    background-size: 200rem;
     background-position-y: -15rem;
     /* background-image: radial-gradient(circle at 29.05% 107.57%, #4e7766 0, #3e7263 16.67%, #296c60 33.33%, #00665e 50%, #00605d 66.67%, #005a5d 83.33%, #00545e 100%); */
 }
@@ -339,6 +344,7 @@ transition: 0.5s;
     margin-top: 10px;
     box-shadow: 1px 1px 10px -5px black;
     border-radius: 10px;
+    z-index: 3;
     position: absolute;
 }
 .container .contain .cadastro  .sG .gS {
@@ -364,3 +370,4 @@ transition: 0.5s;
 .container .contain .cadastro  .sG .gS:hover {
     box-shadow: 1px 1px 10px -3px white;
 }
+
