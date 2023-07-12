@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css"/>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="reset.css"/>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/script.js"></script> 
+    <link rel="icon" type="image/png" href="imgs/iconjapa.png"/>
+    
+    <title>SUSHI !</title>
+</head>
+<body>
+
+    <div class="menu">
+        <img onmouseenter="menuOn()" src="imgs/ancient-pavilion-fill.png" alt="">
+    </div>
+    <div id="m"  class="menu-responsivo">
+      
+        <div id="m" class="menu-itens">
+            <a href="#">Home</a>
+            <a href="#sobre">Sobre nós</a>
+            <a href="#popp">Popular</a>
+        </div>
+    </div>
+
+
+    <div id="preloader">
+        
+        <div id="status">&nbsp;</div>
+        <div  class="loader">
+                <span id="load" class="carregando"></span>
+                <span  id="load" class="title">Carregando...</span>
+        </div>
+    </div>
+
+    <nav>
+
+        <div class="logo">
+            <img src="imgs/logo.png" alt="">
+        </div>
+
+        <div class="links">
+            <a href="#">Home</a>
+            <a href="#sobre">Sobre nós</a>
+            <a href="#popp">Popular</a>
+        </div>
+    
+    </nav>
+
+
+
+    <div class="top" id="hashi">
+        <div class="left">
+            <h1 >QUE TAL UM PEIXINHO FRESCO?</h1>
+            <img id="smallHash"  src="imgs/hashi-small.jpg" alt="">
+            <p >
+                Bateu a fome? Pede um <font color="#fb7d00"> japa</font>!
+            </p>
+
+            <div id="wpp" class="whatss">
+                <p id="peca">Peça agora!</p>
+                <img id="arou" src="imgs/arrow-right-line.png" alt="">
+        </div>
+        </div>
+        <div class="right">
+            <img class="hashi" src="imgs/pegJapa.png" alt="">
+        </div>
+    </div>
+
+
+
+    <div class="sobre" id="sobre">
+        <div id="imgs" class="left">
+            <img class="fotos" src="imgs/uma-pintura-de-sushi-e-um-prato-com-a-imagem-de-um-peixe.jpg" alt="">
+        </div>
+        <div class="right">
+            <span class="fotos">Sobre nós</span> <img src="imgs/iconjapa.png" alt="">
+            <h1>Qualidade e excelência...</h1>
+            <p>Com mais de 10 anos de casa, nosso restaurante conta com peixes frescos!<br>Garantimos mais sabor e qualidade à sua refeição!</p>
+        </div>
+    </div>
+
+    <div id="popp" class="popular">
+        <div class="rodizio">
+            <div class="slide">
+                <img id="imgs" class="fotos" src="imgs/rodizio.jpg" alt="">
+                <div class="dois">
+                    <img id="imgs" class="fotos" src="imgs/pessoa-comendo-lanches-de-algas.jpg" alt="">
+                </div>
+                <div class="tres">
+                    <img id="imgs" class="fotos" src="imgs/hotroll.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="pop">
+            <div class="pratoUm">
+                <img  src="imgs/conjunto-de-sushi-misto-comida-japonesa (2).png" alt="">
+                <p>Combinado Japonês 1</p>
+                <span>R$ 21.90</span>
+                <img id="arrow" src="imgs/arrow-right-line.png" alt="">
+            </div>
+            <div class="pratoDois">
+                <img  src="imgs/conjunto-de-comida-de-sushi-sobre-fundo-branco.png" alt="">
+                <p>Combinado Japonês 2</p>
+                <span>R$ 25.45</span>
+                <img id="arrow" src="imgs/arrow-right-line.png" alt="">
+            </div>
+            <div class="pratoTres">
+                <img  src="imgs/japones-de-frutos-do-mar-arroz-cultura-vermelho.png" alt="">
+                <p>Combinado Japonês 3</p>
+                <span>R$ 27,54</span>
+                <img id="arrow" src="imgs/arrow-right-line.png" alt="">
+            </div>
+        </div>
+    </div>
+
+</a>
+
+    <div class="peixes">
+        <div class="atum"><img src="imgs/atum.png" alt=""></div>
+        <div class="salmao"><img src="imgs/niguiri.png" alt=""></div>
+        <div class="camarao"><img src="imgs/niguiriCamarao.png" alt=""></div>
+    </div>
+
+
+    <script>
+
+
+
+
+
+        window.sr = ScrollReveal({reset: true});
+        
+        sr.reveal('#hashi', {
+            rotate: {x: 50, y:0, z:0},
+            duration:3000
+        })
+
+        sr.reveal('.fotos', {
+            rotate: {x: 0, y:100, z:0},
+            duration:500
+        })
+
+        
+        
+        </script>
+
+        <script>
+            function menuOn() {
+               if( document.getElementById('m').style.display === 'none') {
+                document.getElementById('m').style.display = 'block'
+               } else {
+                document.getElementById('m').style.display = 'none'
+               }
+            }
+        </script>
+    
+</body>
+
+
+</html>
