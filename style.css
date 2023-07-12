@@ -237,7 +237,7 @@ header .right .imgs img {
 
 .projetos {
     width: 60rem;
-    height: 30rem;
+    height: 50rem;
     position: absolute;
     left: 50%;
     margin-top: 150rem;
@@ -362,6 +362,8 @@ header .right .imgs img {
     cursor: pointer;
     transition: 0.3s;
 }
+
+
 
 
 
@@ -495,7 +497,7 @@ header .right .imgs img {
     #projetos {
         width: 16rem;
         margin-top: 175rem;
-        height: 30rem;
+        height: 40rem;
     }
 
     #projetos h1 {
@@ -509,8 +511,21 @@ header .right .imgs img {
         filter: none;
 
     }
+
+    #shusi {
+        top: 15rem;
+        height: 7rem;
+        object-fit: cover;
+    }
+
+    #projetos img:hover {
+        filter: none;
+        box-shadow: 1px 1px 10px 1px #7923ca;
+        transform: translateY(-10px);
+    }
     #cnt {
         width: 13rem;
+        margin-top: 220rem;
     }
 
 }
@@ -645,7 +660,7 @@ header .right .imgs img {
     #projetos {
         width: 16rem;
         margin-top: 175rem;
-        height: 30rem;
+        height: 40rem;
     }
 
     #projetos h1 {
@@ -659,8 +674,21 @@ header .right .imgs img {
         filter: none;
 
     }
+
+    #shusi {
+        top: 15rem;
+        height: 7rem;
+        object-fit: cover;
+    }
+
+    #projetos img:hover {
+        filter: none;
+        box-shadow: 1px 1px 10px 1px #7923ca;
+        transform: translateY(-10px);
+    }
     #cnt {
         width: 13rem;
+        margin-top: 220rem;
     }
 
 }
@@ -795,7 +823,7 @@ header .right .imgs img {
     #projetos {
         width: 16rem;
         margin-top: 175rem;
-        height: 30rem;
+        height: 38rem;
     }
 
     #projetos h1 {
@@ -809,8 +837,20 @@ header .right .imgs img {
         filter: none;
 
     }
+    #shusi {
+        top: 15rem;
+        height: 7rem;
+        object-fit: cover;
+    }
+
+    #projetos img:hover {
+        filter: none;
+        box-shadow: 1px 1px 10px 1px #7923ca;
+        transform: translateY(-10px);
+    }
     #cnt {
         width: 13rem;
+        margin-top: 215rem;
     }
 
 }
@@ -965,6 +1005,17 @@ header .right .imgs img {
         margin-top: 3rem;
         filter: none;
 
+    }
+    #shusi {
+        top: 15rem;
+        height: 7.2rem;
+        object-fit: cover;
+    }
+
+    #projetos img:hover {
+        filter: none;
+        box-shadow: 1px 1px 10px 1px #7923ca;
+        transform: translateY(-10px);
     }
     #cnt {
         width: 13rem;
@@ -1122,6 +1173,17 @@ header .right .imgs img {
         margin-top: 3rem;
         filter: none;
 
+    }
+    #shusi {
+        top: 15rem;
+        height: 7.2rem;
+        object-fit: cover;
+    }
+
+    #projetos img:hover {
+        filter: none;
+        box-shadow: 1px 1px 10px 1px #7923ca;
+        transform: translateY(-10px);
     }
     #cnt {
         width: 13rem;
@@ -1289,6 +1351,19 @@ header .right .imgs img {
         filter: none;
 
     }
+    
+    #shusi {
+        top: 15rem;
+        height: 9rem;
+        object-fit: cover;
+    }
+
+    #projetos img:hover {
+        filter: none;
+        box-shadow: 1px 1px 10px 1px #7923ca;
+        transform: translateY(-10px);
+    }
+
     #cnt {
         width: 15rem;
         margin-top: 230rem;
@@ -1448,7 +1523,7 @@ header .right .imgs img {
     #projetos {
         width: 25rem;
         margin-top: 190rem;
-        height: 30rem;
+        height: 35rem;
         margin-bottom: 10rem;
     }
 
@@ -1462,6 +1537,18 @@ header .right .imgs img {
         margin-top: 3rem;
         filter: none;
 
+    }
+
+    #shusi {
+        top: 15rem;
+        height: 9rem;
+        object-fit: cover;
+    }
+
+    #projetos img:hover {
+        filter: none;
+        box-shadow: 1px 1px 10px 1px #7923ca;
+        transform: translateY(-10px);
     }
     #cnt {
         width: 15rem;
@@ -1814,7 +1901,7 @@ header .right .imgs img {
     #projetos {
         width: 40rem;
         margin-top: 200rem;
-        height: 40rem;
+        height: 35rem;
         margin-bottom: 10rem;
     }
 
@@ -1824,10 +1911,24 @@ header .right .imgs img {
     }
 
     #projetos img {
-        width: 15rem;
+        width: 10rem;
         margin-top: 3rem;
         filter: none;
 
+    }
+
+    #shusi {
+        margin-left: -31rem;
+        top: 15rem;
+        height: 9rem;
+        object-fit: cover;
+        position: absolute;
+    }
+
+    #projetos img:hover {
+        filter: none;
+        box-shadow: 1px 1px 10px 1px #7923ca;
+        transform: translateY(-10px);
     }
     #cnt {
         width: 15rem;
@@ -1997,7 +2098,7 @@ header .right .imgs img {
     #projetos {
         width: 40rem;
         margin-top: 210rem;
-        height: 40rem;
+        height: 35rem;
         margin-bottom: 10rem;
     }
 
@@ -2007,10 +2108,24 @@ header .right .imgs img {
     }
 
     #projetos img {
-        width: 15rem;
+        width: 10rem;
         margin-top: 3rem;
         filter: none;
 
+    }
+
+    #shusi {
+        margin-left: -31rem;
+        top: 15rem;
+        height: 9rem;
+        object-fit: cover;
+        position: absolute;
+    }
+
+    #projetos img:hover {
+        filter: none;
+        box-shadow: 1px 1px 10px 1px #7923ca;
+        transform: translateY(-10px);
     }
     #cnt {
         width: 15rem;
@@ -2196,6 +2311,27 @@ header .right .imgs img {
         filter: none;
 
     }
+
+    #projetos img {
+        box-shadow: 1px 1px 10px 1px black;
+        width: 10rem;
+        margin-top: 5rem;
+        filter: blur(2px);
+
+    }
+    #shusi {
+        margin-left: -3rem;
+        top: 15rem;
+        height: 10rem;
+        object-fit: cover;
+        position: absolute;
+    }
+
+    #projetos img:hover {
+        filter: none;
+        box-shadow: 1px 1px 10px 1px #7923ca;
+        transform: translateY(-10px);
+    }
     #cnt {
         width: 15rem;
         margin-top: 260rem;
@@ -2208,167 +2344,6 @@ header .right .imgs img {
 
 }
 
-@media(min-width: 1600px) {
-    #menu {
-        display: none;
-    }
-
-    nav {
-        display: block;
-    }
-    
-    nav .right a{
-        font-size: 30px;
-    }
-
-    nav .left {
-        margin-left: 10rem;
-    }
-    #m {
-        font-size: 40pt;
-    }
-
-
-    header h1 {
-        font-size: 45pt;
-        width: 48rem;
-        margin-top: -5rem;
-        left: -30px;
-    }
-    
-    header p {
-        width: 45rem;
-        left: 12rem;
-        margin-top: -30px;
-        font-size: 25pt;
-    }
-
-    header .contato {
-        margin-top: 3rem;
-        width: 14rem;
-        height: 4rem;
-        margin-left: -2rem;
-    }
-
-    header .contato img {
-        text-align: center;
-        margin-left: 10px;
-        width: 4rem;
-        margin-top: -5px;
-    }
-   
-    header .contato:hover {
-        margin-left: -3rem;
-    }
-
-    header .contato span {
-        display: block;
-        margin-left: 20px;
-        font-size: 24pt;
-        margin-top: 1px;
-
-    }
-    
-    
-
-    header .contato2 {
-        margin-top:3rem;
-        width: 14rem;
-        height: 4rem;
-        margin-left: 5rem;
-        z-index: 1;
-
-    }
-
-    header .contato2 img {
-        text-align: center;
-        margin-left: 10px;
-        width: 4rem;
-        margin-top: -10px;
-    }
-
-    header .contato2:hover {
-        margin-left: 4rem;
-    }
-
-    header .contato2 span {
-        display: block;
-        margin-left: 20px;
-        font-size: 25pt;
-        margin-top: -2px;
-
-    }
-
-    #coffee {
-        margin-left: 2rem;
-        margin-top: 10rem;
-        width: 9rem;
-    }
-
-    #pc {
-        margin-left: 5rem;
-        width: 25rem;
-        margin-top: -2rem;
-    }
-
-    .sobre {
-        width: 80rem;
-        height: 39rem;
-    }
-
-    .sobre .left img {
-        width: 40rem;
-    }
-
-    .sobre .right p {
-        margin-left: 43rem;
-        font-size: 22pt;
-        width: 35rem;
-        margin-top: 2rem;
-    }
-
-    .habilidades {
-        width: 20rem;
-        position: absolute;
-        margin-top: 130rem;
-        padding-left: 10re;
-    }
-
-    .habilidades h1{
-        font-size: 35pt;
-    }
-
-
-    #projetos {
-        width: 80rem;
-        margin-top: 210rem;
-        height: 40rem;
-        text-align: center;
-        margin-bottom: 10rem;
-    }
-
-    #projetos h1 {
-        font-size: 35pt;
-        margin-top: 20px;
-    }
-
-    #projetos img {
-        width: 20rem;
-        margin-top: 5rem;
-        filter: none;
-
-    }
-    #cnt {
-        width: 30rem;
-        margin-top: 260rem;
-    }
-
-    #cnt img {
-        width: 5rem;
-        margin-bottom: 5rem;
-    }
-
-}
 
 @media(min-width: 1500px) {
     #menu {
@@ -2471,6 +2446,178 @@ header .right .imgs img {
         margin-left: 5rem;
         width: 25rem;
         margin-top: 9rem;
+    }
+
+    .sobre {
+        width: 80rem;
+        height: 39rem;
+    }
+
+    .sobre .left img {
+        width: 40rem;
+    }
+
+    .sobre .right p {
+        margin-left: 43rem;
+        font-size: 22pt;
+        width: 35rem;
+        margin-top: 2rem;
+    }
+
+    .habilidades {
+        width: 20rem;
+        position: absolute;
+        margin-top: 130rem;
+        padding-left: 10re;
+    }
+
+    .habilidades h1{
+        font-size: 35pt;
+    }
+
+
+    #projetos {
+        width: 80rem;
+        margin-top: 210rem;
+        height: 55rem;
+        text-align: center;
+        margin-bottom: 10rem;
+    }
+
+    #shusi {
+        margin-left: -61rem;
+        top: 28rem;
+        height: 16rem;
+        object-fit: cover;
+        position: absolute;
+    }
+
+    #projetos img:hover {
+        filter: none;
+        box-shadow: 1px 1px 10px 1px #7923ca;
+        transform: translateY(-10px);
+    }
+
+    #projetos img {
+        width: 20rem;
+        margin-top: 5rem;
+        filter: none;
+
+    }
+    #cnt {
+        width: 30rem;
+        margin-top: 270rem;
+    }
+
+    #cnt img {
+        width: 5rem;
+        margin-bottom: 5rem;
+    }
+
+}
+
+
+@media(min-width: 1600px) {
+    #menu {
+        display: none;
+    }
+
+    nav {
+        display: block;
+    }
+    
+    nav .right a{
+        font-size: 30px;
+    }
+
+    nav .left {
+        margin-left: 10rem;
+    }
+    #m {
+        font-size: 40pt;
+    }
+
+
+    header h1 {
+        font-size: 45pt;
+        width: 48rem;
+        margin-top: -5rem;
+        left: -30px;
+    }
+    
+    header p {
+        width: 45rem;
+        left: 12rem;
+        margin-top: -30px;
+        font-size: 25pt;
+    }
+
+    header .contato {
+        margin-top: 3rem;
+        width: 14rem;
+        height: 4rem;
+        margin-left: -2rem;
+    }
+
+    header .contato img {
+        text-align: center;
+        margin-left: 10px;
+        width: 4rem;
+        margin-top: -5px;
+    }
+   
+    header .contato:hover {
+        margin-left: -3rem;
+    }
+
+    header .contato span {
+        display: block;
+        margin-left: 20px;
+        font-size: 24pt;
+        margin-top: 1px;
+
+    }
+    
+    
+
+    header .contato2 {
+        margin-top:3rem;
+        width: 14rem;
+        height: 4rem;
+        margin-left: 5rem;
+        z-index: 1;
+
+    }
+
+    header .contato2 img {
+        text-align: center;
+        margin-left: 10px;
+        width: 4rem;
+        margin-top: -10px;
+    }
+
+    header .contato2:hover {
+        margin-left: 4rem;
+    }
+
+    header .contato2 span {
+        display: block;
+        margin-left: 20px;
+        font-size: 25pt;
+        margin-top: -2px;
+
+    }
+
+    #coffee {
+        margin-left: 2rem;
+        margin-top: 10rem;
+        width: 9rem;
+    }
+
+    #pc {
+        margin-left: 5rem;
+        width: 25rem;
+        margin-top: -2rem;
     }
 
     .sobre {
@@ -2667,10 +2814,12 @@ header .right .imgs img {
     #projetos {
         width: 80rem;
         margin-top: 210rem;
-        height: 40rem;
+        height: 55rem;
+        
         text-align: center;
-        margin-bottom: 10rem;
+        margin-bottom: 12rem;
     }
+ 
 
     #projetos h1 {
         font-size: 35pt;
@@ -2678,21 +2827,35 @@ header .right .imgs img {
     }
 
     #projetos img {
+        box-shadow: 1px 1px 10px 1px black;
         width: 20rem;
         margin-top: 5rem;
-        filter: none;
+        filter: blur(2px);
 
     }
+    #shusi {
+        margin-left: -61rem;
+        top: 28rem;
+        height: 16rem;
+        object-fit: cover;
+        position: absolute;
+    }
+
+    #projetos img:hover {
+        filter: none;
+        box-shadow: 1px 1px 10px 1px #7923ca;
+        transform: translateY(-10px);
+    }
+
     #cnt {
         width: 30rem;
-        margin-top: 260rem;
+        margin-top: 270rem;
     }
 
     #cnt img {
         width: 5rem;
         margin-bottom: 5rem;
     }
-
 }
 
 @media(min-width: 2000px) {
@@ -2831,7 +2994,7 @@ header .right .imgs img {
     #projetos {
         width: 80rem;
         margin-top: 210rem;
-        height: 40rem;
+        height: 55rem;
         text-align: center;
         margin-bottom: 10rem;
     }
@@ -2849,7 +3012,7 @@ header .right .imgs img {
     }
     #cnt {
         width: 30rem;
-        margin-top: 260rem;
+        margin-top: 270rem;
     }
 
     #cnt img {
@@ -2995,10 +3158,11 @@ header .right .imgs img {
     #projetos {
         width: 80rem;
         margin-top: 210rem;
-        height: 40rem;
+        height: 50rem;
         text-align: center;
         margin-bottom: 10rem;
     }
+
 
     #projetos h1 {
         font-size: 35pt;
@@ -3013,7 +3177,7 @@ header .right .imgs img {
     }
     #cnt {
         width: 30rem;
-        margin-top: 260rem;
+        margin-top: 20rem;
     }
 
     #cnt img {
