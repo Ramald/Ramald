@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Home</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="roll">
+            <div id="inR" class="inRoll">    </div>
+            <p onclick="leftRollClicker()" id="p1" class="p1">Login</p>
+            <p onclick="rightRollClicker()" id="p2" class="p2">Cadastro</p>
+        </div>
+
+        <div id="login"  class="login">
+            <span id="sp2"><img id="icons" src="imgs/email.png" alt=""></span> <input id="email" type="email">
+            <span id="sp3"><img id="icons" src="imgs/lock.png" alt=""></span> <input id="password" type="password">
+            <input type="checkbox"><span class="sp1">Lembrar senha</span>
+            <button type="submit" onclick="entrarC()">Entrar</button>
+            <div id="login2" class="socialF">
+                <img src="imgs/kisspng-facebook-inc-logo-computer-icons-like-button-facebook-icon-5aba7ea7a78165.png" alt=""><span>Facebook</span>
+            </div>
+            <div id="login3" class="socialG">
+                <img src="imgs/kisspng-google-logo-g-suite-google-5ab6f1f10f4d49.7230064015219389290627.png" alt=""><span>Google</span>
+            </div>
+
+            <div id="cadastro" class="contain">
+                <div class="cadastro">
+                    <span class="sp"><img id="iconss" src="imgs/email.png" alt=""></span> <input id="email" type="email">
+                    <span class="sp"><img id="iconss" src="imgs/lock.png" alt=""></span> <input id="password" type="password">
+                    <span class="sp"><img id="iconss" src="imgs/lock.png" alt=""></span> <input id="password" type="password">
+                    <button type="submit" >Cadastrar</button>
+
+                    <div class="sF">
+                        <img src="imgs/kisspng-facebook-inc-logo-computer-icons-like-button-facebook-icon-5aba7ea7a78165.png" alt=""><span class="fS">Facebook</span>
+                    </div>
+
+                    <div class="sG">
+                        <img src="imgs/kisspng-google-logo-g-suite-google-5ab6f1f10f4d49.7230064015219389290627.png" alt=""><span class="gS">Google</span>
+                    </div>
+        
+                </div>
+            </div>
+        </div>
+ 
+ 
+    </div>
+
+
+
+
+    
+</body>
+
+<script>
+    var ir = document.getElementById('inR')
+    var p1 = document.getElementById('p1')
+    var p2 = document.getElementById('p2') 
+    var login = document.getElementById('login') 
+    var login2 = document.getElementById('login2') 
+    var login3 = document.getElementById('login3') 
+    var cad = document.getElementById('cadastro') 
+    var email = document.getElementById('email')
+    var password = document.getElementById('password')
+
+
+    function rightRollClicker() {
+        ir.style.left = '7rem'
+        p1.style.color = 'black'
+        p2.style.color = 'white'
+        login.style.marginLeft = '-60rem'
+        login2.style.marginLeft = '-60rem'
+        login3.style.marginLeft = '-60rem'
+        cad.style.marginLeft = '35.5rem'
+        cad.style.display = 'block'
+   
+    }
+
+    function leftRollClicker() {
+        ir.style.left = '0rem'
+        p1.style.color = 'white'
+        p2.style.color = 'black'
+        login.style.marginLeft = '0rem'
+        login2.style.marginLeft = '0rem'
+        login3.style.marginLeft = '0rem'
+        cad.style.marginLeft = '10rem'
+        cad.style.display = 'none'
+    }
+</script>
+</html>
