@@ -1,11 +1,16 @@
+var tope = document.getElementById('top')
+var mboy = document.getElementById('mboy')
 
-function clicker() {
-    let m = document.getElementById("menu");
-    if(m.style.display == 'none') {
-      m.style.display = 'block';
-    } else {
-      m.style.display = 'none';
-    }
+function pizzaclicker() {
+    tope.style.marginLeft = '-100rem'
+    tope.style.opacity = '0'
+}
 
-    
-  }
+
+
+
+function enterDel() {
+    mboy.style.marginLeft = '-13rem'
+}
+
+
