@@ -1,0 +1,3715 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Kanit:wght@100;200&family=Lato:ital,wght@1,900&family=Mochiy+Pop+One&family=Poppins:ital,wght@1,200;1,500;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ html {
+    overflow-x: hidden;
+}
+
+body {
+    width: 100vw;
+    font-family: 'Kanit';
+    height: 100vh;
+    background-image: radial-gradient(circle at 74.19% 50%, #eed6ad 0, #e2c297 25%, #d3a97c 50%, #c49063 75%, #b97c52 100%);
+} 
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: black;
+}
+
+::-webkit-scrollbar-thumb {
+background-color: #fb7d00;
+}
+
+nav {
+    width: 100%;
+    height: 5rem;
+    box-shadow: 1px 1px 20px -14px black;
+
+}
+
+nav .logo img {
+    width: 10rem;
+    margin-top: -22px;
+    left: 20%;
+    position: absolute;
+}
+
+nav .links {
+    font-size: 18pt;
+    margin-top: 20px;
+    left: 60%;
+    position: absolute;
+}
+nav .links a {
+    text-decoration: none;
+    color: black;
+    margin-left: 30px;
+    transition: 0.5s;
+}
+
+nav .links a:hover {
+    transition: 0.5s;
+    color: #fb7d00;
+}
+
+.top {
+    width: 100%;
+    margin-left: 20rem;
+    position: absolute;
+    margin-top: 13rem;
+    margin-bottom: 10rem;
+}
+
+.top .left h1 {
+    width: 33rem;
+    font-size: 40pt;
+    font-family: 'heavitas';
+    text-shadow: 1px 1px 2px black;
+    color: black;
+}
+.top .left {
+    position: absolute;
+    margin-top: 3rem;
+}
+
+@font-face {
+    font-family: 'heavitas';
+    src: url('Heavitas.ttf');
+}
+
+.top .left img {
+    width: 5rem;
+    position: absolute;
+    margin-top: -4rem;
+    margin-left: 17rem;
+    border-radius: 20px;
+    box-shadow: 1px 1px 20px -3px black;
+}
+
+.top .left p {
+    font-size: 22pt;
+    width: 30rem;
+    color: rgb(90, 90, 90);
+}
+
+.top .left .whatss {
+    width: 14rem;
+    height: 3rem;
+    margin-left: 9.5rem;
+    margin-top: 10px;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: #fb7d00;
+    box-shadow: 1px 1px 20px -8px black;
+}
+
+.top .left .whatss p {
+    color: black;
+    margin-left: 20px;
+    position: absolute;
+    margin-top: 2px;
+}
+
+.top .left .whatss img{
+    box-shadow: none;
+    width: 2rem;
+    position: absolute;
+    margin-top: 0.5rem;
+    margin-left: 11rem;
+    transition: 1s;
+    cursor: pointer;
+    border-radius: 50%;
+    box-shadow: 1px 1px 8px 1px black;
+}
+
+.top .left .whatss img:hover {
+    margin-left: 11.5rem;
+    transition: 1s;
+}
+
+.top .right img {
+    width: 40rem;
+    margin-top: -3rem;
+    left: 40%;
+    position: absolute;
+}
+
+.sobre {
+    margin-top: 55rem;
+    width: 100%;
+    background-image: radial-gradient(circle at 104.92% 50%, #e07b00 0, #d96f00 25%, #d06209 50%, #c75610 75%, #be4a15 100%);
+
+    height: 75rem;
+    padding-top: 60px;
+    box-shadow: 1px 1px 10px 1px black;
+}
+
+.sobre .left {
+    width: 30rem;
+    height: 22rem;
+    left: 14%;
+    position: absolute;
+}
+
+.sobre .left img {
+    position: absolute;
+    left: -10%;
+    box-shadow: 1px 1px 20px 1px rgba(0, 0, 0, 0.986);
+    margin-top: 5em;
+    border-radius: 20% 10% 20% 10%;
+    width: 40rem;
+}
+
+
+@font-face {
+    font-family: 'rabisco';
+    src: url('Stay\ Dreaming.otf');
+}
+
+.sobre .right {
+    left: 60%;
+    position: absolute;
+}
+
+
+.sobre .right img {
+    width: 3rem;
+    margin-top: 20px;
+    margin-left: 10px;
+    position: absolute;
+}
+
+.sobre .right span {
+    font-size: 40pt;
+    margin-left: 70px;
+    margin-bottom: 20px;
+    color: rgb(224, 217, 217);
+    font-family: 'rabisco';
+}
+
+.sobre .right h1 {
+    font-size: 40pt;
+    width: 30rem;
+    text-shadow: 1px 1px 4px black;
+    margin-bottom: 1rem;
+    font-family: 'heavitas';
+}
+
+.sobre .right p {
+    width: 32rem;
+    font-size: 25pt;
+    color: #891414;
+}
+
+.popular {
+    margin-top: -50rem;
+}
+.popular .rodizio  {
+    width: 100%;
+}
+
+.popular .rodizio .slide {
+    margin-top: 2rem;
+    text-align: center;
+    width: 100%;
+    height: 30rem;
+    border-radius: 20px;
+}
+
+.popular .rodizio .slide img {
+    width: 50rem;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.785);
+    margin-top: 0.6rem;
+}
+
+.popular .rodizio .right img{
+    width: 35rem;
+    position: absolute;
+    margin-top: -15rem;
+    left: 60%;
+    border-radius: 20px;
+    
+}
+.popular .rodizio .slide {
+    margin-top: 14rem;
+    position: absolute;
+}
+
+.popular .rodizio .slide .dois img {
+    width: 20rem;
+    position: absolute;
+    height: 28.5rem;
+    margin-top: -29rem;
+    left: 75%;
+}
+
+.popular .rodizio .slide .tres img {
+    width: 20rem;
+    position: absolute;
+    height: 28.5rem;
+    margin-top: -29rem;
+    left: 9%;
+}
+
+.pop {
+    margin-top: 50rem;
+    display: flex;
+    width: 100%;
+    height: 33rem;
+    position: absolute;
+    padding-top: 100px;
+    padding-left: 2rem;
+    justify-content: space-around;
+
+
+
+
+
+
+}
+.pop .pratoUm {
+    text-align: center;
+    height: 20rem;
+    width: 25rem;
+    z-index: 2;
+
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px -4px black;
+    background-image: radial-gradient(circle at 104.92% 50%, #e07b00 0, #d96f00 25%, #d06209 50%, #c75610 75%, #be4a15 100%);
+}
+.pop .pratoUm img{
+    width: 20rem;
+}
+
+.pop .pratoUm p {
+    font-size: 10pt;
+    margin-top: -50px;
+    margin-bottom: -1rem;
+}
+
+.pop .pratoUm span {
+    position: absolute;
+    margin-left: -4.5rem;
+    margin-top: 20px;
+    color: #7d2a03;
+    font-size: 30pt;
+}
+
+
+.pop .pratoDois p {
+    font-size: 10pt;
+    margin-top: -10px;
+    
+    
+    
+}
+
+
+.pop .pratoDois span {
+    position: absolute;
+    margin-left: -4.5rem;
+    margin-top: 20px;
+    color: #7d2a03;
+    font-size: 30pt;
+}
+
+
+:root {
+
+    --cor-preto: #494a4a;
+    --cor-branco: #ffffff;
+  
+  }
+  
+#preloader {
+  
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--cor-branco);
+    z-index: 99999;
+  
+  }
+  
+  .loader .title {
+  
+    color: var(--cor-preto);
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-weight: lighter;
+    text-align: center;
+    font-family: arial;
+  
+  }
+  
+  .loader {
+  
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top:-50px; 
+    margin-left:-50px;
+  
+  }
+  
+  /*Carregando*/
+  
+  .carregando {
+  
+    font-size: 45px;
+    color: #494a4a;
+    text-indent: -9999em;
+    overflow: hidden;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    display: block;
+    transform: translateZ(0);
+    animation: mltShdSpin 1.7s infinite ease, round 1.7s infinite ease;
+    margin-bottom: 35px;
+    margin-left: 20px;
+  
+  }
+  
+  @keyframes mltShdSpin {
+    0% {
+      box-shadow: 0 -0.83em 0 -0.4em,
+      0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em,
+      0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em;
+    }
+    5%,
+    95% {
+      box-shadow: 0 -0.83em 0 -0.4em, 
+      0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em, 
+      0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em;
+    }
+    10%,
+    59% {
+      box-shadow: 0 -0.83em 0 -0.4em, 
+      -0.087em -0.825em 0 -0.42em, -0.173em -0.812em 0 -0.44em, 
+      -0.256em -0.789em 0 -0.46em, -0.297em -0.775em 0 -0.477em;
+    }
+    20% {
+      box-shadow: 0 -0.83em 0 -0.4em, -0.338em -0.758em 0 -0.42em,
+       -0.555em -0.617em 0 -0.44em, -0.671em -0.488em 0 -0.46em, 
+       -0.749em -0.34em 0 -0.477em;
+    }
+    38% {
+      box-shadow: 0 -0.83em 0 -0.4em, -0.377em -0.74em 0 -0.42em,
+       -0.645em -0.522em 0 -0.44em, -0.775em -0.297em 0 -0.46em, 
+       -0.82em -0.09em 0 -0.477em;
+    }
+    100% {
+      box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 
+      0 -0.83em 0 -0.44em, 0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em;
+    }
+  }
+  
+  @keyframes round {
+    0% { transform: rotate(0deg) }
+    100% { transform: rotate(360deg) }
+  }
+
+  .cardapio {
+    width: 12rem;
+    margin-top: 85rem;
+    left: 50%;
+    transform: translate(-50%);
+    box-shadow: 1px 1px 10px -3px black;
+    height: 3rem;
+    background-color: #be4a15;
+    font-size: 15pt;
+    text-align: center;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 2;
+    padding-top: 10px;
+  }
+
+
+  #cardpii {
+    text-decoration: none;
+    color: black;
+  }
+
+.pop .pratoDois img{
+    width: 15rem;
+   transform: rotate(180deg);
+
+}
+
+.pop .pratoDois {
+    text-align: center;
+    height: 20rem;
+    width: 25rem;
+    z-index: 2;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px -4px black;
+    background-image: radial-gradient(circle at 104.92% 50%, #e07b00 0, #d96f00 25%, #d06209 50%, #c75610 75%, #be4a15 100%);
+}
+
+
+
+.pop .pratoTres {
+    text-align: center;
+    height: 20rem;
+    z-index: 2;
+    width: 25rem;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px -4px black;
+    background-image: radial-gradient(circle at 104.92% 50%, #e07b00 0, #d96f00 25%, #d06209 50%, #c75610 75%, #be4a15 100%);
+}
+.pop .pratoTres img{
+    width: 15rem;
+}
+
+
+
+.pop .pratoTres p {
+    font-size: 10pt;
+    margin-top: -10px;
+}
+
+.pop .pratoTres span {
+    position: absolute;
+    margin-left: -4.5rem;
+    margin-top: 20px;
+    color: #7d2a03;
+    font-size: 30pt;
+}
+
+
+#arrow {
+    width: 2rem;
+    border-radius: 10px;
+    position: absolute;
+    margin-top: 6rem;
+    margin-left: -1rem;
+    box-shadow: 1px 1px 10px -3px black;
+    cursor: pointer;
+    transition: 0.5s;
+    transform: rotate(360deg);
+
+}
+
+#arrow:hover {
+    margin-left: 1px;
+    transition: 0.5s;
+}
+
+
+
+
+.peixes {
+    margin-top: 52rem;
+    z-index: 1;
+    width: 20%;
+    position: absolute;
+}
+
+.peixes .atum img {
+    width: 15rem;
+    margin-left: -2%;
+}
+
+.peixes .salmao img {
+    width: 15rem;
+    margin-left:30%;
+margin-top: 100px;
+}
+
+.peixes .camarao img {
+    width: 15rem;
+    margin-left:80%;
+margin-top: -40rem;
+position: absolute;
+}
+
+.menu-responsivo {
+    position: absolute;
+    margin-top: 70px;
+    z-index: 8;
+    width: 100%;
+
+    height: 80rem;
+    backdrop-filter: blur(10px);
+}
+
+
+.menu img {
+    position: absolute;
+    left: 75%;
+    margin-top: 17px;
+    width: 2.5rem;
+}
+
+.menu-responsivo img {
+    width: 2.3rem;
+    margin-top: -50px;
+    margin-bottom: 20px;
+    margin-left: 15.5rem;
+    display: none;
+
+}
+
+.menu-responsivo .menu-itens a {
+    text-decoration: none;
+    color: black;
+    font-size: 20pt;
+    display: flex;
+    
+    padding-top: 70px;
+}
+
+    
+.menu-responsivo .menu-itens {
+    width: 20rem;
+    height: 40rem;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    padding-left: 7rem;
+    
+}
+
+@media(min-width: 300px) {
+    .logo img {
+        margin-left: -4rem;
+    }
+
+    nav .links {
+        display: none;
+    }
+
+    .menu-responsivo img {
+        display: block;
+    }
+
+    .menu-responsivo .menu-itens {
+        left: 50%;
+        transform: translate(-50%);
+        position: absolute;
+    }
+
+    .menu-responsivo .menu-itens a {
+        font-size: 25pt;
+    
+    }
+
+    .top {
+        width: 100%;
+        margin-left: -2rem;
+    }
+
+    .top .left h1 {
+        font-size: 30pt;
+        margin-top: -10rem;
+        margin-left: 3rem;
+        width: 17rem;
+    }
+
+    .top .left p {
+        font-size: 18pt;
+        width: 30rem;
+        left: 13%;
+        position: absolute;
+    }
+
+    .top .whatss p {
+        left: 1rem;
+        top: 8px;
+        position: absolute;
+    }
+
+    .top .whatss {
+        left: -6rem;
+        top: 20px;
+        position: absolute;
+    }
+
+    .top .right img {
+        width: 17rem;
+        margin-top: 9rem;
+        margin-left: -4rem;
+    }
+
+    .sobre {
+        height: 60rem;
+    }
+
+    .sobre .left img {
+        width: 14rem;
+        margin-left: 3rem;
+        margin-top: -10px;
+    }
+
+    .sobre .right span {
+        margin-left: -8rem;
+        font-size: 30pt;
+        position: absolute;
+        margin-top: 8rem;
+    }
+
+    .sobre .right h1 {
+        font-size: 25pt;
+        width: 13rem;
+        margin-top: 12rem;
+        margin-left: -9rem;
+    }
+
+    .sobre .right img {
+        margin-top: 8.5rem;
+        margin-left: 10px;
+    }
+
+    .sobre .right p {
+        margin-left: -9rem;
+        width: 15rem;
+        font-size: 20pt;
+    }
+
+    .popular .rodizio .slide {
+        margin-top: 25rem;
+    }
+
+    .popular .rodizio .slide img {
+        width: 10rem;
+        margin-top: 7rem;
+        margin-left: -7rem;
+    }
+    .popular .rodizio .slide .dois img {
+        width: 7rem;
+        height: 14rem;
+        margin-top: -4rem;
+        margin-left: -2.5rem;
+        object-fit: cover;
+        
+    }
+    .popular .rodizio .slide .tres img {
+        width: 10rem;
+        height: 10rem;
+        margin-left: -1rem;
+        margin-top: 1rem;
+        object-fit: cover;
+    }
+    .pop {
+        width: 100%;
+        height: 50rem;
+    }
+
+    .pop .pratoUm img {
+        width: 18rem;
+        margin-top: -50px;
+    }
+
+    .pop .pratoUm {
+        left: 50%;
+        transform: translate(-50%);
+        position: absolute;
+        height: 12rem;
+        width: 100rem;
+        margin-top: -2rem;
+    }
+    .pop .pratoUm p {
+        margin-top: -50px;
+        margin-bottom: -3rem;
+    }
+
+    .pop .pratoUm span {
+        margin-top: 3.5rem;
+        font-size: 20pt;
+        margin-left: -45px;
+        position: absolute;
+    }
+
+
+
+
+
+
+
+
+
+
+    .pop .pratoDois {
+        left: 50%;
+        transform: translate(-50%);
+        position: absolute;
+        height: 12rem;
+        width: 100rem;
+        margin-top: 13rem;
+    }
+    .pop .pratoDois p {
+        margin-top: -20px;
+        margin-bottom: -4rem;
+    }
+
+    .pop .pratoDois span {
+        margin-top: 4rem;
+        font-size: 20pt;
+        margin-left: -45px;
+        position: absolute;
+    }
+    .pop .pratoDois img {
+        width: 14rem;
+        margin-top: -20px;
+        margin-left: 10px;
+    }
+
+
+
+
+
+
+    .pop .pratoTres {
+        left: 50%;
+        transform: translate(-50%);
+        position: absolute;
+        margin-top: 28rem;
+        height: 12rem;
+        width: 100rem;
+    }
+    .pop .pratoTres p {
+        margin-bottom: -4rem;
+    }
+
+    .pop .pratoTres span {
+        margin-top: 4rem;
+        font-size: 20pt;
+        margin-left: -45px;
+        position: absolute;
+    }
+
+    .pop .pratoTres  img {
+        width: 12rem;
+        margin-top: -10px;
+    }
+
+    .peixes .atum img {
+        margin-top: -3rem;
+        width: 10rem;
+    }
+    .peixes .salmao img {
+        margin-top: 4.5rem;
+        width: 10rem;
+    }
+
+    .peixes .camarao img {
+        margin-top: 21rem;
+        margin-left: -2rem;
+        width: 10rem;
+    }
+
+
+
+
+    
+
+}
+
+@media(min-width: 360px) {
+    .logo img {
+        margin-left: -4rem;
+    }
+
+    nav .links {
+        display: none;
+    }
+
+    .menu-responsivo img {
+        display: block;
+    }
+
+    .menu-responsivo .menu-itens {
+        left: 50%;
+        transform: translate(-50%);
+        position: absolute;
+    }
+
+    .menu-responsivo .menu-itens a {
+        font-size: 25pt;
+    
+    }
+
+    .top {
+        width: 100%;
+        margin-left: -1rem;
+    }
+
+    .top .left h1 {
+        font-size: 30pt;
+        margin-top: -10rem;
+        margin-left: 3rem;
+        width: 17rem;
+    }
+
+    .top .left p {
+        font-size: 18pt;
+        width: 30rem;
+        left: 13%;
+        position: absolute;
+    }
+
+    .top .whatss p {
+        left: 1rem;
+        top: 8px;
+        position: absolute;
+    }
+
+    .top .whatss {
+        left: -6rem;
+        top: 20px;
+        position: absolute;
+    }
+
+    .top .right img {
+        width: 17rem;
+        margin-top: 8rem;
+        margin-left: -4rem;
+    }
+
+    .sobre {
+        height: 60rem;
+    }
+
+    .sobre .left img {
+        width: 14rem;
+        margin-left: 4rem;
+        margin-top: -10px;
+    }
+
+    .sobre .right span {
+        margin-left: -8rem;
+        font-size: 30pt;
+        position: absolute;
+        margin-top: 8rem;
+    }
+
+    .sobre .right h1 {
+        font-size: 25pt;
+        width: 13rem;
+        margin-top: 12rem;
+        margin-left: -9rem;
+    }
+
+    .sobre .right img {
+        margin-top: 8.5rem;
+        margin-left: 10px;
+    }
+
+    .sobre .right p {
+        margin-left: -9rem;
+        width: 15rem;
+        font-size: 20pt;
+    }
+
+    .popular .rodizio .slide {
+        margin-top: 25rem;
+    }
+
+    .popular .rodizio .slide img {
+        width: 10rem;
+        margin-top: 7rem;
+        margin-left: -7rem;
+    }
+    .popular .rodizio .slide .dois img {
+        width: 7rem;
+        height: 14rem;
+        margin-top: -4rem;
+        margin-left: -2.5rem;
+        object-fit: cover;
+        
+    }
+    .popular .rodizio .slide .tres img {
+        width: 10rem;
+        height: 10rem;
+        margin-left: -1rem;
+        margin-top: 1rem;
+        object-fit: cover;
+    }
+    .pop {
+        width: 100%;
+        height: 50rem;
+    }
+
+    .pop .pratoUm img {
+        width: 18rem;
+        margin-top: -50px;
+    }
+
+    .pop .pratoUm {
+        left: 50%;
+        transform: translate(-50%);
+        position: absolute;
+        height: 12rem;
+        width: 100rem;
+        margin-top: -2rem;
+    }
+    .pop .pratoUm p {
+        margin-top: -50px;
+        margin-bottom: -3rem;
+    }
+
+    .pop .pratoUm span {
+        margin-top: 3.5rem;
+        font-size: 20pt;
+        margin-left: -45px;
+        position: absolute;
+    }
+
+
+
+
+
+
+
+
+
+
+    .pop .pratoDois {
+        left: 50%;
+        transform: translate(-50%);
+        position: absolute;
+        height: 12rem;
+        width: 100rem;
+        margin-top: 13rem;
+    }
+    .pop .pratoDois p {
+        margin-top: -20px;
+        margin-bottom: -4rem;
+    }
+
+    .pop .pratoDois span {
+        margin-top: 4rem;
+        font-size: 20pt;
+        margin-left: -45px;
+        position: absolute;
+    }
+    .pop .pratoDois img {
+        width: 14rem;
+        margin-top: -20px;
+        margin-left: 10px;
+    }
+
+
+
+
+
+
+    .pop .pratoTres {
+        left: 50%;
+        transform: translate(-50%);
+        position: absolute;
+        margin-top: 28rem;
+        height: 12rem;
+        width: 100rem;
+    }
+    .pop .pratoTres p {
+        margin-bottom: -4rem;
+    }
+
+    .pop .pratoTres span {
+        margin-top: 4rem;
+        font-size: 20pt;
+        margin-left: -45px;
+        position: absolute;
+    }
+
+    .pop .pratoTres  img {
+        width: 12rem;
+        margin-top: -10px;
+    }
+
+    .peixes .atum img {
+        margin-top: -3rem;
+        width: 10rem;
+    }
+    .peixes .salmao img {
+        margin-top: 4.5rem;
+        width: 10rem;
+    }
+
+
+
+   
+    
+
+}
+
+@media(min-width: 375px) {
+    .logo img {
+        margin-left: -4rem;
+    }
+
+    nav .links {
+        display: none;
+    }
+
+    .menu-responsivo img {
+        display: block;
+    }
+
+    .menu-responsivo .menu-itens {
+        left: 50%;
+        transform: translate(-50%);
+        position: absolute;
+    }
+
+    .menu-responsivo .menu-itens a {
+        font-size: 25pt;
+    
+    }
+
+    .top {
+        width: 100%;
+        margin-left: -1rem;
+    }
+
+    .top .left h1 {
+        font-size: 30pt;
+        margin-top: -10rem;
+        margin-left: 3rem;
+        width: 17rem;
+    }
+
+    .top .left p {
+        font-size: 18pt;
+        width: 30rem;
+        left: 13%;
+        position: absolute;
+    }
+
+    .top .whatss p {
+        left: 1rem;
+        top: 8px;
+        position: absolute;
+    }
+
+    .top .whatss {
+        left: -6rem;
+        top: 20px;
+        position: absolute;
+    }
+
+    .top .right img {
+        width: 17rem;
+        margin-top: 8rem;
+        margin-left: -4rem;
+    }
+
+    .sobre {
+        height: 60rem;
+    }
+
+    .sobre .left img {
+        width: 14rem;
+        margin-left: 4rem;
+        margin-top: -10px;
+    }
+
+    .sobre .right span {
+        margin-left: -8rem;
+        font-size: 30pt;
+        position: absolute;
+        margin-top: 8rem;
+    }
+
+    .sobre .right h1 {
+        font-size: 25pt;
+        width: 13rem;
+        margin-top: 12rem;
+        margin-left: -9rem;
+    }
+
+    .sobre .right img {
+        margin-top: 8.5rem;
+        margin-left: 10px;
+    }
+
+    .sobre .right p {
+        margin-left: -9rem;
+        width: 15rem;
+        font-size: 20pt;
+    }
+
+    .popular .rodizio .slide {
+        margin-top: 25rem;
+    }
+
+    .popular .rodizio .slide img {
+        width: 10rem;
+        margin-top: 7rem;
+        margin-left: -7rem;
+    }
+    .popular .rodizio .slide .dois img {
+        width: 7rem;
+        height: 14rem;
+        margin-top: -4rem;
+        margin-left: -2.5rem;
+        object-fit: cover;
+        
+    }
+    .popular .rodizio .slide .tres img {
+        width: 10rem;
+        height: 10rem;
+        margin-left: -1rem;
+        margin-top: 1rem;
+        object-fit: cover;
+    }
+    .pop {
+        width: 100%;
+        height: 50rem;
+    }
+
+    .pop .pratoUm img {
+        width: 18rem;
+        margin-top: -50px;
+    }
+
+    .pop .pratoUm {
+        left: 50%;
+        transform: translate(-50%);
+        position: absolute;
+        height: 12rem;
+        width: 100rem;
+        margin-top: -2rem;
+    }
+    .pop .pratoUm p {
+        margin-top: -50px;
+        margin-bottom: -3rem;
+    }
+
+    .pop .pratoUm span {
+        margin-top: 3.5rem;
+        font-size: 20pt;
+        margin-left: -45px;
+        position: absolute;
+    }
+
+
+
+
+
+
+
+
+
+
+    .pop .pratoDois {
+        left: 50%;
+        transform: translate(-50%);
+        position: absolute;
+        height: 12rem;
+        width: 100rem;
+        margin-top: 13rem;
+    }
+    .pop .pratoDois p {
+        margin-top: -20px;
+        margin-bottom: -4rem;
+    }
+
+    .pop .pratoDois span {
+        margin-top: 4rem;
+        font-size: 20pt;
+        margin-left: -45px;
+        position: absolute;
+    }
+    .pop .pratoDois img {
+        width: 14rem;
+        margin-top: -20px;
+        margin-left: 10px;
+    }
+
+
+
+
+
+
+    .pop .pratoTres {
+        left: 50%;
+        transform: translate(-50%);
+        position: absolute;
+        margin-top: 28rem;
+        height: 12rem;
+        width: 100rem;
+    }
+    .pop .pratoTres p {
+        margin-bottom: -4rem;
+    }
+
+    .pop .pratoTres span {
+        margin-top: 4rem;
+        font-size: 20pt;
+        margin-left: -45px;
+        position: absolute;
+    }
+
+    .pop .pratoTres  img {
+        width: 12rem;
+        margin-top: -10px;
+    }
+
+    .peixes .atum img {
+        margin-top: -3rem;
+        width: 10rem;
+    }
+    .peixes .salmao img {
+        margin-top: 4.5rem;
+        width: 10rem;
+    }
+
+
+    
+
+}
+
+@media(min-width: 400px) {
+    .logo img {
+        margin-left: -4rem;
+    }
+
+    nav .links {
+        display: none;
+    }
+
+    .menu-responsivo img {
+        display: block;
+    }
+
+    .menu-responsivo .menu-itens {
+        left: 50%;
+        transform: translate(-50%);
+        position: absolute;
+    }
+
+    .menu-responsivo .menu-itens a {
+        font-size: 25pt;
+    
+    }
+
+    .top {
+        width: 100%;
+        margin-left: 1rem;
+    }
+
+    .top .left h1 {
+        font-size: 30pt;
+        margin-top: -10rem;
+        margin-left: 2.5rem;
+        width: 17rem;
+    }
+
+    .top .left p {
+        font-size: 18pt;
+        width: 30rem;
+        left: 13%;
+        position: absolute;
+    }
+
+    .top .whatss p {
+        left: 1rem;
+        top: 8px;
+        position: absolute;
+    }
+
+    .top .whatss {
+        left: -3.5rem;
+        top: 20px;
+        position: absolute;
+    }
+
+    .top .right img {
+        width: 17rem;
+        margin-top: 7rem;
+        margin-left: -6rem;
+    }
+
+    .sobre {
+        height: 65rem;
+    }
+
+    .sobre .left img {
+        width: 20rem;
+        margin-left: 2rem;
+        margin-top: -50px;
+    }
+
+    .sobre .right span {
+        margin-left: -8rem;
+        font-size: 30pt;
+        position: absolute;
+        margin-top: 10rem;
+    }
+
+    .sobre .right h1 {
+        font-size: 30pt;
+        width: 20rem;
+        margin-top: 15rem;
+        margin-left: -11rem;
+    }
+
+    .sobre .right img {
+        margin-top: 10.5rem;
+        margin-left: 10px;
+    }
+
+    .sobre .right p {
+        margin-left: -11rem;
+        width: 20rem;
+        margin-top: -1rem;
+        font-size: 20pt;
+    }
+
+    .popular .rodizio .slide {
+        margin-top: 15rem;
+    }
+    .popular .rodizio .slide img {
+        width: 20rem;
+        margin-top: 7rem;
+        margin-left: -0.5rem;
+    }
+    .popular .rodizio .slide .dois img {
+        width: 10rem;
+        height: 14rem;
+        margin-top: 1rem;
+        margin-left: -6rem;
+        object-fit: cover;
+        
+    }
+    .popular .rodizio .slide .tres img {
+        width: 10rem;
+        height: 14rem;
+        margin-left: 0.1rem;
+        margin-top: 1rem;
+        object-fit: cover;
+    }
+    .pop {
+        width: 100%;
+        height: 50rem;
+        margin-top: 50rem;
+    }
+
+    .pop .pratoUm img {
+        width: 18rem;
+        margin-top: -50px;
+    }
+
+    .pop .pratoUm {
+        left: 50%;
+        transform: translate(-50%);
+        position: absolute;
+        height: 12rem;
+        width: 100rem;
+        margin-top: -2rem;
+    }
+    .pop .pratoUm p {
+        margin-top: -50px;
+        margin-bottom: -3rem;
+    }
+
+    .pop .pratoUm span {
+        margin-top: 3.5rem;
+        font-size: 20pt;
+        margin-left: -45px;
+        position: absolute;
+    }
+
+
+
+
+
+
+
+
+
+
+    .pop .pratoDois {
+        left: 50%;
+        transform: translate(-50%);
+        position: absolute;
+        height: 12rem;
+        width: 100rem;
+        margin-top: 13rem;
+    }
+    .pop .pratoDois p {
+        margin-top: -20px;
+        margin-bottom: -4rem;
+    }
+
+    .pop .pratoDois span {
+        margin-top: 4rem;
+        font-size: 20pt;
+        margin-left: -45px;
+        position: absolute;
+    }
+    .pop .pratoDois img {
+        width: 14rem;
+        margin-top: -20px;
+        margin-left: 10px;
+    }
+
+
+
+
+
+
+    .pop .pratoTres {
+        left: 50%;
+        transform: translate(-50%);
+        position: absolute;
+        margin-top: 28rem;
+        height: 12rem;
+        width: 100rem;
+    }
+    .pop .pratoTres p {
+        margin-bottom: -4rem;
+    }
+
+    .pop .pratoTres span {
+        margin-top: 4rem;
+        font-size: 20pt;
+        margin-left: -45px;
+        position: absolute;
+    }
+
+    .pop .pratoTres  img {
+        width: 12rem;
+        margin-top: -10px;
+    }
+
+    .peixes .atum img {
+        margin-top: -3rem;
+        width: 10rem;
+    }
+    .peixes .salmao img {
+        margin-top: 4.5rem;
+        width: 10rem;
+    }
+
+
+
+    
+
+}
+
+@media(min-width: 500px) {
+    .logo img {
+        margin-left: -4rem;
+    }
+
+    nav .links {
+        display: none;
+    }
+
+    .menu-responsivo img {
+        display: block;
+    }
+
+    .menu-responsivo .menu-itens {
+        left: 50%;
+        transform: translate(-50%);
+        position: absolute;
+    }
+
+    .menu-responsivo .menu-itens a {
+        font-size: 25pt;
+    
+    }
+
+    .top {
+        width: 100%;
+        margin-left: 3.5rem;
+        margin-bottom: -13rem;
+    }
+
+    .top .left h1 {
+        font-size: 30pt;
+        margin-top: -10rem;
+        margin-left: 2.5rem;
+        width: 17rem;
+    }
+
+    .top .left p {
+        font-size: 18pt;
+        width: 30rem;
+        left: 13%;
+        position: absolute;
+    }
+
+    .top .whatss p {
+        left: 1rem;
+        top: 8px;
+        position: absolute;
+    }
+
+    .top .whatss {
+        left: -3.5rem;
+        top: 20px;
+        position: absolute;
+    }
+
+    .top .right img {
+        width: 20rem;
+        margin-top: 7rem;
+        margin-left: -10rem;
+
+    }
+
+    .sobre {
+        height: 70rem;
+    }
+
+    .sobre .left img {
+        width: 20rem;
+        margin-left: 4.5rem;
+        margin-top: -50px;
+    }
+
+    .sobre .right span {
+        margin-left: -9rem;
+        font-size: 30pt;
+        position: absolute;
+        margin-top: 10rem;
+    }
+
+    .sobre .right h1 {
+        font-size: 30pt;
+        width: 20rem;
+        margin-top: 14rem;
+        margin-left: -12rem;
+    }
+
+    .sobre .right img {
+        margin-top: 10.5rem;
+        margin-left: -5px;
+    }
+
+    .sobre .right p {
+        margin-left: -12rem;
+        width: 20rem;
+        margin-top: -1rem;
+        font-size: 20pt;
+    }
+
+    .popular .rodizio .slide {
+        margin-top: 10rem;
+    }
+
+    .popular .rodizio .slide img {
+        width: 24rem;
+        margin-top: 7rem;
+        margin-left: -0.5rem;
+    }
+    .popular .rodizio .slide .dois img {
+        width: 10rem;
+        height: 14rem;
+        margin-top: 1rem;
+        margin-left: -6rem;
+        object-fit: cover;
+        
+    }
+    .popular .rodizio .slide .tres img {
+        width: 10rem;
+        height: 14rem;
+        margin-left: 0.1rem;
+        margin-top: 1rem;
+        object-fit: cover;
+    }
+    .pop {
+        width: 100%;
+        height: 50rem;
+    }
+
+    .pop .pratoUm img {
+        width: 18rem;
+        margin-top: -50px;
+    }
+
+    .pop .pratoUm {
+        left: 50%;
+        transform: translate(-50%);
+        position: absolute;
+        height: 12rem;
+        width: 100rem;
+        margin-top: -2rem;
+    }
+    .pop .pratoUm p {
+        margin-top: -50px;
+        margin-bottom: -3rem;
+    }
+
+    .pop .pratoUm span {
+        margin-top: 3.5rem;
+        font-size: 20pt;
+        margin-left: -45px;
+        position: absolute;
+    }
+
+
+
+
+
+
+
+
+
+
+    .pop .pratoDois {
+        left: 50%;
+        transform: translate(-50%);
+        position: absolute;
+        height: 12rem;
+        width: 100rem;
+        margin-top: 13rem;
+    }
+    .pop .pratoDois p {
+        margin-top: -20px;
+        margin-bottom: -4rem;
+    }
+
+    .pop .pratoDois span {
+        margin-top: 4rem;
+        font-size: 20pt;
+        margin-left: -45px;
+        position: absolute;
+    }
+    .pop .pratoDois img {
+        width: 14rem;
+        margin-top: -20px;
+        margin-left: 10px;
+    }
+
+
+
+
+
+
+    .pop .pratoTres {
+        left: 50%;
+        transform: translate(-50%);
+        position: absolute;
+        margin-top: 28rem;
+        height: 12rem;
+        width: 100rem;
+    }
+    .pop .pratoTres p {
+        margin-bottom: -4rem;
+    }
+
+    .pop .pratoTres span {
+        margin-top: 4rem;
+        font-size: 20pt;
+        margin-left: -45px;
+        position: absolute;
+    }
+
+    .pop .pratoTres  img {
+        width: 12rem;
+        margin-top: -10px;
+    }
+
+    .peixes .atum img {
+        margin-top: -3rem;
+        width: 10rem;
+    }
+    .peixes .salmao img {
+        margin-top: 4.5rem;
+        width: 10rem;
+    }
+
+
+
+
+}
+
+@media(min-width: 600px) {
+    .logo img {
+        margin-left: -4rem;
+    }
+
+    nav .links {
+        display: none;
+    }
+
+    .menu-responsivo img {
+        display: block;
+    }
+
+    .menu-responsivo .menu-itens {
+        left: 50%;
+        transform: translate(-50%);
+        position: absolute;
+    }
+
+    .menu-responsivo .menu-itens a {
+        font-size: 25pt;
+    
+    }
+
+    .top {
+        width: 100%;
+        margin-left: 7rem;
+        margin-bottom: -13rem;
+    }
+
+    .top .left h1 {
+        font-size: 30pt;
+        margin-top: -10rem;
+        margin-left: 2.5rem;
+        width: 17rem;
+    }
+
+    .top .left p {
+        font-size: 18pt;
+        width: 30rem;
+        left: 13%;
+        position: absolute;
+    }
+
+    .top .whatss p {
+        left: 1rem;
+        top: 8px;
+        position: absolute;
+    }
+
+    .top .whatss {
+        left: -3.5rem;
+        top: 20px;
+        position: absolute;
+    }
+
+    .top .right img {
+        width: 20rem;
+        margin-top: 6rem;
+        margin-left: -12rem;
+
+    }
+
+    .sobre {
+        height: 70rem;
+    }
+
+    .sobre .left img {
+        width: 25rem;
+        margin-left: 4.5rem;
+        margin-top: -50px;
+    }
+
+    .sobre .right span {
+        margin-left: -8rem;
+        font-size: 30pt;
+        position: absolute;
+        margin-top: 11rem;
+    }
+
+    .sobre .right h1 {
+        font-size: 30pt;
+        width: 20rem;
+        margin-top: 15rem;
+        margin-left: -12rem;
+    }
+
+    .sobre .right img {
+        margin-top: 12rem;
+        margin-left: 10px;
+    }
+
+    .sobre .right p {
+        margin-left: -12rem;
+        width: 20rem;
+        margin-top: -1rem;
+        font-size: 20pt;
+    }
+
+    .popular .rodizio .slide {
+        margin-top: 13rem;
+    }
+
+    .popular .rodizio .slide img {
+        width: 28rem;
+        margin-top: 4rem;
+        margin-left: -0.5rem;
+    }
+    .popular .rodizio .slide .dois img {
+        width: 12rem;
+        height: 14rem;
+        margin-top: 1rem;
+        margin-left: -8rem;
+        object-fit: cover;
+        
+    }
+    .popular .rodizio .slide .tres img {
+        width: 12rem;
+        height: 14rem;
+        margin-left: 1rem;
+        margin-top: 1rem;
+        object-fit: cover;
+    }
+    .pop {
+        width: 100%;
+        height: 50rem;
+    }
+
+    .pop .pratoUm img {
+        width: 18rem;
+        margin-top: -50px;
+    }
+
+    .pop .pratoUm {
+        left: 50%;
+    
+        transform: translate(-50%);
+        position: absolute;
+        height: 12rem;
+        width: 50%;
+        margin-top: -2rem;
+    }
+    .pop .pratoUm p {
+        margin-top: -50px;
+        margin-bottom: -3rem;
+    }
+
+    .pop .pratoUm span {
+        margin-top: 3.5rem;
+        font-size: 20pt;
+        margin-left: -45px;
+        position: absolute;
+    }
+
+
+
+
+
+
+
+
+
+
+    .pop .pratoDois {
+        left: 50%;
+        transform: translate(-50%);
+        position: absolute;
+        height: 12rem;
+        width: 50%;
+        margin-top: 13rem;
+    }
+    .pop .pratoDois p {
+        margin-top: -20px;
+        margin-bottom: -4rem;
+    }
+
+    .pop .pratoDois span {
+        margin-top: 4rem;
+        font-size: 20pt;
+        margin-left: -45px;
+        position: absolute;
+    }
+    .pop .pratoDois img {
+        width: 14rem;
+        margin-top: -20px;
+        margin-left: 10px;
+    }
+
+
+
+
+
+
+    .pop .pratoTres {
+        left: 50%;
+        transform: translate(-50%);
+        position: absolute;
+        margin-top: 28rem;
+        height: 12rem;
+        width: 50%;
+    }
+    .pop .pratoTres p {
+        margin-bottom: -4rem;
+    }
+
+    .pop .pratoTres span {
+        margin-top: 4rem;
+        font-size: 20pt;
+        margin-left: -45px;
+        position: absolute;
+    }
+
+    .pop .pratoTres  img {
+        width: 12rem;
+        margin-top: -10px;
+    }
+
+    .peixes .atum img {
+        margin-top: -3rem;
+        width: 10rem;
+    }
+    .peixes .salmao img {
+        margin-top: 12rem;
+        margin-left: 28rem;
+        width: 10rem;
+    }
+
+    .peixes .camarao img {
+        margin-top: 12rem;
+        margin-left: -2rem;
+        width: 10rem;
+    }
+
+
+}
+
+@media(min-width: 700px) {
+    .logo img {
+        margin-left: -4rem;
+    }
+
+    nav .links {
+        display: none;
+    }
+
+    .menu-responsivo img {
+        display: block;
+    }
+
+    .menu-responsivo .menu-itens {
+        left: 50%;
+        transform: translate(-50%);
+        position: absolute;
+    }
+
+    .menu-responsivo .menu-itens a {
+        font-size: 25pt;
+    
+    }
+
+    .top {
+        width: 100%;
+        margin-left: 2rem;
+        margin-top: 15rem;
+    }
+
+    .top .left h1 {
+        font-size: 30pt;
+        margin-top: -10rem;
+        margin-left: 2.5rem;
+        width: 17rem;
+    }
+
+    .top .left p {
+        font-size: 18pt;
+        width: 30rem;
+        left: 13%;
+        position: absolute;
+    }
+
+    .top .whatss p {
+        left: 1rem;
+        top: 8px;
+        position: absolute;
+    }
+
+    .top .whatss {
+        left: -3.5rem;
+        top: 20px;
+        position: absolute;
+    }
+
+    .top .right img {
+        width: 18rem;
+        margin-top: -9rem;
+        margin-left: 5rem;
+
+    }
+
+    .sobre {
+        height: 70rem;
+    }
+
+    .sobre .left img {
+        width: 25rem;
+        margin-left: 6.5rem;
+        margin-top: -50px;
+    }
+
+    .sobre .right span {
+        margin-left: -10rem;
+        font-size: 30pt;
+        position: absolute;
+        margin-top: 11rem;
+    }
+
+    .sobre .right h1 {
+        font-size: 30pt;
+        width: 20rem;
+        margin-top: 15rem;
+        margin-left: -13rem;
+    }
+
+    .sobre .right img {
+        margin-top: 12rem;
+        margin-left: -20px;
+    }
+
+    .sobre .right p {
+        margin-left: -13rem;
+        width: 23rem;
+        margin-top: -1rem;
+        font-size: 20pt;
+    }
+
+    .popular .rodizio .slide img {
+        width: 28rem;
+        margin-top: 4rem;
+        margin-left: -0.5rem;
+    }
+    .popular .rodizio .slide .dois img {
+        width: 12rem;
+        height: 14rem;
+        margin-top: 1rem;
+        margin-left: -9rem;
+        object-fit: cover;
+        
+    }
+    .popular .rodizio .slide .tres img {
+        width: 12rem;
+        height: 14rem;
+        margin-left: 3.5rem;
+        margin-top: 1rem;
+        object-fit: cover;
+    }
+    .pop {
+        width: 100%;
+        height: 50rem;
+    }
+
+    .pop .pratoUm img {
+        width: 18rem;
+        margin-top: -50px;
+    }
+
+    .pop .pratoUm {
+        left: 50%;
+        transform: translate(-50%);
+        position: absolute;
+        height: 12rem;
+        width: 100rem;
+        margin-top: -2rem;
+    }
+    .pop .pratoUm p {
+        margin-top: -50px;
+        margin-bottom: -3rem;
+    }
+
+    .pop .pratoUm span {
+        margin-top: 3.5rem;
+        font-size: 20pt;
+        margin-left: -45px;
+        position: absolute;
+    }
+
+
+
+
+
+
+
+
+
+
+    .pop .pratoDois {
+        left: 50%;
+        transform: translate(-50%);
+        position: absolute;
+        height: 12rem;
+        width: 100rem;
+        margin-top: 13rem;
+    }
+    .pop .pratoDois p {
+        margin-top: -20px;
+        margin-bottom: -4rem;
+    }
+
+    .pop .pratoDois span {
+        margin-top: 4rem;
+        font-size: 20pt;
+        margin-left: -45px;
+        position: absolute;
+    }
+    .pop .pratoDois img {
+        width: 14rem;
+        margin-top: -20px;
+        margin-left: 10px;
+    }
+
+
+
+
+
+
+    .pop .pratoTres {
+        left: 50%;
+        transform: translate(-50%);
+        position: absolute;
+        margin-top: 28rem;
+        height: 12rem;
+        width: 100rem;
+    }
+    .pop .pratoTres p {
+        margin-bottom: -4rem;
+    }
+
+    .pop .pratoTres span {
+        margin-top: 4rem;
+        font-size: 20pt;
+        margin-left: -45px;
+        position: absolute;
+    }
+
+    .pop .pratoTres  img {
+        width: 12rem;
+        margin-top: -10px;
+    }
+
+    .peixes .atum img {
+        margin-top: -3rem;
+        width: 10rem;
+    }
+    .peixes .salmao img {
+        margin-top: 4.5rem;
+        width: 10rem;
+    }
+
+
+
+    
+
+}
+
+@media(min-width: 800px) {
+    .logo img {
+        margin-left: -4rem;
+    }
+
+    nav .links {
+        display: none;
+    }
+
+    .menu-responsivo img {
+        display: block;
+    }
+
+    .menu-responsivo .menu-itens {
+        left: 50%;
+        transform: translate(-50%);
+        position: absolute;
+    }
+
+    .menu-responsivo .menu-itens a {
+        font-size: 25pt;
+    
+    }
+
+    .top {
+        width: 100%;
+        margin-left: 1rem;
+        margin-bottom: -13rem;
+    }
+
+    .top .left h1 {
+        font-size: 30pt;
+        margin-top: -10rem;
+        margin-left: 2.5rem;
+        width: 17rem;
+    }
+
+    .top .left p {
+        font-size: 18pt;
+        width: 30rem;
+        left: 13%;
+        position: absolute;
+    }
+
+    .top .whatss p {
+        left: 1rem;
+        top: 8px;
+        position: absolute;
+    }
+
+    .top .whatss {
+        left: -3.5rem;
+        top: 20px;
+        position: absolute;
+    }
+
+    .top .right img {
+        width: 18rem;
+        margin-top: -8rem;
+        margin-left: 8rem;
+
+    }
+
+    .sobre {
+        height: 70rem;
+    }
+
+    .sobre .left img {
+        width: 25rem;
+        margin-left: 9rem;
+        margin-top: -50px;
+    }
+
+    .sobre .right span {
+        margin-left: -10rem;
+        font-size: 30pt;
+        position: absolute;
+        margin-top: 11rem;
+    }
+
+    .sobre .right h1 {
+        font-size: 30pt;
+        width: 20rem;
+        margin-top: 15rem;
+        margin-left: -13rem;
+    }
+
+    .sobre .right img {
+        margin-top: 12rem;
+        margin-left: -20px;
+    }
+
+    .sobre .right p {
+        margin-left: -13rem;
+        width: 23rem;
+        margin-top: -1rem;
+        font-size: 20pt;
+    }
+
+    .popular .rodizio .slide img {
+        width: 28rem;
+        margin-top: 4rem;
+        margin-left: -0.5rem;
+    }
+    .popular .rodizio .slide .dois img {
+        width: 12rem;
+        height: 14rem;
+        margin-top: 1rem;
+        margin-left: -9rem;
+        object-fit: cover;
+        
+    }
+    .popular .rodizio .slide .tres img {
+        width: 12rem;
+        height: 14rem;
+        margin-left: 3.5rem;
+        margin-top: 1rem;
+        object-fit: cover;
+    }
+    .pop {
+        width: 100%;
+        height: 50rem;
+    }
+
+    .pop .pratoUm img {
+        width: 18rem;
+        margin-top: -50px;
+    }
+
+    .pop .pratoUm {
+        left: 50%;
+        transform: translate(-50%);
+        position: absolute;
+        height: 12rem;
+        width: 100rem;
+        width:40%;
+        margin-top: -2rem;
+    }
+    .pop .pratoUm p {
+        margin-top: -50px;
+        margin-bottom: -3rem;
+    }
+
+    .pop .pratoUm span {
+        margin-top: 3.5rem;
+        font-size: 20pt;
+        margin-left: -45px;
+        position: absolute;
+    }
+
+
+
+
+
+
+
+
+
+
+    .pop .pratoDois {
+        width:40%;
+        left: 50%;
+        transform: translate(-50%);
+        position: absolute;
+        height: 12rem;
+        margin-top: 13rem;
+    }
+    .pop .pratoDois p {
+        margin-top: -20px;
+        margin-bottom: -4rem;
+    }
+
+    .pop .pratoDois span {
+        margin-top: 4rem;
+        font-size: 20pt;
+        margin-left: -45px;
+        position: absolute;
+    }
+    .pop .pratoDois img {
+        width: 14rem;
+        margin-top: -20px;
+        margin-left: 10px;
+    }
+
+
+
+
+
+
+    .pop .pratoTres {
+        width:40%;
+        left: 50%;
+        transform: translate(-50%);
+        position: absolute;
+        margin-top: 28rem;
+        height: 12rem;
+    }
+    .pop .pratoTres p {
+        margin-bottom: -4rem;
+    }
+
+    .pop .pratoTres span {
+        margin-top: 4rem;
+        font-size: 20pt;
+        margin-left: -45px;
+        position: absolute;
+    }
+
+    .pop .pratoTres  img {
+        width: 12rem;
+        margin-top: -10px;
+    }
+
+    .peixes .atum img {
+        margin-top: -3rem;
+        width: 10rem;
+    }
+    .peixes .salmao img {
+        margin-top: 10rem;
+        margin-left: 40rem;
+        width: 10rem;
+    }
+
+
+    .peixes .camarao img {
+        margin-top: 10rem;
+        margin-left: -2rem;
+        width: 10rem;
+    }
+
+
+    
+
+}
+
+@media(min-width: 900px) {
+    .logo img {
+        margin-left: -4rem;
+    }
+
+    nav .links {
+        display: none;
+    }
+
+    .menu-responsivo img {
+        display: block;
+    }
+
+    .menu-responsivo .menu-itens {
+        left: 50%;
+        transform: translate(-50%);
+        position: absolute;
+    }
+
+    .menu-responsivo .menu-itens a {
+        font-size: 25pt;
+    
+    }
+
+    .top {
+        width: 100%;
+        margin-top: 15rem;
+        margin-left: 5rem;
+        margin-bottom: -13rem;
+    }
+
+    .top .left h1 {
+        font-size: 30pt;
+        margin-top: -10rem;
+        margin-left: 2.5rem;
+        width: 17rem;
+    }
+
+    .top .left p {
+        font-size: 18pt;
+        width: 30rem;
+        left: 13%;
+        position: absolute;
+    }
+
+    .top .whatss p {
+        left: 1rem;
+        top: 8px;
+        position: absolute;
+    }
+
+    .top .whatss {
+        left: -3.5rem;
+        top: 20px;
+        position: absolute;
+    }
+
+    .top .right img {
+        width: 24rem;
+        margin-top: -8rem;
+        margin-left: 5rem;
+
+    }
+
+    .sobre {
+        height: 50rem;
+    }
+
+    .sobre .left img {
+        width: 25rem;
+        margin-left: -2rem;
+        margin-top: 80px;
+    }
+    .sobre .right {
+        margin-left: 12rem;
+        margin-top: -10rem;
+    }
+    .sobre .right span {
+        margin-left: -10rem;
+        font-size: 30pt;
+        position: absolute;
+        margin-top: 11rem;
+    }
+
+    .sobre .right h1 {
+        font-size: 30pt;
+        width: 20rem;
+        margin-top: 15rem;
+        margin-left: -13rem;
+    }
+
+    .sobre .right img {
+        margin-top: 12rem;
+        margin-left: -20px;
+    }
+
+    .sobre .right p {
+        margin-left: -13rem;
+        width: 23rem;
+        margin-top: -1rem;
+        font-size: 20pt;
+    }
+
+
+    .popular .rodizio .slide  {
+        margin-top: 25rem;
+    }
+
+
+    .popular .rodizio .slide img {
+        width: 28rem;
+        margin-top: 4rem;
+        margin-left: -0.5rem;
+    }
+    .popular .rodizio .slide .dois img {
+        width: 12rem;
+        height: 15rem;
+        margin-top: -15.5rem;
+        margin-left: 1rem;
+        object-fit: cover;
+        
+    }
+    .popular .rodizio .slide .tres img {
+        width: 12rem;
+        height: 15rem;
+        margin-left: -4rem;
+        margin-top: -15.5rem;
+        object-fit: cover;
+    }
+    .pop {
+        width: 100%;
+        height: 50rem;
+    }
+
+    .pop .pratoUm img {
+        width: 18rem;
+        margin-top: -50px;
+    }
+
+    .pop .pratoUm {
+        left: 50%;
+        transform: translate(-50%);
+        position: absolute;
+        height: 12rem;
+        width: 100rem;
+        width:40%;
+        margin-top: -2rem;
+    }
+    .pop .pratoUm p {
+        margin-top: -50px;
+        margin-bottom: -3rem;
+    }
+
+    .pop .pratoUm span {
+        margin-top: 3.5rem;
+        font-size: 20pt;
+        margin-left: -45px;
+        position: absolute;
+    }
+
+
+
+
+
+
+
+
+
+
+    .pop .pratoDois {
+        width:40%;
+        left: 50%;
+        transform: translate(-50%);
+        position: absolute;
+        height: 12rem;
+        margin-top: 13rem;
+    }
+    .pop .pratoDois p {
+        margin-top: -20px;
+        margin-bottom: -4rem;
+    }
+
+    .pop .pratoDois span {
+        margin-top: 4rem;
+        font-size: 20pt;
+        margin-left: -45px;
+        position: absolute;
+    }
+    .pop .pratoDois img {
+        width: 14rem;
+        margin-top: -20px;
+        margin-left: 10px;
+    }
+
+
+
+
+
+
+    .pop .pratoTres {
+        width:40%;
+        left: 50%;
+        transform: translate(-50%);
+        position: absolute;
+        margin-top: 28rem;
+        height: 12rem;
+    }
+    .pop .pratoTres p {
+        margin-bottom: -4rem;
+    }
+
+    .pop .pratoTres span {
+        margin-top: 4rem;
+        font-size: 20pt;
+        margin-left: -45px;
+        position: absolute;
+    }
+
+    .pop .pratoTres  img {
+        width: 12rem;
+        margin-top: -10px;
+    }
+
+    .peixes .atum img {
+        margin-top: -3rem;
+        width: 10rem;
+    }
+    .peixes .salmao img {
+        margin-top: 10rem;
+        margin-left: 40rem;
+        width: 10rem;
+    }
+
+
+    .peixes .camarao img {
+        margin-top: 10rem;
+        margin-left: -2rem;
+        width: 10rem;
+    }
+
+
+
+
+}
+
+@media(min-width: 1000px) {
+    .logo img {
+        margin-left: -4rem;
+    }
+
+    nav .links {
+        display: block;
+        margin-left: -8rem;
+        margin-top: 25px;
+    }
+
+    .menu-responsivo  {
+        display: none;
+        backdrop-filter: none;
+    }
+
+
+    .menu  {
+        display: none;
+    }
+
+    .menu-itens   {
+        display: none;
+    }
+
+    .top {
+        width: 100%;
+        margin-top: 13rem;
+        margin-left: 7rem;
+        margin-bottom: -13rem;
+    }
+
+    .top .left h1 {
+        font-size: 30pt;
+        margin-top: -10rem;
+        margin-left: 2.5rem;
+        width: 17rem;
+    }
+
+    .top .left p {
+        font-size: 18pt;
+        width: 30rem;
+        left: 13%;
+        position: absolute;
+    }
+
+    .top .whatss p {
+        left: 1rem;
+        top: 8px;
+        position: absolute;
+    }
+
+    .top .whatss {
+        left: -3.5rem;
+        top: 20px;
+        position: absolute;
+    }
+
+    .top .right img {
+        width: 24rem;
+        margin-top: -8rem;
+        margin-left: 5rem;
+
+    }
+
+    .sobre {
+        height: 50rem;
+    }
+
+    .sobre .left img {
+        width: 25rem;
+        margin-left: -2rem;
+        margin-top: 80px;
+    }
+    .sobre .right {
+        margin-left: 12rem;
+        margin-top: -10rem;
+    }
+    .sobre .right span {
+        margin-left: -10rem;
+        font-size: 30pt;
+        position: absolute;
+        margin-top: 11rem;
+    }
+
+    .sobre .right h1 {
+        font-size: 30pt;
+        width: 20rem;
+        margin-top: 15rem;
+        margin-left: -13rem;
+    }
+
+    .sobre .right img {
+        margin-top: 12rem;
+        margin-left: -20px;
+    }
+
+    .sobre .right p {
+        margin-left: -13rem;
+        width: 23rem;
+        margin-top: -1rem;
+        font-size: 20pt;
+    }
+
+
+    .popular .rodizio .slide  {
+        margin-top: 25rem;
+    }
+
+
+    .popular .rodizio .slide img {
+        width: 28rem;
+        margin-top: 4rem;
+        margin-left: -0.5rem;
+    }
+    .popular .rodizio .slide .dois img {
+        width: 12rem;
+        height: 15rem;
+        margin-top: -15.5rem;
+        margin-left: 1rem;
+        object-fit: cover;
+        
+    }
+    .popular .rodizio .slide .tres img {
+        width: 12rem;
+        height: 15rem;
+        margin-left: -4rem;
+        margin-top: -15.5rem;
+        object-fit: cover;
+    }
+    .pop {
+        width: 100%;
+        height: 50rem;
+    }
+
+    .pop .pratoUm img {
+        width: 18rem;
+        margin-top: -50px;
+    }
+
+    .pop .pratoUm {
+        left: 50%;
+        transform: translate(-50%);
+        position: absolute;
+        height: 12rem;
+        width: 100rem;
+        width:40%;
+        margin-top: -2rem;
+    }
+    .pop .pratoUm p {
+        margin-top: -50px;
+        margin-bottom: -3rem;
+    }
+
+    .pop .pratoUm span {
+        margin-top: 3.5rem;
+        font-size: 20pt;
+        margin-left: -45px;
+        position: absolute;
+    }
+
+
+
+
+
+
+
+
+
+
+    .pop .pratoDois {
+        width:40%;
+        left: 50%;
+        transform: translate(-50%);
+        position: absolute;
+        height: 12rem;
+        margin-top: 13rem;
+    }
+    .pop .pratoDois p {
+        margin-top: -20px;
+        margin-bottom: -4rem;
+    }
+
+    .pop .pratoDois span {
+        margin-top: 4rem;
+        font-size: 20pt;
+        margin-left: -45px;
+        position: absolute;
+    }
+    .pop .pratoDois img {
+        width: 14rem;
+        margin-top: -20px;
+        margin-left: 10px;
+    }
+
+
+
+
+
+
+    .pop .pratoTres {
+        width:40%;
+        left: 50%;
+        transform: translate(-50%);
+        position: absolute;
+        margin-top: 28rem;
+        height: 12rem;
+    }
+    .pop .pratoTres p {
+        margin-bottom: -4rem;
+    }
+
+    .pop .pratoTres span {
+        margin-top: 4rem;
+        font-size: 20pt;
+        margin-left: -45px;
+        position: absolute;
+    }
+
+    .pop .pratoTres  img {
+        width: 12rem;
+        margin-top: -10px;
+    }
+
+    .peixes .atum img {
+        margin-top: 3rem;
+        width: 10rem;
+    }
+    .peixes .salmao img {
+        margin-top: 10rem;
+        margin-left: 48rem;
+        width: 10rem;
+    }
+
+
+    .peixes .camarao img {
+        margin-top: 10rem;
+        margin-left: -2rem;
+        width: 10rem;
+    }
+
+
+
+    
+
+}
+
+
+@media(min-width: 1366px) {
+    .logo img {
+        margin-left: -4rem;
+    }
+
+    nav .links {
+        display: block;
+        margin-left: -8rem;
+        margin-top: 25px;
+    }
+
+    .menu-responsivo  {
+        display: none;
+        backdrop-filter: none;
+    }
+
+
+    .menu  {
+        display: none;
+    }
+
+    .menu-itens   {
+        display: none;
+    }
+
+    .top {
+        width: 100%;
+        margin-top: 13rem;
+        margin-left: 12rem;
+        margin-bottom: -13rem;
+    }
+
+    .top .left h1 {
+        font-size: 30pt;
+        margin-top: -10rem;
+        margin-left: 2.5rem;
+        width: 17rem;
+    }
+
+    .top .left p {
+        font-size: 18pt;
+        width: 30rem;
+        left: 13%;
+        position: absolute;
+    }
+
+    .top .whatss p {
+        left: 1rem;
+        top: 8px;
+        position: absolute;
+    }
+
+    .top .whatss {
+        left: -3.5rem;
+        top: 20px;
+        position: absolute;
+    }
+
+    .top .right img {
+        width: 24rem;
+        margin-top: -8rem;
+        margin-left: 5rem;
+
+    }
+
+    .sobre {
+        height: 50rem;
+    }
+
+    .sobre .left img {
+        width: 25rem;
+        margin-left: -2rem;
+        margin-top: 80px;
+    }
+    .sobre .right {
+        margin-left: 12rem;
+        margin-top: -10rem;
+    }
+    .sobre .right span {
+        margin-left: -10rem;
+        font-size: 30pt;
+        position: absolute;
+        margin-top: 11rem;
+    }
+
+    .sobre .right h1 {
+        font-size: 30pt;
+        width: 20rem;
+        margin-top: 15rem;
+        margin-left: -13rem;
+    }
+
+    .sobre .right img {
+        margin-top: 12rem;
+        margin-left: -20px;
+    }
+
+    .sobre .right p {
+        margin-left: -13rem;
+        width: 23rem;
+        margin-top: -1rem;
+        font-size: 20pt;
+    }
+
+
+    .popular .rodizio .slide  {
+        margin-top: 25rem;
+    }
+
+
+    .popular .rodizio .slide img {
+        width: 28rem;
+        margin-top: 4rem;
+        margin-left: -0.5rem;
+    }
+    .popular .rodizio .slide .dois img {
+        width: 12rem;
+        height: 15rem;
+        margin-top: -15.5rem;
+        margin-left: 1rem;
+        object-fit: cover;
+        
+    }
+    .popular .rodizio .slide .tres img {
+        width: 12rem;
+        height: 15rem;
+        margin-left: -4rem;
+        margin-top: -15.5rem;
+        object-fit: cover;
+    }
+    .pop {
+        width: 100%;
+        height: 50rem;
+    }
+
+    .pop .pratoUm img {
+        width: 18rem;
+        margin-top: -50px;
+    }
+
+    .pop .pratoUm {
+        left: 50%;
+        transform: translate(-50%);
+        position: absolute;
+        height: 12rem;
+        width: 100rem;
+        width:40%;
+        margin-top: -2rem;
+    }
+    .pop .pratoUm p {
+        margin-top: -50px;
+        margin-bottom: -3rem;
+    }
+
+    .pop .pratoUm span {
+        margin-top: 3.5rem;
+        font-size: 20pt;
+        margin-left: -45px;
+        position: absolute;
+    }
+
+
+
+
+
+
+
+
+
+
+    .pop .pratoDois {
+        width:40%;
+        left: 50%;
+        transform: translate(-50%);
+        position: absolute;
+        height: 12rem;
+        margin-top: 13rem;
+    }
+    .pop .pratoDois p {
+        margin-top: -20px;
+        margin-bottom: -4rem;
+    }
+
+    .pop .pratoDois span {
+        margin-top: 4rem;
+        font-size: 20pt;
+        margin-left: -45px;
+        position: absolute;
+    }
+    .pop .pratoDois img {
+        width: 14rem;
+        margin-top: -20px;
+        margin-left: 10px;
+    }
+
+
+
+
+
+
+    .pop .pratoTres {
+        width:40%;
+        left: 50%;
+        transform: translate(-50%);
+        position: absolute;
+        margin-top: 28rem;
+        height: 12rem;
+    }
+    .pop .pratoTres p {
+        margin-bottom: -4rem;
+    }
+
+    .pop .pratoTres span {
+        margin-top: 4rem;
+        font-size: 20pt;
+        margin-left: -45px;
+        position: absolute;
+    }
+
+    .pop .pratoTres  img {
+        width: 12rem;
+        margin-top: -10px;
+    }
+
+    .peixes .atum img {
+        margin-top: 3rem;
+        width: 10rem;
+    }
+    .peixes .salmao img {
+        margin-top: 10rem;
+        margin-left: 48rem;
+        width: 10rem;
+    }
+
+
+    .peixes .camarao img {
+        margin-top: 10rem;
+        margin-left: -2rem;
+        width: 10rem;
+    }
+
+
+
+    #cardpii {
+        margin-top: 90rem;
+    }
+    
+
+}
+
+@media(min-width: 1600px) {
+    .logo img {
+        margin-left: -4rem;
+    }
+
+    nav .links {
+        display: block;
+        margin-left: -8rem;
+        margin-top: 25px;
+    }
+
+    .menu-responsivo  {
+        display: none;
+        backdrop-filter: none;
+    }
+
+
+    .menu  {
+        display: none;
+    }
+
+    .menu-itens   {
+        display: none;
+    }
+
+    .top {
+        width: 100%;
+        margin-top: 13rem;
+        margin-left: 15rem;
+        margin-bottom: -13rem;
+    }
+
+    #smallHash{
+        margin-left: 20rem;
+    }
+    .top .left h1 {
+        font-size: 40pt;
+        margin-top: -10rem;
+        margin-left: 2.5rem;
+        width: 24rem;
+    }
+
+    .top .left p {
+        font-size: 30pt;
+        width: 30rem;
+        left: 10%;
+        position: absolute;
+    }
+
+    .top .whatss p {
+        left: 1rem;
+        top: 8px;
+        position: absolute;
+    }
+
+    .top .whatss {
+        left: -3.5rem;
+        top: 20px;
+        position: absolute;
+    }
+
+    #wpp {
+        width: 18rem;
+        margin-top: 5rem;
+        margin-left: 17rem;
+    }
+
+    #peca {
+        
+        margin-top: -8px;
+        margin-left: -1px;
+    }
+    #arou {
+        margin-left: 15rem;
+    }
+    #arou:hover {
+        margin-left: 16rem;
+        transition: 1s;
+    }
+    .top .right img {
+        width: 35rem;
+        margin-top: -13rem;
+
+    }
+
+    .sobre {
+        height: 50rem;
+    }
+
+    .sobre .left img {
+        width: 30rem;
+        margin-left: 5rem;
+        margin-top: 20px;
+    }
+    .sobre .right {
+        margin-left: 4rem;
+        margin-top: -13rem;
+    }
+    .sobre .right span {
+        margin-left: -10rem;
+        font-size: 35pt;
+        position: absolute;
+        margin-top: 11rem;
+    }
+
+    .sobre .right h1 {
+        font-size: 40pt;
+        width: 25rem;
+        margin-top: 15rem;
+        margin-left: -13rem;
+    }
+
+    .sobre .right img {
+        margin-top: 12rem;
+        margin-left: 5px;
+    }
+
+    .sobre .right p {
+        margin-left: -13rem;
+        width: 50rem;
+        margin-top: -1rem;
+        font-size: 30pt;
+    }
+
+
+    .popular .rodizio .slide  {
+        margin-top: 25rem;
+    }
+
+
+    .popular .rodizio .slide img {
+        width: 35rem;
+        margin-top: 4rem;
+        margin-left: -0.5rem;
+    }
+    .popular .rodizio .slide .dois img {
+        width: 20rem;
+        height: 20rem;
+        margin-top: -20rem;
+        margin-left: -7rem;
+        object-fit: cover;
+        
+    }
+    .popular .rodizio .slide .tres img {
+        width: 20rem;
+        height: 20rem;
+        margin-left: 2rem;
+        margin-top: -20rem;
+        object-fit: cover;
+    }
+    .pop {
+        width: 100%;
+        height: 30rem;
+    }
+
+    .pop .pratoUm img {
+        width: 15rem;
+        margin-top: -50px;
+    }
+
+    .pop .pratoUm {
+        left: 20%;
+        transform: translate(-50%);
+        position: absolute;
+        height: 12rem;
+        width: 100rem;
+        width:20%;
+        padding-top: 2rem;
+
+        margin-top: 1rem;
+    }
+    .pop .pratoUm p {
+        margin-top: -50px;
+        margin-bottom: -3rem;
+    }
+
+    .pop .pratoUm span {
+        margin-top: 3.5rem;
+        font-size: 20pt;
+        margin-left: -45px;
+        position: absolute;
+    }
+
+
+
+
+
+
+
+
+
+
+    .pop .pratoDois {
+        width:20%;
+        left: 50%;
+        transform: translate(-50%);
+        position: absolute;
+        height: 12rem;
+        margin-top: 1.5rem;
+    }
+    .pop .pratoDois p {
+        margin-top: -20px;
+        margin-bottom: -4rem;
+    }
+
+    .pop .pratoDois span {
+        margin-top: 4rem;
+        font-size: 20pt;
+        margin-left: -45px;
+        position: absolute;
+    }
+    .pop .pratoDois img {
+        width: 14rem;
+        margin-top: -20px;
+        margin-left: 10px;
+    }
+
+
+
+
+
+
+    .pop .pratoTres {
+        width:20%;
+        left: 80%;
+        transform: translate(-50%);
+        position: absolute;
+        margin-top: 1.5rem;
+        height: 12rem;
+    }
+    .pop .pratoTres p {
+        margin-bottom: -4rem;
+    }
+
+    .pop .pratoTres span {
+        margin-top: 4rem;
+        font-size: 20pt;
+        margin-left: -45px;
+        position: absolute;
+    }
+
+    .pop .pratoTres  img {
+        width: 12rem;
+        margin-top: -10px;
+    }
+
+    .peixes .atum img {
+        margin-top: 3rem;
+        width: 10rem;
+    }
+    .peixes .salmao img {
+        margin-top: 8rem;
+        margin-left: 48rem;
+        width: 10rem;
+    }
+
+
+    .peixes .camarao img {
+        margin-top: -20rem;
+        margin-left: 90rem;
+        width: 10rem;
+    }
+
+
+
+}
+
+
+@media(min-width: 1920px) {
+    .logo img {
+        margin-left: -4rem;
+    }
+
+    nav .links {
+        display: block;
+        margin-left: -8rem;
+        margin-top: 25px;
+    }
+
+    .menu-responsivo  {
+        display: none;
+        backdrop-filter: none;
+    }
+
+
+    .menu  {
+        display: none;
+    }
+
+    .menu-itens   {
+        display: none;
+    }
+
+    .top {
+        width: 100%;
+        margin-top: 20rem;
+        margin-left: 20rem;
+        margin-bottom: -13rem;
+    }
+
+    #smallHash{
+        margin-left: 20rem;
+    }
+    .top .left h1 {
+        font-size: 40pt;
+        margin-top: -10rem;
+        margin-left: 2.5rem;
+        width: 24rem;
+    }
+
+    .top .left p {
+        font-size: 30pt;
+        width: 30rem;
+        left: 10%;
+        position: absolute;
+    }
+
+    .top .whatss p {
+        left: 1rem;
+        top: 8px;
+        position: absolute;
+    }
+
+    .top .whatss {
+        left: -3.5rem;
+        top: 20px;
+        position: absolute;
+    }
+
+    #wpp {
+        width: 18rem;
+        margin-top: 5rem;
+        margin-left: 17rem;
+    }
+
+    #peca {
+        
+        margin-top: -8px;
+        margin-left: -1px;
+    }
+    #arou {
+        margin-left: 15rem;
+    }
+    #arou:hover {
+        margin-left: 16rem;
+        transition: 1s;
+    }
+    .top .right img {
+        width: 35rem;
+        margin-top: -13rem;
+        margin-left: 1rem;
+
+    }
+
+    .sobre {
+        height: 50rem;
+    }
+
+    .sobre .left img {
+        width: 30rem;
+        margin-left: 5rem;
+        margin-top: 20px;
+    }
+    .sobre .right {
+        margin-left: 12rem;
+        margin-top: -13rem;
+    }
+    .sobre .right span {
+        margin-left: -10rem;
+        font-size: 35pt;
+        position: absolute;
+        margin-top: 11rem;
+    }
+
+    .sobre .right h1 {
+        font-size: 40pt;
+        width: 25rem;
+        margin-top: 15rem;
+        margin-left: -13rem;
+    }
+
+    .sobre .right img {
+        margin-top: 12rem;
+        margin-left: 5px;
+    }
+
+    .sobre .right p {
+        margin-left: -13rem;
+        width: 50rem;
+        margin-top: -1rem;
+        font-size: 30pt;
+    }
+
+
+    .popular .rodizio .slide  {
+        margin-top: 25rem;
+    }
+
+
+    .popular .rodizio .slide img {
+        width: 35rem;
+        margin-top: 4rem;
+        margin-left: -0.5rem;
+    }
+    .popular .rodizio .slide .dois img {
+        width: 20rem;
+        height: 20rem;
+        margin-top: -20rem;
+        margin-left: -10rem;
+        object-fit: cover;
+        
+    }
+    .popular .rodizio .slide .tres img {
+        width: 20rem;
+        height: 20rem;
+        margin-left: 8.5rem;
+        margin-top: -20rem;
+        object-fit: cover;
+    }
+    .pop {
+        width: 100%;
+        height: 30rem;
+    }
+
+    .pop .pratoUm img {
+        width: 15rem;
+        margin-top: -50px;
+    }
+
+    .pop .pratoUm {
+        left: 20%;
+        transform: translate(-50%);
+        position: absolute;
+        height: 12rem;
+        width: 100rem;
+        width:20%;
+        margin-top: 1rem;
+    }
+    .pop .pratoUm p {
+        margin-top: -50px;
+        margin-bottom: -3rem;
+    }
+
+    .pop .pratoUm span {
+        margin-top: 3.5rem;
+        font-size: 20pt;
+        margin-left: -45px;
+        position: absolute;
+    }
+
+
+
+
+
+
+
+
+
+
+    .pop .pratoDois {
+        width:20%;
+        left: 50%;
+        transform: translate(-50%);
+        position: absolute;
+        height: 12rem;
+        margin-top: 1rem;
+    }
+    .pop .pratoDois p {
+        margin-top: -20px;
+        margin-bottom: -4rem;
+    }
+
+    .pop .pratoDois span {
+        margin-top: 4rem;
+        font-size: 20pt;
+        margin-left: -45px;
+        position: absolute;
+    }
+    .pop .pratoDois img {
+        width: 14rem;
+        margin-top: -20px;
+        margin-left: 10px;
+    }
+
+
+
+
+
+
+    .pop .pratoTres {
+        width:20%;
+        left: 80%;
+        transform: translate(-50%);
+        position: absolute;
+        margin-top: 1rem;
+        height: 12rem;
+    }
+    .pop .pratoTres p {
+        margin-bottom: -4rem;
+    }
+
+    .pop .pratoTres span {
+        margin-top: 4rem;
+        font-size: 20pt;
+        margin-left: -45px;
+        position: absolute;
+    }
+
+    .pop .pratoTres  img {
+        width: 12rem;
+        margin-top: -10px;
+    }
+
+    .peixes .atum img {
+        margin-top: 3rem;
+        width: 10rem;
+    }
+    .peixes .salmao img {
+        margin-top: 10rem;
+        margin-left: 48rem;
+        width: 10rem;
+    }
+
+
+    .peixes .camarao img {
+        margin-top: -12rem;
+        margin-left: 90rem;
+        width: 10rem;
+    }
+
+
+    
+
+}
+
+
