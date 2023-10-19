@@ -1,0 +1,278 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: 'Courier New', Courier, monospace;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+#canvas {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 15rem;
+    border-radius: 10px;
+}
+
+h1 {
+    color: white;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 7rem;
+    font-size: 40pt;
+}
+p {
+    color: white;
+    font-size: 15pt;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 55rem;
+}
+
+
+.nomob h2 {
+    display: none;
+}
+
+@media(max-width: 300px) {
+    h1 {
+        font-size: 33pt;
+        margin-top: 20px;
+        display: flex;
+    }
+
+    .nomob h2 {
+        display: block;
+        color: white;
+        left: 60%;
+        transform: translate(-50%);
+        position: absolute;
+        margin-top: 15rem;
+        width: 18rem;
+    }
+
+    p {
+        margin-top: 30rem;
+        display: flex;
+        width: 15rem;
+    }
+    #canvas {
+        display: none;
+    }
+}
+
+@media(max-width: 400px) {
+    h1 {
+        font-size: 33pt;
+        margin-top: 20px;
+        display: flex;
+    }
+
+    .nomob h2 {
+        display: block;
+        color: white;
+        left: 50%;
+        transform: translate(-50%);
+        position: absolute;
+        margin-top: 15rem;
+        width: 20rem;
+    }
+
+    p {
+        margin-top: 30rem;
+        display: flex;
+        width: 15rem;
+    }
+    #canvas {
+        display: none;
+    }
+}
+
+
+@media(max-width: 500px) {
+    h1 {
+        font-size: 33pt;
+        margin-top: 20px;
+        display: flex;
+    }
+
+    .nomob h2 {
+        display: block;
+        color: white;
+        left: 50%;
+        transform: translate(-50%);
+        position: absolute;
+        margin-top: 15rem;
+        width: 20rem;
+    }
+
+    p {
+        margin-top: 30rem;
+        display: flex;
+        width: 15rem;
+    }
+    #canvas {
+        display: none;
+    }
+}
+
+@media(max-width: 600px) {
+    h1 {
+        font-size: 33pt;
+        margin-top: 20px;
+        display: flex;
+    }
+
+    .nomob h2 {
+        display: block;
+        color: white;
+        left: 55%;
+        transform: translate(-50%);
+        position: absolute;
+        margin-top: 15rem;
+        width: 30rem;
+        font-size: 25pt;
+    }
+
+    p {
+        margin-top: 30rem;
+        display: flex;
+        width: 15rem;
+    }
+    #canvas {
+        display: none;
+    }
+}
+
+
+@media(max-width: 700px) {
+    h1 {
+        font-size: 33pt;
+        margin-top: 20px;
+        display: flex;
+    }
+
+    .nomob h2 {
+        display: block;
+        color: white;
+        left: 55%;
+        transform: translate(-50%);
+        position: absolute;
+        margin-top: 15rem;
+        width: 30rem;
+        font-size: 25pt;
+    }
+
+    p {
+        margin-top: 30rem;
+        display: flex;
+        width: 15rem;
+    }
+    #canvas {
+        display: none;
+    }
+}
+@media(max-width: 800px) {
+    h1 {
+        font-size: 33pt;
+        margin-top: 20px;
+        display: flex;
+    }
+
+    .nomob h2 {
+        display: block;
+        color: white;
+        left: 55%;
+        transform: translate(-50%);
+        position: absolute;
+        margin-top: 15rem;
+        width: 30rem;
+        font-size: 25pt;
+    }
+
+    p {
+        margin-top: 30rem;
+        display: flex;
+        width: 15rem;
+    }
+    #canvas {
+        display: none;
+    }
+}
+
+@media(max-width: 900px) {
+    h1 {
+        font-size: 33pt;
+        margin-top: 20px;
+        display: flex;
+    }
+
+    .nomob h2 {
+        display: block;
+        color: white;
+        left: 55%;
+        transform: translate(-50%);
+        position: absolute;
+        margin-top: 15rem;
+        width: 30rem;
+        font-size: 25pt;
+    }
+
+    p {
+        margin-top: 30rem;
+        display: flex;
+        width: 15rem;
+    }
+    #canvas {
+        display: none;
+    }
+}
+
+@media(max-width: 1600px) {
+    h1 {
+        font-size: 33pt;
+        margin-top: 20px;
+        display: flex;
+    }
+
+
+    p {
+        margin-top: 40rem;
+        display: flex;
+        width: 15rem;
+    }
+    #canvas {
+        display: block;
+        margin-top: 10rem;
+    }
+}
+
+
+@media(max-width: 1920px) {
+    h1 {
+        font-size: 33pt;
+        margin-top: 20px;
+        display: flex;
+    }
+
+
+    p {
+        margin-top: 50rem;
+        display: flex;
+        width: 18rem;
+        font-size: 20pt;
+    }
+    #canvas {
+        display: block;
+        margin-top: 15rem;
+        box-shadow: 1px 1px 10px 1px #008000;
+    }
+}
+
