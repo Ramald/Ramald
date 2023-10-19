@@ -1,0 +1,750 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    overflow-x: hidden;
+}
+a {
+    text-decoration: none;
+
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: 'font';
+    background-color: rgb(33, 33, 33);
+}
+
+@font-face {
+    font-family: 'font';
+    src: url('Nunito-Italic-VariableFont_wght.ttf');
+}
+
+
+body::-webkit-scrollbar {
+    width: 8px;    
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: black;      
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #20B2AA;    
+    border-radius: 20px;       
+    box-shadow: 1px 1px 10px 10px #20B2AA;
+  }
+
+#backg {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    z-index: -0;
+}
+
+.backg {
+    filter: blur(10px);
+}
+
+.top {
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.top .logo h1 {
+    margin-left: 40px;
+    color: #20B2AA;
+    font-size: 20pt;
+}
+
+.top .itens span {
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    font-size: 15pt;
+    transition: 1s;
+}
+.top .itens a {
+    color: white;
+}
+.top .itens a:hover{
+    color: #20B2AA;
+    transition: 1s;
+}
+
+#itn {
+    margin-top: 30px;
+}
+
+.top .itens {
+    margin-right: 40px;
+    margin-top: 8px;
+    height: 1rem;
+}
+
+.resume {
+    width: 100%;
+    z-index: 1;
+}
+
+.resume .fundo {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 15rem;
+    width: 25rem;
+    height: 25rem;
+    background-color: rgba(21, 21, 21, 0.627);
+    border-radius: 10px;
+}
+.resume .fundo .infos {
+    margin-top: 12rem;
+}
+
+.resume .fundo .infos {
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin-top: 18rem;
+    box-shadow: 1px 1px 10px  black;
+}
+
+.resume .fundo .infos p {
+    color: gray;
+    font-size: 14pt;
+}
+
+.resume .fundo .infos h1 {
+    font-size: 20pt;
+}
+
+.resume .fundo .infos .imgs a{
+    cursor: pointer;
+}
+
+.resume .fundo .infos .imgs img{
+    width: 2rem;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+#mts {
+    width: 15rem;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 20rem;
+    margin-top: -40px;
+}
+
+.resume .fundo .foto {
+    overflow: hidden;
+    margin-top: -24rem;
+    position: absolute;
+    width: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    height: 15rem;
+    border-radius: 50%;
+    background-color: #093836;
+    box-shadow: 1px 1px 10px 3px #20B2AA;
+}
+
+
+#mats {
+    color: #20B2AA;
+}
+.meio {
+    width: 100%;
+    height: 50rem;
+    position: absolute;
+    margin-top: 57rem;
+    text-align: center;
+    background-color: rgb(15, 15, 15);
+    color: white;
+    
+    padding-top: 80px;
+    box-shadow: 1px 1px 10px #093836;
+}
+
+.meio hr {
+    left: 50%;
+    transform: translate(-50%);
+    position: absolute;
+    width: 5rem;
+}
+
+.meio p {
+    left: 50%;
+    transform: translate(-50%);
+    position: absolute;
+    margin-top: 120px;
+    width: 80rem;
+    font-size: 15pt;
+}
+
+.meio .curriculo {
+    opacity: 0.5;
+    width: 10rem;
+    height: 3rem;
+    padding-top: 5px;
+    border-radius: 10px;
+    left: 50%;
+    transform: translate(-50%);
+    position: absolute;
+    margin-top: 20rem;
+    color: #20B2AA;
+    transition: 1s;
+}
+.meio .curriculo:hover {
+    opacity: 1;
+    transition: 1s;
+    cursor: pointer;
+    box-shadow: 1px 1px 10px #20B2AA;
+
+}
+
+.meio .curriculo a {
+    text-decoration: none;
+    color: #20B2AA;
+}
+
+.meio .curriculo span {
+    font-size: 20pt;
+}
+
+.meio .inf1 {
+    text-align: left;
+    margin-left: 160px;
+    margin-top: 25rem;
+    width: 100%;
+
+}
+
+
+.meio .inf1 h1 {
+    color: white;
+
+}
+
+.meio .inf1 span {
+    color: #20B2AA;
+    display: flex;
+    margin-top: 20px;
+}
+
+.meio .inf1 p {
+    display: flex;
+    flex-direction: column;
+    margin-top: -10rem;
+}
+.meio .inf1 .rspss {
+    margin-top: -10.5rem;
+    margin-left: 10rem;
+}
+#rsps {
+    color: white;
+}
+
+.meio .inf2 {
+    width: 100%;
+    position: absolute;
+    left: 65%;
+    display: flex;
+    margin-top: -10rem;
+}
+
+.meio .inf2 h1 {
+    margin-top: -3.5rem;
+    margin-left: 1rem;
+    position: absolute;
+    margin-bottom: 10px;
+}
+
+.meio .inf2 img {
+    width: 5rem;
+}
+
+#respons {
+    padding-top: 10px;
+}
+
+.meio .inf2 .conhecimento {
+    width: 5rem;
+    height: 5rem;
+    background-color: rgb(29, 29, 29);
+    box-shadow: 1px 1px 10px black;
+    border-radius: 10px;
+    margin-left: 10px;
+    transition: 1s;
+    flex-wrap: wrap;
+}
+
+.meio .inf2 .conhecimento:hover {
+    transform: translateY(-10px);
+    cursor: pointer;
+    transition: 1s;
+    box-shadow:  1px 1px 10px #20B2AA;
+}
+
+.projetos {
+    width: 100%;
+    height: 30rem;
+    margin-top: 107rem;
+    position: absolute;
+    text-align: center;
+    padding: 10px;
+    padding-top: 5rem;
+    background-color: rgba(0, 0, 0, 0.525);
+}
+
+.projetos .pro {
+    justify-content: space-around;
+    text-align: center;
+    display: flex;
+    width: 100%;
+    
+}
+.projetos h1 {
+    color:  white;
+    margin-bottom: 5rem;
+}
+.projetos img {
+    border-radius: 10px;
+    width: 20rem;
+    
+}
+
+.projetos hr {
+    margin-top: -4.8rem;
+    width: 5rem;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+.projetos .project1 {
+    box-shadow: 1px 1px 10px black;
+    width: 20rem;
+    height: 9.6rem;
+    opacity: 0.5;
+    transition: 1s;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.projetos .project1:hover {
+    box-shadow: 1px 1px 20px #20B2AA;
+    transition: 1s;
+    cursor: pointer;
+    opacity: 1;
+}
+
+.projetos .project2 {
+    box-shadow: 1px 1px 10px black;
+    width: 20rem;
+    height: 9.6rem;
+    opacity: 0.5;
+    transition: 1s;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.projetos .project2:hover {
+    box-shadow: 1px 1px 20px #20B2AA;
+    transition: 1s;
+    cursor: pointer;
+    opacity: 1;
+}
+
+.projetos .project3 {
+    box-shadow: 1px 1px 10px black;
+    width: 20rem;
+    height: 9.6rem;
+    opacity: 0.5;
+    transition: 1s;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.projetos .project3:hover {
+    box-shadow: 1px 1px 20px #20B2AA;
+    transition: 1s;
+    cursor: pointer;
+    opacity: 1;
+}
+
+.projetos .project4 {
+    box-shadow: 1px 1px 10px black;
+    width: 20rem;
+    height: 9.6rem;
+    opacity: 0.5;
+    margin-top: 20px;
+    transition: 1s;
+    border-radius: 10px;
+}
+.projetos .project4:hover {
+    box-shadow: 1px 1px 20px #20B2AA;
+    transition: 1s;
+    cursor: pointer;
+    opacity: 1;
+}
+
+.responsivo {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    height: 100vh;
+    backdrop-filter: blur(10px);
+    display: none;
+    z-index: 3;
+}
+
+.responsivo h1 {
+    color: #20B2AA;
+    margin-left: 30rem;
+    position: absolute;
+    margin-top: 40px;
+}
+
+.responsivo .menu {
+    left: 50%;
+    transform: translate(-50%);
+    position: absolute;
+    
+}
+
+.responsivo .menu a {
+    color: white;
+    font-size: 20pt;
+    justify-content: center;
+    margin-top: 10rem;
+    display: flex;
+    transition: 1s;
+}
+
+.responsivo .menu a:hover {
+    color: #20B2AA;
+    transition: 1s;
+}
+
+#log {
+ margin-top: 20px;       
+}
+
+#burguer {
+    display: none;
+}
+@media(min-width: 299px) and (max-width: 599px) {
+
+    .resume .fundo {
+        width: 20rem;
+    }
+    #backg {
+        height: 50rem;
+    }
+
+    #log {
+        font-size: 30pt;
+    }
+    .meio {
+        margin-top: 50rem;
+        height: 100rem;
+    }
+
+    .meio p {
+        width: 20rem;
+    }
+
+    .meio .curriculo {
+        margin-top: 42rem;
+    }
+    .meio .inf1 {
+        text-align: center;
+        justify-content: center;
+        margin-top: 75rem;
+    }
+
+    .meio .inf1  h1{
+        margin-left: -20rem;
+
+    }
+
+
+
+    #itn {
+        display: none;
+    }
+
+    
+
+#rsps {
+    width: 10rem;
+}
+    .meio .inf1 span {
+        margin-left: -9rem;
+    }
+    .meio .inf2{
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        margin-top: -40rem;
+        flex-wrap: wrap;
+    } 
+    .meio .inf2 .conhecimento{
+        margin-left: 9rem;
+
+    }
+    .meio .inf2 h1 {
+        margin-left: 6rem;
+    }
+
+
+    .projetos {
+        margin-top: 150rem;
+        height: 60rem;
+    }
+
+    .projetos .pro {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #burguer {
+        z-index: 2;
+        position: absolute;
+        width: 3rem;
+        display: block;
+        margin-top: 10px;
+    }
+
+    .responsivo h1 {
+        margin-left: 20rem;
+    }
+}
+@media(min-width: 599px) and (max-width: 767px) {
+
+    #backg {
+        height: 50rem;
+    }
+
+    #log {
+        font-size: 30pt;
+    }
+    .meio {
+        margin-top: 50rem;
+        height: 70rem;
+    }
+
+    .meio p {
+        width: 35rem;
+    }
+
+    .meio .curriculo {
+        margin-top: 28rem;
+    }
+    .meio .inf1 {
+        text-align: center;
+        justify-content: center;
+        margin-top: 45rem;
+    }
+
+    .meio .inf1  h1{
+        margin-left: -20rem;
+
+    }
+
+
+
+    #itn {
+        display: none;
+    }
+
+    
+
+#rsps {
+    width: 10rem;
+}
+    .meio .inf1 span {
+        margin-left: -2rem;
+    }
+    .meio .inf2{
+        position: absolute;
+        left: 50%;
+        transform: translate(-30%);
+        margin-top: -25rem;
+        
+    } 
+    .meio .inf2 h1 {
+        margin-left: 6rem;
+    }
+
+
+    .projetos {
+        margin-top: 120rem;
+        height: 60rem;
+    }
+
+    .projetos .pro {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #burguer {
+        z-index: 2;
+        position: absolute;
+        width: 3rem;
+        display: block;
+        margin-top: 10px;
+    }
+}
+@media(min-width: 767px) and (max-width: 1023px) {
+    #backg {
+        height: 50rem;
+    }
+
+    .meio {
+        margin-top: 50rem;
+        height: 70rem;
+    }
+
+    .meio p {
+        width: 40rem;
+    }
+
+    .meio .curriculo {
+        margin-top: 25rem;
+    }
+    .meio .inf1 {
+        text-align: center;
+        justify-content: center;
+        margin-top: 45rem;
+    }
+
+    .meio .inf1  h1{
+        margin-left: -20rem;
+
+    }
+    .meio .inf2{
+        position: absolute;
+        left: 50%;
+        transform: translate(-25%);
+        margin-top: -25rem;
+        
+    } 
+    .meio .inf2 h1 {
+        margin-left: 7rem;
+    }
+
+
+    .projetos {
+        margin-top: 120rem;
+        height: 40rem;
+    }
+
+    .projetos .pro {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@media(min-width: 1023px) and (max-width: 1366px) {
+    #backg {
+        height: 50rem;
+    }
+
+    .meio {
+        margin-top: 50rem;
+        height: 65rem;
+    }
+
+    .meio p {
+        width: 50rem;
+    }
+
+    .meio .curriculo {
+        margin-top: 22rem;
+    }
+    .meio .inf1 {
+        margin-top: 30rem;
+        margin-left: 4rem;
+    }
+
+    .meio .inf2{
+        display: grid;
+        grid-auto-rows: 6rem;
+    } 
+    .meio .inf2 h1 {
+        margin-left: 6rem;
+    }
+
+    .meio .inf2 .conhecimento{
+        width: 5rem;
+        margin-left: 10rem;
+
+
+    }
+
+    .projetos {
+        margin-top: 115rem;
+        height: 40rem;
+    }
+
+    .projetos .pro {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@media(min-width: 1366px) {
+    #backg {
+        height: 60rem;
+    }
+
+    .meio {
+        margin-top: 50rem;
+        height: 65rem;
+    }
+
+    .meio p {
+        width: 60rem;
+    }
+
+    .meio .curriculo {
+        margin-top: 22rem;
+    }
+    .meio .inf1 {
+        margin-top: 30rem;
+        margin-left: 14rem;
+    }
+
+    .meio .inf2 h1 {
+        margin-left: 6rem;
+    }
+
+    .meio .inf2 .conhecimento{
+        display: flex;
+    }
+
+    .projetos {
+        margin-top: 115rem;
+        height: 40rem;
+    }
+
+    .projetos .pro {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+
+
+
+
+

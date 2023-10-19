@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfólio</title>
+</head>
+<body>
+    
+    <div class="index">
+
+        <div class="backg"><img id="backg" src="img/escritorio.jpg"></img></div>
+        <div class="top">
+
+
+            <div  class="logo">
+                <h1 id="log">Ramaldes</h1>
+            </div>
+
+            <div id="itn" class="itens">
+                <span ><a href="#sobre">Sobre</a></span>
+                <span ><a href="#habilidades">Habilidades</a></span>
+                <span ><a href="#projetos">Projetos</a></span>
+            </div>
+
+        </div>
+
+        <div class="resume">
+
+            <div class="fundo">
+
+                <div class="infos">
+                    <h1>MATHEUS RAMALDES</h1>
+                    <p>Front-end UI/UX Designer</p>
+                    <div class="imgs">
+                       <a href="https://github.com/Ramald"><img src="img/github.png"></img></a> 
+                       <a href="https://www.linkedin.com/in/matheus-ramaldes/"><img src="img/linkedin.png"></img></a> 
+                       <a href="mailto:ramaldesmts@gmail.com"><img  src="img/o-email.png"></img></a> 
+                       <a href="https://wa.me/11985257224"> <img src="img/whatsapp.png"></img></a>
+                       </div>
+                </div>        
+                     <div class="foto">
+                    <img id="mts" src="img/Matheus.png"></img>
+                </div>
+
+              
+            </div>
+        </div>
+     <div class="meio">
+        <h1>Sobre mim</h1>
+        <hr></hr>
+        <p>Olá, me chamo <span id="mats">Matheus Ramaldes</span>  e sou um programador front-end com foco em UI/UX, especializado em JavaScript e ReactJS. Tenho experiência sólida no desenvolvimento de interfaces responsivas e intuitivas, criando experiências de usuário envolventes. Meu objetivo é criar produtos digitais de alta qualidade, combinando habilidades técnicas com um olhar atento para o design e usabilidade. Estou sempre buscando aprimorar minhas habilidades e acompanhar as últimas tendências em tecnologia. Com um forte compromisso com a excelência, estou pronto para enfrentar novos desafios e contribuir para projetos inovadores.</p>
+     <div class="curriculo">
+        <span><a href="CVRAMALDES.pdf" download>Baixar CV</a></span>
+     </div>
+        <div class="inf1">
+            <h1>Detalhes</h1>
+            <span>E-mail</span>
+            <span>Telefone</span>
+            <span>Local</span>
+            <span>Formação</span>
+            <div class="rspss">
+            <span id="rsps">ramaldesmts@gmail.com</span>
+            <span id="rsps">(11) 98525-7224</span>
+            <span id="rsps">Taboão da serra, SP</span>
+            <span id="rsps">Superior em análise e desenvolvimento de sistemas</span>
+            </div>
+        </div>
+
+        <div class="inf2">
+            <h1>Habilidades</h1>
+            <div class="conhecimento">
+                <img src="img/js.png"></img>
+            </div>
+            <div class="conhecimento">
+                <img src="img/react.png"></img>
+            </div>
+            <div class="conhecimento">
+                <img id="respons"  src="img/respons.png"></img>
+            </div>
+            <div class="conhecimento">
+                <img src="img/uiux.png"></img>
+            </div>
+        </div>
+     </div>
+     <div class="projetos">
+        <h1>Projetos</h1>
+        <hr></hr>
+        <div class="pro">
+
+        <div class="project1">
+            <a href="SnakeGame/index.html"><img src="img/Snake.png"></img></a>
+        </div>
+        <div class="project2">
+            <a href="Sushi/index.html"> <img src="img/Japa.png"></img></a>
+        </div>
+
+        <div class="project3">
+           
+           <a href="https://devsuporte.github.io/previsaodotempo/">  <img src="img/previsao.png"></img></a>
+        </div>
+        <div class="project4">
+           <a href="login_Cadastro/index.html"> <img src="img/logincad.png"></img></a>
+        </div>
+     </div>
+     </div>
+    </div> 
+
+    <img  onmouseenter="mouseEnter()" id="burguer" src="img/cardapio.png" alt="">
+
+
+    <div id="resposs" class="responsivo">
+        <h1 onmouseenter="mouseEnter2()">X</h1>
+        <div class="menu">
+            <span ><a href="#sobre">Sobre</a></span>
+            <span ><a href="#habilidades">Habilidades</a></span>
+            <span ><a href="#projetos">Projetos</a></span>
+        </div>
+    </div>
+
+
+</body>
+
+<script>
+    function mouseEnter() {
+        document.getElementById('resposs')
+        .style.display = 'block'
+    }
+
+    function mouseEnter2() {
+        document.getElementById('resposs')
+        .style.display = 'none'
+    }
+   
+
+
+
+</script>
+</html>
