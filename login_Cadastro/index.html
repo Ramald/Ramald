@@ -30,9 +30,9 @@
 
             <div id="cadastro" class="contain">
                 <div class="cadastro">
-                    <span class="sp"><img id="iconss" src="imgs/email.png" alt=""></span> <input id="email" type="email">
-                    <span class="sp"><img id="iconss" src="imgs/lock.png" alt=""></span> <input id="password" type="password">
-                    <span class="sp"><img id="iconss" src="imgs/lock.png" alt=""></span> <input id="password" type="password">
+                    <span class="sp"><img id="iconss" src="imgs/email.png" alt=""></span> <input id="emailC" type="email">
+                    <span class="sp"><img id="iconss" src="imgs/lock.png" alt=""></span> <input id="passwordC">
+                    <span class="sp"><img id="iconss" src="imgs/lock.png" alt=""></span> <input id="passwordC" >
                     <button type="submit" >Cadastrar</button>
 
                     <div class="sF">
@@ -50,6 +50,10 @@
  
     </div>
 
+    <div id="errormsg">
+        <h1>E-mail inválido!</h1>
+    </div>
+
 
 
 
@@ -64,9 +68,43 @@
     var login2 = document.getElementById('login2') 
     var login3 = document.getElementById('login3') 
     var cad = document.getElementById('cadastro') 
-    var email = document.getElementById('email')
-    var password = document.getElementById('password')
 
+    var email = document.getElementById('emailC')
+    var password = document.getElementById('passwordC')
+
+
+    var msg =  document.getElementById('errormsg')
+
+
+    function validaEmail(email) {
+        let emailVal = /^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$/;
+        return emailVal.test(email)
+    }
+
+    
+    function validaSenha(password) {
+        let senhaVal = /^(?=.*[0-9])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{6,16}$/;
+        return senhaVal.test(password)
+    }
+
+    password.addEventListener("keyup", ()=>{
+        if(validaSenha(password.value) != true) {
+           msg.style.opacity = '1'
+           msg.innerHTML = "Sua senha deve conter no mínimo 6 caracteres entre números e símbolos."
+        } else {
+            msg.style.opacity = '0'
+        }
+    })
+
+
+    email.addEventListener("keyup", ()=>{
+        if(validaEmail(email.value) != true) {
+           msg.style.opacity = '1'
+           msg.innerHTML = "E-mail inválido"
+        } else {
+            msg.style.opacity = '0'
+        }
+    })
 
     function rightRollClicker() {
         ir.style.left = '7rem'

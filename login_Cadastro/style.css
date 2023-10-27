@@ -25,6 +25,17 @@ body {
     font-family: 'face';
     src: url('MADE\ TOMMY\ Bold_PERSONAL\ USE.otf');
 }
+
+#errormsg {
+    color: rgb(91, 0, 0);
+    transition: 1s;
+    align-items: center;
+    text-align: center;
+    margin-top: 42rem;
+    font-size: 10pt;
+    text-shadow: 1px 1px 10px rgba(255, 255, 255, 0.373);
+    opacity: 0;
+}
 .container {
     width: 25rem;
     height: 30rem;
